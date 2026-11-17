@@ -28,28 +28,34 @@
 
   <!-- Barra Superior Fixa -->
   <header class="sticky top-0 z-30 bg-white/95 dark:bg-stone-900/95 backdrop-blur border-b border-stone-200 dark:border-stone-800">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
-      <button id="brandBtn" class="flex items-center gap-2 text-left font-bold text-lg tracking-tight text-red-700 dark:text-red-400">
-        <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-red-700 text-white text-sm font-bold">P</span>
-        <span>Por Onde Começar?</span>
-      </button>
+    <div class="max-w-6xl mx-auto px-4 py-3 space-y-2 lg:space-y-0 lg:flex lg:items-center lg:justify-between lg:gap-3">
+      <div class="flex items-center justify-between gap-2">
+        <button id="brandBtn" class="flex items-center gap-2 text-left font-bold text-lg tracking-tight text-red-700 dark:text-red-400">
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-red-700 text-white text-sm font-bold">P</span>
+          <span>Por Onde Começar?</span>
+        </button>
+        <div class="flex items-center gap-2 lg:hidden">
+          <button id="themeToggleMobile" aria-label="Alternar tema" class="px-2.5 py-2 text-xs rounded-lg border border-stone-300 dark:border-stone-700">Tema</button>
+          <button id="mobileMenuBtn" aria-expanded="false" class="px-3 py-2 text-xs font-semibold rounded-lg bg-stone-100 dark:bg-stone-800 border border-stone-300 dark:border-stone-700">Menu</button>
+        </div>
+      </div>
 
-      <nav id="mainNav" class="flex flex-wrap items-center gap-1 sm:gap-2 text-sm font-medium">
-        <button data-view="inicio" class="nav-btn px-3 py-1.5 rounded-lg transition tab-active">Início</button>
-        <button data-view="formacao" class="nav-btn px-3 py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Formação</button>
-        <button data-view="direitos" class="nav-btn px-3 py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Direitos 2026</button>
-        <button data-view="organizacao" class="nav-btn px-3 py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Coletivos</button>
-        <button data-view="midia" class="nav-btn px-3 py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Mídia</button>
-        <button data-view="cobre" class="nav-btn px-3 py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Cobre Seu Político</button>
-        <button data-view="economia" class="nav-btn px-3 py-1.5 rounded-lg transition border border-amber-500/50 text-amber-700 dark:text-amber-300 hover:bg-amber-50 dark:hover:bg-amber-950/40">Lab. Economia</button>
-        <button data-view="quizzes" class="nav-btn px-3 py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Quizzes</button>
+      <nav id="mainNav" class="hidden lg:flex flex-wrap items-center gap-1.5 text-sm font-medium pt-2 lg:pt-0 border-t lg:border-t-0 border-stone-200 dark:border-stone-800">
+        <button data-view="inicio" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition tab-active">Início</button>
+        <button data-view="formacao" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Formação</button>
+        <button data-view="direitos" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Direitos 2026</button>
+        <button data-view="organizacao" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Coletivos</button>
+        <button data-view="midia" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Mídia</button>
+        <button data-view="cobre" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Cobre Seu Político</button>
+        <button data-view="economia" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition border border-amber-500/50 text-amber-700 dark:text-amber-300 hover:bg-amber-50 dark:hover:bg-amber-950/40">Lab. Economia</button>
+        <button data-view="quizzes" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Quizzes</button>
       </nav>
 
-      <div class="flex items-center gap-2 w-full sm:w-auto">
-        <div class="relative flex-1 sm:w-56">
-          <input id="globalSearch" type="search" placeholder="Buscar tema, livro, canal..." class="w-full pl-3 pr-8 py-1.5 text-sm rounded-lg border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 focus:outline-none focus:ring-2 focus:ring-red-600" />
+      <div class="flex items-center gap-2 w-full lg:w-auto">
+        <div class="relative flex-1 lg:w-52">
+          <input id="globalSearch" type="search" placeholder="Buscar tema, livro, canal..." class="w-full pl-3 pr-3 py-2 lg:py-1.5 text-base lg:text-sm rounded-lg border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 focus:outline-none focus:ring-2 focus:ring-red-600" />
         </div>
-        <button id="themeToggle" aria-label="Alternar tema" class="px-2.5 py-1.5 text-sm rounded-lg border border-stone-300 dark:border-stone-700 hover:bg-stone-100 dark:hover:bg-stone-800 transition">
+        <button id="themeToggle" aria-label="Alternar tema" class="hidden lg:inline-flex px-2.5 py-1.5 text-sm rounded-lg border border-stone-300 dark:border-stone-700 hover:bg-stone-100 dark:hover:bg-stone-800 transition">
           <span id="themeIcon">Escuro</span>
         </button>
       </div>
@@ -1028,6 +1034,8 @@
                       "id": "col-1",
                       "nome": "Unidade Popular (UP)",
                       "tipo": "Movimento Social",
+                      "regiao": "MS",
+                      "imagem": "",
                       "foco": "Partido político de esquerda radical fundado em 2016 e registrado no TSE em 2019. Atua no Mato Grosso do Sul com pautas voltadas para a classe trabalhadora, o socialismo e a construção do poder popular.",
                       "url": "https://www.instagram.com/unidadepopular.ms"
               },
@@ -1035,6 +1043,8 @@
                       "id": "col-2",
                       "nome": "Movimento de Mulheres Olga Benario",
                       "tipo": "Movimento Social",
+                      "regiao": "MS",
+                      "imagem": "",
                       "foco": "Organiza mulheres trabalhadoras, mães e jovens no Mato Grosso do Sul para combater a violência de gênero, a exploração capitalista e o patriarcado, com formação política e ações nos territórios.",
                       "url": "https://www.instagram.com/movimentoolga.ms"
               },
@@ -1042,6 +1052,8 @@
                       "id": "col-3",
                       "nome": "Correnteza MS",
                       "tipo": "Movimento Social",
+                      "regiao": "MS",
+                      "imagem": "",
                       "foco": "Organização estudantil fundada em 2017 atuante no MS em instituições públicas e privadas pela universalização da educação, assistência estudantil, moradia, alimentação e contra mensalidades abusivas.",
                       "url": "https://www.instagram.com/correnteza.ms"
               },
@@ -1049,6 +1061,8 @@
                       "id": "col-4",
                       "nome": "Movimento Luta de Classes MS (MLC)",
                       "tipo": "Movimento Social",
+                      "regiao": "MS",
+                      "imagem": "",
                       "foco": "Corrente sindical classista e revolucionária ligada à UP no MS, com pautas pelo fim da escala 6x1, valorização dos profissionais da educação e fortalecimento da saúde e segurança pública.",
                       "url": "https://www.instagram.com/mlc.matogrossodosul"
               },
@@ -1056,6 +1070,8 @@
                       "id": "col-5",
                       "nome": "Audioteca Crítica",
                       "tipo": "Movimento Digital",
+                      "regiao": "Nacional",
+                      "imagem": "",
                       "foco": "Projeto de audiobooks de obras marxistas e revolucionárias produzido pelas camaradas Elisa e Zorzal, disponível na Orelo, Spotify e YouTube.",
                       "url": "https://open.spotify.com/show/2OqMb7eUrRPeOZFfVA3JJl?si=878a0baab4744070"
               },
@@ -1063,6 +1079,8 @@
                       "id": "col-6",
                       "nome": "Soberana",
                       "tipo": "Movimento Digital",
+                      "regiao": "Nacional",
+                      "imagem": "",
                       "foco": "Coletivo marxista-leninista que atua na disputa pela consciência política dos trabalhadores na internet, ocupando os espaços virtuais mais utilizados pelo celular.",
                       "url": "https://soberana.tv/#projects-hr"
               },
@@ -1070,6 +1088,8 @@
                       "id": "col-7",
                       "nome": "CeZPEM",
                       "tipo": "Movimento Digital",
+                      "regiao": "Nacional",
+                      "imagem": "",
                       "foco": "Centro Zoia Prestes de Educação Multidisciplinar voltado a organizar professores de todo o Brasil e ofertar educação acadêmica e cultural crítica a preços populares.",
                       "url": "https://soberana.tv/#projects-hr"
               },
@@ -1077,6 +1097,8 @@
                       "id": "col-8",
                       "nome": "Juristas Revolucionários (JuRe)",
                       "tipo": "Apoio Legal",
+                      "regiao": "Nacional",
+                      "imagem": "",
                       "foco": "Frente de massas da Soberana voltada para organizar profissionais da área jurídica, realizar formação teórica e política e oferecer suporte à classe trabalhadora.",
                       "url": "https://soberana.tv/#projects-hr"
               },
@@ -1084,6 +1106,8 @@
                       "id": "col-9",
                       "nome": "Tecnologia e Classe (TeClas)",
                       "tipo": "Movimento Digital",
+                      "regiao": "Nacional",
+                      "imagem": "",
                       "foco": "Canal sobre tecnologia e política feito por Azhariel, Tarcísio e Zawacki com notícias, videoensaios e tutoriais no YouTube, Instagram e TikTok.",
                       "url": "https://www.youtube.com/@TecnologiaeClasse"
               }
@@ -1247,6 +1271,7 @@
       dicModalTab: 'explicacao',
       direitoCat: 'CLT',
       orgTipo: 'Todos',
+      orgRegiao: 'Todas',
       midiaPlat: 'Todas',
       midiaCat: 'Todas',
       polUf: 'Todas',
@@ -1323,6 +1348,12 @@
       state.view = view;
       state.search = '';
       globalSearch.value = '';
+      const navEl = document.getElementById('mainNav');
+      const menuBtn = document.getElementById('mobileMenuBtn');
+      if (navEl && !navEl.classList.contains('hidden')) {
+        navEl.classList.add('hidden');
+        if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
+      }
       document.querySelectorAll('.nav-btn').forEach(btn => {
         btn.classList.toggle('tab-active', btn.dataset.view === view);
       });
@@ -1556,9 +1587,16 @@
             <ul class="space-y-2.5 text-sm">
               ${atual.itens.map(item => `<li class="flex items-start gap-2.5"><span class="mt-1 w-2 h-2 rounded-full bg-red-600 shrink-0"></span><span>${item}</span></li>`).join('')}
             </ul>
+            ${atual.audio ? `
+              <div class="p-3 rounded-xl bg-stone-100 dark:bg-stone-800 space-y-1.5">
+                <span class="text-xs font-semibold uppercase tracking-wider text-red-700 dark:text-red-400">Resumo em Áudio (NotebookLM)</span>
+                <audio controls preload="none" class="w-full"><source src="${atual.audio}" /></audio>
+              </div>
+            ` : ''}
+            ${atual.imagem ? `<img src="${atual.imagem}" alt="Infográfico ${atual.titulo}" loading="lazy" class="w-full h-auto rounded-xl border border-stone-200 dark:border-stone-800" />` : ''}
             ${atual.links && atual.links.length ? `
               <div class="pt-3 border-t border-stone-200 dark:border-stone-800 flex flex-wrap gap-3">
-                ${atual.links.map(lk => `<a href="${lk.url}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-xs font-medium text-red-700 dark:text-red-400">${lk.label} &rarr;</a>`).join('')}
+                ${atual.links.map(lk => `<a href="${lk.url}" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-xs font-medium text-red-700 dark:text-red-400">${lk.label} &rarr;</a>`).join('')}
               </div>
             ` : ''}
           </article>
@@ -1568,30 +1606,47 @@
 
     function renderOrganizacao() {
       const tipos = ['Todos', 'Movimento Social', 'Movimento Digital', 'Apoio Legal'];
-      const lista = DATA.coletivos.filter(c => state.orgTipo === 'Todos' || c.tipo === state.orgTipo);
+      const regioes = ['Todas', ...Array.from(new Set(DATA.coletivos.map(c => c.regiao).filter(Boolean)))];
+      const lista = DATA.coletivos.filter(c =>
+        (state.orgTipo === 'Todos' || c.tipo === state.orgTipo) &&
+        (state.orgRegiao === 'Todas' || c.regiao === state.orgRegiao)
+      );
       return `
         <section class="space-y-6">
           <div class="flex flex-wrap items-center justify-between gap-4">
             <div>
               <h1 class="text-2xl font-bold">Ação, Organização e Coletivos</h1>
-              <p class="text-sm text-stone-600 dark:text-stone-400">Movimentos sociais no MS, coletivos virtuais e frentes de apoio jurídico.</p>
+              <p class="text-sm text-stone-600 dark:text-stone-400">Filtre por tipo de atuação ou região (Nacional e estados).</p>
             </div>
-            <button data-jump="cobre" class="jump-btn px-4 py-2 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-medium transition">Abrir Cobre Seu Político (594 contatos) &rarr;</button>
+            <button data-jump="cobre" class="jump-btn px-4 py-2.5 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-medium transition">Abrir Cobre Seu Político (594 contatos) &rarr;</button>
           </div>
-          <div class="flex flex-wrap gap-2">
-            ${tipos.map(t => `<button data-otipo="${t}" class="otipo-btn px-3 py-1 rounded-full text-xs font-medium border ${state.orgTipo === t ? 'bg-red-700 text-white border-red-700' : 'border-stone-300 dark:border-stone-700'}">${t}</button>`).join('')}
+          <div class="flex flex-wrap items-center gap-4">
+            <div class="flex flex-wrap gap-2">
+              ${tipos.map(t => `<button data-otipo="${t}" class="otipo-btn px-3.5 py-2 rounded-full text-xs font-medium border ${state.orgTipo === t ? 'bg-red-700 text-white border-red-700' : 'border-stone-300 dark:border-stone-700'}">${t}</button>`).join('')}
+            </div>
+            <div class="flex flex-wrap gap-2">
+              ${regioes.map(r => `<button data-oreg="${r}" class="oreg-btn px-3.5 py-2 rounded-full text-xs font-medium border ${state.orgRegiao === r ? 'bg-stone-800 text-white border-stone-800 dark:bg-stone-200 dark:text-stone-900' : 'border-stone-300 dark:border-stone-700'}">${r === 'Todas' ? 'Todas as regiões' : r}</button>`).join('')}
+            </div>
           </div>
           <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             ${lista.map(c => `
               <article class="p-5 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 flex flex-col justify-between gap-3">
-                <div>
-                  <span class="text-xs font-medium px-2 py-0.5 rounded bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300">${c.tipo}</span>
-                  <h2 class="text-lg font-semibold mt-2">${c.nome}</h2>
-                  <p class="text-sm text-stone-600 dark:text-stone-400 mt-1">${c.foco}</p>
+                <div class="space-y-2">
+                  <div class="flex items-start gap-3">
+                    ${c.imagem ? `<img src="${c.imagem}" alt="${c.nome}" loading="lazy" class="w-12 h-12 rounded-lg object-cover shrink-0 border border-stone-200 dark:border-stone-700" />` : ''}
+                    <div>
+                      <div class="flex flex-wrap gap-1.5">
+                        <span class="text-xs font-medium px-2 py-0.5 rounded bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300">${c.tipo}</span>
+                        ${c.regiao ? `<span class="text-xs font-medium px-2 py-0.5 rounded bg-stone-100 dark:bg-stone-800">${c.regiao}</span>` : ''}
+                      </div>
+                      <h2 class="text-lg font-semibold mt-1.5">${c.nome}</h2>
+                    </div>
+                  </div>
+                  <p class="text-sm text-stone-600 dark:text-stone-400">${c.foco}</p>
                 </div>
                 <div class="flex items-center gap-4 pt-1">
-                  ${c.url ? `<a href="${c.url}" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-red-700 dark:text-red-400 hover:underline">Acessar &rarr;</a>` : ''}
-                  <button data-col="${c.id}" class="col-detail-btn text-xs font-medium text-stone-500 hover:text-stone-800 dark:hover:text-stone-200">Detalhes</button>
+                  ${c.url ? `<a href="${c.url}" target="_blank" rel="noopener noreferrer" class="py-1 text-sm font-medium text-red-700 dark:text-red-400 hover:underline">Acessar &rarr;</a>` : ''}
+                  <button data-col="${c.id}" class="col-detail-btn py-1 text-xs font-medium text-stone-500 hover:text-stone-800 dark:hover:text-stone-200">Detalhes</button>
                 </div>
               </article>
             `).join('')}
@@ -1693,7 +1748,7 @@
             <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               <div>
                 <label class="block text-xs font-medium text-stone-500 mb-1">Buscar por nome ou e-mail</label>
-                <input id="polBuscaInput" type="search" value="${state.polBusca}" placeholder="Ex.: Mato Grosso do Sul, nome..." class="w-full px-3 py-1.5 text-sm rounded-lg border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800" />
+                <input id="polBuscaInput" type="search" value="${state.polBusca}" placeholder="Ex.: Mato Grosso do Sul, nome..." class="w-full px-3 py-2 sm:py-1.5 text-base sm:text-sm rounded-lg border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800" />
               </div>
               <div>
                 <label class="block text-xs font-medium text-stone-500 mb-1">Estado (UF)</label>
@@ -2051,6 +2106,9 @@
       document.querySelectorAll('.otipo-btn').forEach(btn => {
         btn.addEventListener('click', () => { state.orgTipo = btn.dataset.otipo; render(); });
       });
+      document.querySelectorAll('.oreg-btn').forEach(btn => {
+        btn.addEventListener('click', () => { state.orgRegiao = btn.dataset.oreg; render(); });
+      });
       document.querySelectorAll('.mcat-btn').forEach(btn => {
         btn.addEventListener('click', () => { state.midiaCat = btn.dataset.mcat; render(); });
       });
@@ -2188,9 +2246,16 @@
       render();
     });
 
-    document.getElementById('themeToggle').addEventListener('click', () => {
+    function toggleTheme() {
       const isDark = document.documentElement.classList.toggle('dark');
       document.getElementById('themeIcon').textContent = isDark ? 'Claro' : 'Escuro';
+    }
+    document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+    document.getElementById('themeToggleMobile').addEventListener('click', toggleTheme);
+    document.getElementById('mobileMenuBtn').addEventListener('click', () => {
+      const nav = document.getElementById('mainNav');
+      const expanded = nav.classList.toggle('hidden');
+      document.getElementById('mobileMenuBtn').setAttribute('aria-expanded', String(!expanded));
     });
 
     document.getElementById('copyPixBtn').addEventListener('click', () => {
