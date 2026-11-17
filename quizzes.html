@@ -49,6 +49,8 @@
         <button data-view="cobre" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Cobre Seu Político</button>
         <button data-view="economia" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition border border-amber-500/50 text-amber-700 dark:text-amber-300 hover:bg-amber-50 dark:hover:bg-amber-950/40">Lab. Economia</button>
         <button data-view="quizzes" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Quizzes</button>
+        <button data-view="apoio" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Apoie</button>
+        <button data-view="sobre" class="nav-btn px-3 py-2 lg:py-1.5 rounded-lg transition hover:bg-stone-100 dark:hover:bg-stone-800">Sobre</button>
       </nav>
 
       <div class="flex items-center gap-2 w-full lg:w-auto">
@@ -65,16 +67,16 @@
   <!-- Conteúdo Principal -->
   <main id="appMain" class="flex-1 max-w-6xl w-full mx-auto px-4 py-8 space-y-8"></main>
 
-  <!-- Rodapé Solidário -->
+  <!-- Rodapé Institucional -->
   <footer class="border-t border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 mt-12">
     <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
       <div>
-        <h2 class="font-semibold text-base text-red-700 dark:text-red-400">Ajude Camaradas</h2>
-        <p class="text-sm text-stone-600 dark:text-stone-400">Solidariedade financeira para fortalecimento da resistência e manutenção do portal.</p>
+        <h2 class="font-semibold text-base text-red-700 dark:text-red-400">Por Onde Começar?</h2>
+        <p class="text-sm text-stone-600 dark:text-stone-400">Portal de formação, direitos trabalhistas e organização popular.</p>
       </div>
       <div class="flex flex-wrap items-center gap-2">
-        <code id="pixKey" class="px-3 py-1.5 text-xs sm:text-sm rounded-lg bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 select-all">solidariedade@porondecomecar.org</code>
-        <button id="copyPixBtn" class="px-3.5 py-1.5 text-sm font-medium rounded-lg bg-red-700 hover:bg-red-800 text-white transition">Copiar Pix</button>
+        <button data-jump="apoio" class="jump-btn px-3.5 py-2 text-sm font-medium rounded-lg bg-red-700 hover:bg-red-800 text-white transition">Apoiar Movimentos (13) &rarr;</button>
+        <button data-jump="sobre" class="jump-btn px-3.5 py-2 text-sm font-medium rounded-lg border border-stone-300 dark:border-stone-700 hover:bg-stone-100 dark:hover:bg-stone-800 transition">Sobre a Página &rarr;</button>
       </div>
     </div>
   </footer>
@@ -98,6 +100,12 @@
   <div id="toast" class="hidden fixed bottom-5 right-5 z-50 px-4 py-2.5 rounded-xl bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 text-sm font-medium shadow-lg"></div>
 
   <script>
+    // 1) CONECTOR PLANILHA GOOGLE (CSV): cole a URL gerada em Arquivo > Compartilhar > Publicar na web (CSV)
+    const SHEETS_COLETIVOS_CSV_URL = '';
+
+    // 2) NOTÍCIAS AO VIVO: atualizado automaticamente via GitHub Actions em data/noticias.json
+    let NOTICIAS_DATA = {"atualizado_em": "2026-11-17", "capa_averdade": {"titulo": "Jornal A Verdade — Edição Semanal", "descricao": "Leia a edição mais recente e confira a capa da semana no portal oficial.", "url": "https://averdade.org.br/", "imagem": ""}, "manchetes": [{"veiculo": "ICL Notícias", "titulo": "Acompanhe as últimas reportagens do ICL Notícias", "url": "https://iclnoticias.com.br/", "data": "Atualização via GitHub Actions"}, {"veiculo": "Brasil de Fato", "titulo": "Confira as principais notícias populares no Brasil de Fato", "url": "https://www.brasildefato.com.br/", "data": "Atualização via GitHub Actions"}, {"veiculo": "Jornal A Verdade", "titulo": "Leia as matérias da semana no Jornal A Verdade", "url": "https://averdade.org.br/", "data": "Atualização via GitHub Actions"}]};
+
     const DATA = {
       dicionario: [
               {
@@ -1032,7 +1040,7 @@
       coletivos: [
               {
                       "id": "col-1",
-                      "nome": "Unidade Popular (UP)",
+                      "nome": "Unidade Popular (UP) — MS",
                       "tipo": "Movimento Social",
                       "regiao": "MS",
                       "imagem": "",
@@ -1041,7 +1049,7 @@
               },
               {
                       "id": "col-2",
-                      "nome": "Movimento de Mulheres Olga Benario",
+                      "nome": "Movimento de Mulheres Olga Benario — MS",
                       "tipo": "Movimento Social",
                       "regiao": "MS",
                       "imagem": "",
@@ -1110,6 +1118,114 @@
                       "imagem": "",
                       "foco": "Canal sobre tecnologia e política feito por Azhariel, Tarcísio e Zawacki com notícias, videoensaios e tutoriais no YouTube, Instagram e TikTok.",
                       "url": "https://www.youtube.com/@TecnologiaeClasse"
+              },
+              {
+                      "id": "col-10", "frenteId": "up",
+                      "nome": "Unidade Popular (UP) — Frentes",
+                      "tipo": "Campo Partidário",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Frentes ligadas: MLB, Movimento de Mulheres Olga Benario, UJR, Movimento Correnteza, MLC e FNR.",
+                      "url": "https://unidadepopular.org.br"
+              },
+              {
+                      "id": "col-11", "frenteId": "pstu",
+                      "nome": "PSTU — Frentes",
+                      "tipo": "Campo Partidário",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Frentes ligadas: CSP-Conlutas, Luta Popular, Movimento Mulheres em Luta, Quilombo Raça e Classe e Coletivo Rebeldia.",
+                      "url": "https://pstu.org.br"
+              },
+              {
+                      "id": "col-12", "frenteId": "pcb",
+                      "nome": "PCB — Frentes",
+                      "tipo": "Campo Partidário",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Frentes ligadas: UJC, Unidade Classista, CFCAM, Coletivo Negro Minervino de Oliveira e Coletivo LGBT Comunista.",
+                      "url": "https://pcb.org.br/portal2/"
+              },
+              {
+                      "id": "col-13", "frenteId": "pt",
+                      "nome": "PT — Frentes",
+                      "tipo": "Campo Partidário",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Frentes ligadas: CUT, CONTAG, CMP, Marcha Mundial das Mulheres, Levante Popular da Juventude, MST e MAB.",
+                      "url": "https://cut.org.br"
+              },
+              {
+                      "id": "col-14", "frenteId": "psol",
+                      "nome": "PSOL — Frentes",
+                      "tipo": "Campo Partidário",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Frentes ligadas: MTST, MPL, Juntos!, RUA, Afronte e Círculo Palmarino.",
+                      "url": "https://psol50.org.br"
+              },
+              {
+                      "id": "col-15", "frenteId": "pcdob",
+                      "nome": "PCdoB — Frentes",
+                      "tipo": "Campo Partidário",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Frentes ligadas: CTB, UJS, UBM, CONAM e UNEGRO.",
+                      "url": "https://ctb.org.br"
+              },
+              {
+                      "id": "col-16",
+                      "nome": "Movimentos Estudantis",
+                      "tipo": "Frentes Específicas",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Organizações: UNE, Movimento Correnteza, UJS, Levante Popular, Juntos!/RUA/Afronte, UJC e Rebeldia.",
+                      "url": "https://une.org.br"
+              },
+              {
+                      "id": "col-17",
+                      "nome": "Movimentos Negros de Esquerda Radical",
+                      "tipo": "Frentes Específicas",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Organizações: MNU, FNR, UNEGRO, Quilombo Raça e Classe, Coletivo Minervino de Oliveira e Círculo Palmarino.",
+                      "url": "https://mnu.org.br"
+              },
+              {
+                      "id": "col-18",
+                      "nome": "Movimentos Indígenas e de Luta Direta",
+                      "tipo": "Frentes Específicas",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Organizações: APIB, Aty Guasu, COIAB, APOINME, Comissão Guarani Yvyrupa e Teia dos Povos.",
+                      "url": "https://apiboficial.org/"
+              },
+              {
+                      "id": "col-19",
+                      "nome": "Movimentos LGBTQIA+ de Esquerda Radical",
+                      "tipo": "Frentes Específicas",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Organizações: Coletivo LGBT Comunista, Coletivo Rebeldia, Afronte e Coletivos Ecossocialistas.",
+                      "url": ""
+              },
+              {
+                      "id": "col-20", "frenteId": "centrais",
+                      "nome": "Centrais Sindicais do Brasil",
+                      "tipo": "Sindicatos e Centrais",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Principais centrais: CUT, Força Sindical, CTB, UGT, CSP-Conlutas e MLC.",
+                      "url": "https://cut.org.br"
+              },
+              {
+                      "id": "col-21", "frenteId": "confederacoes",
+                      "nome": "Confederações e Federações",
+                      "tipo": "Sindicatos e Centrais",
+                      "regiao": "Nacional",
+                      "imagem": "",
+                      "foco": "Organizações: CONTAG, CNTE, CNTTL, CNTTT, Fenadados e Sindpd-SP.",
+                      "url": "https://contag.org.br"
               }
       ],
       midia: [
@@ -1288,7 +1404,9 @@
       quizScore: 0,
       quizStreak: 0,
       quizAnswered: null,
-      quizDone: false
+      quizDone: false,
+      apoioFrente: 'Todas',
+      frenteId: 'up'
     };
 
     const appMain = document.getElementById('appMain');
@@ -1605,7 +1723,7 @@
     }
 
     function renderOrganizacao() {
-      const tipos = ['Todos', 'Movimento Social', 'Movimento Digital', 'Apoio Legal'];
+      const tipos = ['Todos', 'Movimento Social', 'Movimento Digital', 'Apoio Legal', 'Campo Partidário', 'Frentes Específicas', 'Sindicatos e Centrais'];
       const regioes = ['Todas', ...Array.from(new Set(DATA.coletivos.map(c => c.regiao).filter(Boolean)))];
       const lista = DATA.coletivos.filter(c =>
         (state.orgTipo === 'Todos' || c.tipo === state.orgTipo) &&
@@ -1618,7 +1736,10 @@
               <h1 class="text-2xl font-bold">Ação, Organização e Coletivos</h1>
               <p class="text-sm text-stone-600 dark:text-stone-400">Filtre por tipo de atuação ou região (Nacional e estados).</p>
             </div>
-            <button data-jump="cobre" class="jump-btn px-4 py-2.5 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-medium transition">Abrir Cobre Seu Político (594 contatos) &rarr;</button>
+            <div class="flex flex-wrap gap-2">
+              <button data-jump="cobre" class="jump-btn px-4 py-2.5 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-medium transition">Cobre Seu Político (594) &rarr;</button>
+              <button data-jump="apoio" class="jump-btn px-4 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-sm font-medium hover:bg-stone-100 dark:hover:bg-stone-800 transition">Apoiar Campanhas (13) &rarr;</button>
+            </div>
           </div>
           <div class="flex flex-wrap items-center gap-4">
             <div class="flex flex-wrap gap-2">
@@ -1644,9 +1765,10 @@
                   </div>
                   <p class="text-sm text-stone-600 dark:text-stone-400">${c.foco}</p>
                 </div>
-                <div class="flex items-center gap-4 pt-1">
-                  ${c.url ? `<a href="${c.url}" target="_blank" rel="noopener noreferrer" class="py-1 text-sm font-medium text-red-700 dark:text-red-400 hover:underline">Acessar &rarr;</a>` : ''}
-                  <button data-col="${c.id}" class="col-detail-btn py-1 text-xs font-medium text-stone-500 hover:text-stone-800 dark:hover:text-stone-200">Detalhes</button>
+                <div class="flex flex-wrap items-center gap-3 pt-1">
+                  ${c.frenteId ? `<button data-frente="${c.frenteId}" class="frente-open-btn px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-800 text-white text-xs font-medium transition">Página da frente &rarr;</button>` : ''}
+                  ${c.url ? `<a href="${c.url}" target="_blank" rel="noopener noreferrer" class="py-1 text-xs sm:text-sm font-medium text-red-700 dark:text-red-400 hover:underline">Site oficial &rarr;</a>` : ''}
+                  <button data-col="${c.id}" class="col-detail-btn py-1 text-xs font-medium text-stone-500 hover:text-stone-800 dark:hover:text-stone-200">Resumo</button>
                 </div>
               </article>
             `).join('')}
@@ -1656,63 +1778,65 @@
     }
 
     function renderMidia() {
-      const cats = ['Todas', 'Imprensa e Movimentos', 'Comunicadores'];
-      const plats = ['Todas', 'WhatsApp', 'Instagram'];
-      const lista = DATA.midia.filter(m =>
-        (state.midiaCat === 'Todas' || m.categoria === state.midiaCat) &&
-        (state.midiaPlat === 'Todas' || m.plataforma === state.midiaPlat)
-      );
+      const cats = ['Todos', 'Jornal / Portal', 'Canal YouTube', 'Personalidade'];
+      const lista = DATA.midia.filter(m => state.midiaCat === 'Todos' || m.categoria === state.midiaCat);
+      const capa = NOTICIAS_DATA.capa_averdade || {};
+      const manchetes = NOTICIAS_DATA.manchetes || [];
 
       return `
         <section class="space-y-6">
           <div>
-            <h1 class="text-2xl font-bold">Informação, Notícias e Comunicadores</h1>
-            <p class="text-sm text-stone-600 dark:text-stone-400">Canais de notícias e comunicadores populares organizados por categoria e rede.</p>
+            <h1 class="text-2xl font-bold">Mídia Popular e Canais de Notícias</h1>
+            <p class="text-sm text-stone-600 dark:text-stone-400">Manchetes atualizadas via GitHub Actions (<code>data/noticias.json</code>) e canais para acompanhar no dia a dia.</p>
           </div>
-          <div class="flex flex-wrap items-center gap-4">
-            <div class="flex flex-wrap gap-2">
-              ${cats.map(c => `<button data-mcat="${c}" class="mcat-btn px-3 py-1 rounded-full text-xs font-medium border ${state.midiaCat === c ? 'bg-red-700 text-white border-red-700' : 'border-stone-300 dark:border-stone-700'}">${c}</button>`).join('')}
-            </div>
-            <div class="flex flex-wrap gap-2">
-              ${plats.map(p => `<button data-plat="${p}" class="plat-btn px-3 py-1 rounded-full text-xs font-medium border ${state.midiaPlat === p ? 'bg-stone-800 text-white border-stone-800 dark:bg-stone-200 dark:text-stone-900' : 'border-stone-300 dark:border-stone-700'}">${p}</button>`).join('')}
-            </div>
+
+          <div class="grid gap-4 lg:grid-cols-3">
+            <article class="p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 flex flex-col justify-between gap-3">
+              <div class="space-y-2">
+                <span class="text-xs font-semibold uppercase tracking-wider text-red-700 dark:text-red-400">Capa da Semana</span>
+                <h2 class="font-bold text-base">${capa.titulo || 'Jornal A Verdade'}</h2>
+                ${capa.imagem ? `<img src="${capa.imagem}" alt="Capa do Jornal A Verdade" loading="lazy" class="w-full max-h-64 object-cover rounded-xl border border-stone-200 dark:border-stone-800" />` : ''}
+                <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-400">${capa.descricao || 'Confira a edição impressa e digital mais recente.'}</p>
+              </div>
+              <a href="${capa.url || 'https://averdade.org.br/'}" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-red-700 dark:text-red-400 hover:underline">Abrir edição &rarr;</a>
+            </article>
+
+            <article class="lg:col-span-2 p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-3">
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <h2 class="font-bold text-base">Principais Manchetes do Dia</h2>
+                <span class="text-xs text-stone-500">Atualizado em: ${NOTICIAS_DATA.atualizado_em || '—'}</span>
+              </div>
+              <div class="divide-y divide-stone-100 dark:divide-stone-800">
+                ${manchetes.map(n => `
+                  <a href="${n.url}" target="_blank" rel="noopener noreferrer" class="block py-3 hover:bg-stone-50 dark:hover:bg-stone-800/50 rounded-lg px-2 transition">
+                    <div class="flex items-center justify-between gap-2 text-xs text-red-700 dark:text-red-400 font-semibold">
+                      <span>${n.veiculo}</span>
+                      <span class="text-stone-400 font-normal">${n.data || ''}</span>
+                    </div>
+                    <div class="text-sm font-medium mt-0.5">${n.titulo} &rarr;</div>
+                  </a>
+                `).join('')}
+              </div>
+            </article>
           </div>
-          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+          <div class="flex flex-wrap gap-2">
+            ${cats.map(c => `<button data-mcat="${c}" class="mcat-btn px-3.5 py-1.5 rounded-full text-xs font-medium border ${state.midiaCat === c ? 'bg-red-700 text-white border-red-700' : 'border-stone-300 dark:border-stone-700'}">${c}</button>`).join('')}
+          </div>
+          <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             ${lista.map(m => `
-              <article class="p-5 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 flex flex-col justify-between gap-3">
-                <div class="space-y-1.5">
-                  <div class="flex items-center justify-between gap-2">
-                    <span class="text-xs font-medium px-2 py-0.5 rounded bg-stone-100 dark:bg-stone-800">${m.plataforma}</span>
-                    <span class="text-xs text-stone-500">${m.categoria}</span>
-                  </div>
-                  <h2 class="text-base font-semibold">${m.nome}</h2>
-                  <p class="text-sm text-stone-600 dark:text-stone-400">${m.desc}</p>
+              <a href="${m.url}" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 hover:border-red-600 transition flex items-center justify-between gap-3">
+                <div>
+                  <span class="text-xs text-stone-500">${m.categoria} • ${m.plataforma}</span>
+                  <div class="font-semibold text-sm mt-0.5">${m.nome}</div>
                 </div>
-                ${m.url ? `<a href="${m.url}" target="_blank" rel="noopener noreferrer" class="self-start text-sm font-medium text-red-700 dark:text-red-400 hover:underline">Seguir canal &rarr;</a>` : ''}
-              </article>
+                <span class="text-red-700 dark:text-red-400 font-bold">&rarr;</span>
+              </a>
             `).join('')}
           </div>
         </section>
       `;
     }
-
-    const MODELOS_COBRANCA = {
-      voto: {
-        nome: '1. Cobrança de Voto em PL/PEC',
-        assunto: (p) => `Posicionamento sobre Projeto de Lei / PEC — Eleitor(a) de ${p.uf}`,
-        corpo: (p) => `Prezado(a) ${p.nome},\n\nComo cidadão(ã) e eleitor(a) de ${p.uf}, solicito conhecer o seu posicionamento e a orientação de voto do seu mandato na ${p.casa} em relação ao [nome ou número do Projeto de Lei / PEC].\n\nA matéria impacta diretamente a população trabalhadora do nosso estado, e gostaria de receber uma resposta oficial deste gabinete com a justificativa do voto.\n\nAtenciosamente,\n[Seu Nome] — [Sua Cidade/${p.uf}]`
-      },
-      direitos: {
-        nome: '2. Defesa de Direitos e Serviços Públicos',
-        assunto: (p) => `Demanda sobre serviços públicos e direitos em ${p.uf}`,
-        corpo: (p) => `Prezado(a) ${p.nome},\n\nEscrevo ao seu gabinete na ${p.casa} para cobrar atuação firme em defesa dos serviços públicos e dos direitos trabalhistas e previdenciários que afetam os moradores de ${p.uf}, especialmente em relação a [saúde / educação / transporte / fim da escala 6x1].\n\nAguardo retorno sobre quais projetos, requerimentos ou emendas o mandato tem apresentado para atender essa demanda.\n\nAtenciosamente,\n[Seu Nome] — [Sua Cidade/${p.uf}]`
-      },
-      contas: {
-        nome: '3. Prestação de Contas ou Reunião',
-        assunto: (p) => `Solicitação de prestação de contas / agendamento — ${p.uf}`,
-        corpo: (p) => `Prezado(a) ${p.nome},\n\nGostaria de solicitar ao gabinete informações públicas sobre a destinação de emendas parlamentares e a agenda de votações prioritárias do seu mandato para ${p.uf} neste semestre, bem como verificar a possibilidade de atendimento para entrega de pauta coletiva.\n\nAgradeço desde já pelo retorno institucional por este canal.\n\nAtenciosamente,\n[Seu Nome] — [Sua Cidade/${p.uf}]`
-      }
-    };
 
     function renderCobre() {
       const ufs = ['Todas', ...Array.from(new Set(DATA.politicos.map(p => p.uf))).sort()];
@@ -2050,6 +2174,155 @@
       `;
     }
 
+    const APOIO_DATA = [{"id": "ap-1", "frente": "Unidade Popular (UP)", "nome": "Fundo Popular de Financiamento das Lutas da UP", "objetivo": "Apoio à luta antifascista, pelo poder popular e pelo socialismo no Brasil (sugestão: R$ 15).", "pix": "26.235.522/0001-66", "beneficiario": "Unidade Popular (UP) — CNPJ 26.235.522/0001-66", "url": "https://unidadepopular.org.br"}, {"id": "ap-2", "frente": "Unidade Popular (UP)", "nome": "MLB — Fundo de Lutas", "objetivo": "Reforma urbana, sustentação de ocupações, alimentação e ações de base.", "pix": "mlb.luta.contra.fome@gmail.com", "beneficiario": "Via Apoia.se do MLB", "url": "https://mlbbrasil.org"}, {"id": "ap-3", "frente": "Unidade Popular (UP)", "nome": "MLB — Campanha Natal Sem Fome e Sem Miséria", "objetivo": "Arrecadação e distribuição de cestas básicas em ocupações e periferias.", "pix": "natalsemfomemlb@gmail.com", "beneficiario": "Coordenação Nacional do MLB", "url": "https://instagram.com"}, {"id": "ap-4", "frente": "Unidade Popular (UP)", "nome": "Movimento de Mulheres Olga Benario (Núcleo SP)", "objetivo": "Casas de acolhimento para mulheres vítimas de violência (ex.: Ocupação Ondina Seabra, em Sorocaba) e luta por creches.", "pix": "movimentoolgabenario.sp@gmail.com", "beneficiario": "Núcleo São Paulo do Movimento Olga Benario", "url": "https://movimentoolga.com"}, {"id": "ap-5", "frente": "Unidade Popular (UP)", "nome": "União da Juventude Rebelião (UJR — CRJ Minas Caixa BH)", "objetivo": "Atuação estudantil e comunitária (Centro de Referência da Juventude no Minas Caixa, em BH).", "pix": "apoieocrjmc@gmail.com", "beneficiario": "Campanha local CRJ Minas Caixa (BH)", "url": "https://www.rebeliao.org/"}, {"id": "ap-6", "frente": "Combate à Fome & Cozinhas", "nome": "Natal Sem Fome 2026 (Ação da Cidadania)", "objetivo": "Campanha nacional ('Ilumine o Natal de quem precisa') para combater a insegurança alimentar.", "pix": "doe@natalsemfome.org.br", "beneficiario": "Ação da Cidadania", "url": "https://natalsemfome.org.br"}, {"id": "ap-7", "frente": "Combate à Fome & Cozinhas", "nome": "Cozinhas Solidárias do MTST", "objetivo": "Rede com mais de 50 cozinhas em 14 estados e DF, servindo marmitas gratuitas e oferecendo oficinas e apoio jurídico/psicológico.", "pix": "maiscozinhas@apoia.se", "beneficiario": "Via Apoia.se Cozinhas Solidárias", "url": "https://cozinhasolidaria.com"}, {"id": "ap-8", "frente": "Combate à Fome & Cozinhas", "nome": "Cozinha Solidária Vale do Taquari (RS)", "objetivo": "Produção e distribuição de alimentação gratuita para a população vulnerável da região.", "pix": "ajudavt@univates.br", "beneficiario": "Fundação Univates (apoio regional)", "url": ""}, {"id": "ap-9", "frente": "Solidariedade a Cuba", "nome": "Campanha Nacional de Medicamentos para Cuba (MST)", "objetivo": "Compra e envio aéreo de remédios solicitados pelo Ministério da Saúde cubano.", "pix": "11.586.301/0001-65", "beneficiario": "Instituto Cultivar | CEF Ag. 1231, Op. 1292, CC 000577559399-1", "url": "https://mst.org.br"}, {"id": "ap-10", "frente": "Solidariedade a Cuba", "nome": "Campanha Painéis Solares para Cuba", "objetivo": "Compra de painéis solares no Porto de Mariel para levar energia a hospitais, escolas e residências.", "pix": "34.131.511/0001-64", "beneficiario": "Câmara Empresarial Brasil-Cuba | BB Ag. 4770-8, CC 13844-4", "url": ""}, {"id": "ap-11", "frente": "Solidariedade a Cuba", "nome": "Campanha do Movimento Estudantil (UNE, UBES, ANPG, OCLAE)", "objetivo": "Envio de insumos essenciais e ajuda humanitária organizada pelas entidades estudantis.", "pix": "29.258.597/0001-50", "beneficiario": "Entidades Estudantis | Ag. 0712-9, CC 34608-X", "url": "https://une.org.br"}, {"id": "ap-12", "frente": "Movimentos Populares", "nome": "MST (Movimento dos Trabalhadores Rurais Sem Terra)", "objetivo": "Produção e distribuição de alimentos agroecológicos e ações de solidariedade nacional.", "pix": "09.352.141/0001-48", "beneficiario": "Instituto Brasileiro de Solidariedade (CNPJ 09.352.141/0001-48)", "url": "https://mst.org.br"}, {"id": "ap-13", "frente": "Movimentos Populares", "nome": "Cáritas Brasileira e Parceiros (CPT e MAB)", "objetivo": "Ações humanitárias e emergenciais em rede com a Comissão Pastoral da Terra e o Movimento dos Atingidos por Barragens.", "pix": "33.654.419/0010-07", "beneficiario": "Cáritas Brasileira (CNPJ 33.654.419/0010-07)", "url": "https://caritas.org.br"}];
+
+    function renderApoio() {
+      const frentes = ['Todas', 'Unidade Popular (UP)', 'Combate à Fome & Cozinhas', 'Solidariedade a Cuba', 'Movimentos Populares'];
+      const lista = APOIO_DATA.filter(a => state.apoioFrente === 'Todas' || a.frente === state.apoioFrente);
+
+      return `
+        <section class="space-y-6">
+          <div class="p-5 sm:p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-2">
+            <span class="text-xs font-semibold uppercase tracking-wider text-red-700 dark:text-red-400">Solidariedade Financeira</span>
+            <h1 class="text-2xl font-bold">Apoie Movimentos Sociais e Campanhas (${APOIO_DATA.length})</h1>
+            <p class="text-sm text-stone-600 dark:text-stone-400">Contribua diretamente com campanhas populares, cozinhas solidárias, fundos de luta e ações humanitárias.</p>
+          </div>
+
+          <div class="flex flex-wrap gap-2">
+            ${frentes.map(f => `<button data-afrente="${f}" class="afrente-btn px-3.5 py-2 rounded-full text-xs font-medium border ${state.apoioFrente === f ? 'bg-red-700 text-white border-red-700' : 'border-stone-300 dark:border-stone-700'}">${f}</button>`).join('')}
+          </div>
+
+          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            ${lista.map(a => `
+              <article class="p-5 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 flex flex-col justify-between gap-4">
+                <div class="space-y-2">
+                  <span class="inline-block text-xs font-medium px-2 py-0.5 rounded bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300">${a.frente}</span>
+                  <h2 class="text-base font-bold">${a.nome}</h2>
+                  <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-400">${a.objetivo}</p>
+                </div>
+                <div class="space-y-2 pt-3 border-t border-stone-100 dark:border-stone-800">
+                  ${a.url ? `<a href="${a.url}" target="_blank" rel="noopener noreferrer" class="inline-block text-xs font-medium text-red-700 dark:text-red-400 hover:underline">Site oficial &rarr;</a>` : ''}
+                  <div class="text-xs text-stone-500"><strong>Beneficiário:</strong> ${a.beneficiario}</div>
+                  <div class="flex items-center gap-2">
+                    <code class="flex-1 px-2.5 py-1.5 text-xs rounded-lg bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 truncate select-all">${a.pix}</code>
+                    <button data-copy-pix="${a.pix}" class="copy-apoio-btn shrink-0 px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-800 text-white text-xs font-medium transition">Copiar Pix</button>
+                  </div>
+                </div>
+              </article>
+            `).join('')}
+          </div>
+
+          <div class="p-5 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-300 dark:border-amber-800 text-xs sm:text-sm space-y-1.5">
+            <strong class="block text-amber-900 dark:text-amber-300">Orientações para Transferência Segura</strong>
+            <p class="text-amber-900/90 dark:text-amber-200/90"><strong>1. Conferência de Titularidade:</strong> Antes de confirmar o Pix no app bancário, confira se o nome da entidade gestora coincide com o beneficiário listado acima.</p>
+            <p class="text-amber-900/90 dark:text-amber-200/90"><strong>2. Validação em Canais Oficiais:</strong> Para núcleos regionais e campanhas sazonais, consulte sempre os perfis verificados das organizações.</p>
+          </div>
+        </section>
+      `;
+    }
+
+    function renderSobre() {
+      return `
+        <section class="space-y-6 max-w-4xl mx-auto">
+          <article class="p-6 sm:p-8 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-4">
+            <span class="inline-block text-xs font-semibold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300">Sobre a Página</span>
+            <h1 class="text-2xl sm:text-3xl font-bold">Unidade em Torno da Organização Política</h1>
+            <div class="space-y-3 text-sm sm:text-base leading-relaxed text-stone-700 dark:text-stone-300">
+              <p>Este portal nasceu da necessidade de reunir, em um só lugar, informações e materiais que hoje circulam espalhados pela internet. Muitas vezes, diferenças secundárias acabam nos afastando da tarefa mais urgente e comum a todas as organizações da esquerda radical e do campo popular: construir unidade na ação.</p>
+              <p>A organização política é a peça fundamental para articular as diversas categorias da classe trabalhadora e transformar a indignação isolada em força coletiva. Só de forma organizada conseguimos enfrentar as pautas concretas que atingem todo o povo trabalhador — do direito ao trabalho e à moradia à conquista do poder popular.</p>
+            </div>
+            <div class="pt-2 flex flex-wrap gap-3">
+              <button data-jump="organizacao" class="jump-btn px-4 py-2 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-medium transition">Conhecer Coletivos e Movimentos &rarr;</button>
+              <button data-jump="apoio" class="jump-btn px-4 py-2 rounded-xl border border-stone-300 dark:border-stone-700 text-sm font-medium hover:bg-stone-100 dark:hover:bg-stone-800 transition">Ver Campanhas Humanitárias e Sociais &rarr;</button>
+            </div>
+          </article>
+
+          <div class="grid gap-4 md:grid-cols-2">
+            <article class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 flex flex-col justify-between gap-4">
+              <div class="space-y-2">
+                <h2 class="text-lg font-bold">Formulário de Sugestões</h2>
+                <p class="text-sm text-stone-600 dark:text-stone-400">Quer indicar um coletivo, movimento social, material de estudo ou corrigir alguma informação do portal?</p>
+              </div>
+              <div class="space-y-2">
+                <button id="openSugestaoInfoBtn" class="px-4 py-2 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-sm font-medium hover:opacity-90 transition">Abrir Formulário de Sugestões</button>
+                <p class="text-xs text-stone-500">Substitua pelo link do seu Google Forms em <code>sobre.html</code> / <code>index.html</code>.</p>
+              </div>
+            </article>
+
+            <article class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 flex flex-col justify-between gap-4">
+              <div class="space-y-2">
+                <h2 class="text-lg font-bold">Manutenção da Página (Apoia.se e Pix)</h2>
+                <p class="text-sm text-stone-600 dark:text-stone-400">Apoio exclusivo para custos técnicos e manutenção editorial deste projeto (separado das campanhas dos movimentos sociais).</p>
+              </div>
+              <div class="space-y-2.5">
+                <div class="flex items-center gap-2">
+                  <code id="pixSiteKey" class="flex-1 px-3 py-2 text-xs sm:text-sm rounded-lg bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 select-all">sua-chave-pix-aqui@exemplo.org</code>
+                  <button id="copySitePixBtn" class="shrink-0 px-3.5 py-2 text-xs sm:text-sm font-medium rounded-lg bg-red-700 hover:bg-red-800 text-white transition">Copiar Pix</button>
+                </div>
+                <button id="openApoiaseInfoBtn" class="text-xs font-medium text-red-700 dark:text-red-400 hover:underline">Link do Apoia.se da página (adicionar URL) &rarr;</button>
+              </div>
+            </article>
+          </div>
+        </section>
+      `;
+    }
+
+    const FRENTES_DATA = {"up": {"id": "up", "titulo": "Unidade Popular (UP) — Frentes de Luta", "categoria": "Campo Partidário", "resumo": "Partido político de esquerda radical registrado no TSE em 2019, articulado a movimentos urbanos, de mulheres, estudantis e sindicais.", "site": "https://unidadepopular.org.br", "orgs": [{"nome": "MLB (Movimento de Luta nos Bairros, Vilas e Favelas)", "papel": "Reforma urbana e ocupações", "url": "https://mlbbrasil.org"}, {"nome": "Movimento de Mulheres Olga Benario", "papel": "Organização de mulheres e casas de acolhimento", "url": "https://movimentoolga.com"}, {"nome": "União da Juventude Rebelião (UJR)", "papel": "Juventude trabalhadora e comunitária", "url": "https://www.rebeliao.org/"}, {"nome": "Movimento Correnteza", "papel": "Movimento estudantil (MS e nacional)", "url": "https://www.instagram.com/correnteza.ms"}, {"nome": "Movimento Luta de Classes (MLC)", "papel": "Corrente sindical classista", "url": "https://www.instagram.com/mlc.matogrossodosul"}, {"nome": "FNR (Frente Nacional de Luta / Movimento Negro)", "papel": "Frente antirracista ligada ao campo", "url": "https://unidadepopular.org.br"}]}, "pstu": {"id": "pstu", "titulo": "PSTU — Frentes e Movimentos", "categoria": "Campo Partidário", "resumo": "Partido Socialista dos Trabalhadores Unificado, com atuação em centrais sindicais independentes, movimentos populares e coletivos de opressões.", "site": "https://pstu.org.br", "orgs": [{"nome": "CSP-Conlutas", "papel": "Central sindical e popular", "url": "https://pstu.org.br"}, {"nome": "Luta Popular", "papel": "Movimento urbano e de moradia", "url": "https://pstu.org.br"}, {"nome": "Movimento Mulheres em Luta", "papel": "Organização feminista classista", "url": "https://pstu.org.br"}, {"nome": "Quilombo Raça e Classe", "papel": "Movimento negro classista", "url": "https://pstu.org.br"}, {"nome": "Coletivo Rebeldia", "papel": "Juventude e movimento estudantil", "url": "https://pstu.org.br"}]}, "pcb": {"id": "pcb", "titulo": "PCB — Frentes e Coletivos", "categoria": "Campo Partidário", "resumo": "Partido Comunista Brasileiro, estruturado em coletivos de juventude, sindicalismo classista, mulheres, movimento negro e LGBT.", "site": "https://pcb.org.br/portal2/", "orgs": [{"nome": "UJC (União da Juventude Comunista)", "papel": "Juventude e movimento estudantil", "url": "https://pcb.org.br/portal2/"}, {"nome": "Unidade Classista", "papel": "Corrente sindical", "url": "https://pcb.org.br/portal2/"}, {"nome": "CFCAM (Coletivo Feminista Classista Ana Montenegro)", "papel": "Organização de mulheres", "url": "https://pcb.org.br/portal2/"}, {"nome": "Coletivo Negro Minervino de Oliveira", "papel": "Frente antirracista", "url": "https://pcb.org.br/portal2/"}, {"nome": "Coletivo LGBT Comunista", "papel": "Frente LGBTQIA+ radical", "url": "https://pcb.org.br/portal2/"}]}, "pt": {"id": "pt", "titulo": "Campo Ligado ao PT — Centrais e Movimentos", "categoria": "Campo Partidário", "resumo": "Articulação histórica com grandes centrais sindicais, movimentos do campo e frentes populares de massa.", "site": "https://cut.org.br", "orgs": [{"nome": "CUT (Central Única dos Trabalhadores)", "papel": "Maior central sindical do Brasil", "url": "https://cut.org.br"}, {"nome": "MST (Movimento dos Trabalhadores Rurais Sem Terra)", "papel": "Reforma agrária e agroecologia", "url": "https://mst.org.br"}, {"nome": "CONTAG", "papel": "Trabalhadores rurais e agricultura familiar", "url": "https://contag.org.br"}, {"nome": "CMP, Marcha Mundial das Mulheres, Levante Popular e MAB", "papel": "Moradia, mulheres, juventude e atingidos por barragens", "url": "https://cut.org.br"}]}, "psol": {"id": "psol", "titulo": "PSOL — Movimentos e Coletivos", "categoria": "Campo Partidário", "resumo": "Campo com forte presença em movimentos urbanos de moradia, tarifa zero, juventude e frentes antirracistas.", "site": "https://psol50.org.br", "orgs": [{"nome": "MTST (Movimento dos Trabalhadores Sem Teto)", "papel": "Moradia urbana e Cozinhas Solidárias", "url": "https://cozinhasolidaria.com"}, {"nome": "MPL (Movimento Passe Livre)", "papel": "Luta pelo transporte público gratuito", "url": "https://psol50.org.br"}, {"nome": "Juntos!, RUA e Afronte", "papel": "Coletivos de juventude e movimento estudantil", "url": "https://psol50.org.br"}, {"nome": "Círculo Palmarino", "papel": "Movimento negro", "url": "https://psol50.org.br"}]}, "pcdob": {"id": "pcdob", "titulo": "PCdoB — Frentes e Entidades", "categoria": "Campo Partidário", "resumo": "Atuação tradicional no sindicalismo, movimento estudantil, comunitário, de mulheres e igualdade racial.", "site": "https://ctb.org.br", "orgs": [{"nome": "CTB (Central dos Trabalhadores e Trabalhadoras do Brasil)", "papel": "Central sindical", "url": "https://ctb.org.br"}, {"nome": "UJS (União da Juventude Socialista)", "papel": "Juventude e movimento estudantil", "url": "https://ctb.org.br"}, {"nome": "UBM (União Brasileira de Mulheres)", "papel": "Organização de mulheres", "url": "https://ctb.org.br"}, {"nome": "CONAM e UNEGRO", "papel": "Associações de moradores e movimento negro", "url": "https://ctb.org.br"}]}, "centrais": {"id": "centrais", "titulo": "Centrais Sindicais do Brasil", "categoria": "Sindicatos e Centrais", "resumo": "Principais centrais sindicais que articulam sindicatos, negociações coletivas, greves e pautas nacionais do trabalho.", "site": "https://cut.org.br", "orgs": [{"nome": "CUT (Central Única dos Trabalhadores)", "papel": "Central sindical majoritária", "url": "https://cut.org.br"}, {"nome": "CTB (Central dos Trabalhadores e Trabalhadoras do Brasil)", "papel": "Central sindical nacional", "url": "https://ctb.org.br"}, {"nome": "CSP-Conlutas", "papel": "Central sindical e popular independente", "url": "https://pstu.org.br"}, {"nome": "MLC (Movimento Luta de Classes)", "papel": "Corrente sindical classista", "url": "https://www.instagram.com/mlc.matogrossodosul"}, {"nome": "Força Sindical e UGT", "papel": "Outras grandes centrais reconhecidas nacionalmente", "url": ""}]}, "confederacoes": {"id": "confederacoes", "titulo": "Confederações e Federações Sindicais", "categoria": "Sindicatos e Centrais", "resumo": "Entidades nacionais e estaduais por ramo de atividade (campo, educação, transportes, telecomunicações e TI).", "site": "https://contag.org.br", "orgs": [{"nome": "CONTAG", "papel": "Confederação Nacional dos Trabalhadores na Agricultura", "url": "https://contag.org.br"}, {"nome": "CNTE", "papel": "Confederação Nacional dos Trabalhadores em Educação", "url": "https://contag.org.br"}, {"nome": "CNTTL e CNTTT", "papel": "Confederações nacionais de trabalhadores em transportes e logística", "url": "https://contag.org.br"}, {"nome": "Fenadados e Sindpd-SP", "papel": "Entidades de trabalhadores em tecnologia da informação e processamento de dados", "url": "https://contag.org.br"}]}};
+
+    function renderFrente() {
+      const f = FRENTES_DATA[state.frenteId] || FRENTES_DATA.up;
+      return `
+        <section class="space-y-6 max-w-5xl mx-auto">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <button data-jump="organizacao" class="jump-btn px-3.5 py-2 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-medium hover:bg-stone-100 dark:hover:bg-stone-800">&larr; Voltar para Coletivos e Movimentos</button>
+            <span class="text-xs text-stone-500">URL compartilhável: <code>frente.html?id=${f.id}</code></span>
+          </div>
+
+          <div class="flex flex-wrap gap-2">
+            ${Object.values(FRENTES_DATA).map(item => `
+              <button data-frente="${item.id}" class="frente-open-btn px-3 py-1.5 rounded-full text-xs font-medium border ${state.frenteId === item.id ? 'bg-red-700 text-white border-red-700' : 'border-stone-300 dark:border-stone-700'}">${item.titulo.split(' — ')[0]}</button>
+            `).join('')}
+          </div>
+
+          <article class="p-6 sm:p-8 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-4">
+            <span class="inline-block text-xs font-semibold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300">${f.categoria}</span>
+            <h1 class="text-2xl sm:text-3xl font-bold">${f.titulo}</h1>
+            <p class="text-sm sm:text-base text-stone-600 dark:text-stone-400">${f.resumo}</p>
+            <div class="flex flex-wrap gap-3 pt-1">
+              ${f.site ? `<a href="${f.site}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-medium transition">Acessar site oficial &rarr;</a>` : ''}
+              <button data-jump="apoio" class="jump-btn px-4 py-2 rounded-xl border border-stone-300 dark:border-stone-700 text-sm font-medium hover:bg-stone-100 dark:hover:bg-stone-800">Ver campanhas de apoio &rarr;</button>
+            </div>
+          </article>
+
+          <div class="space-y-3">
+            <h2 class="text-xl font-bold">Organizações e Frentes Ligadas (${f.orgs.length})</h2>
+            <div class="grid gap-4 sm:grid-cols-2">
+              ${f.orgs.map(o => `
+                <article class="p-5 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 flex flex-col justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-base">${o.nome}</h3>
+                    <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-400 mt-1">${o.papel}</p>
+                  </div>
+                  ${o.url ? `<a href="${o.url}" target="_blank" rel="noopener noreferrer" class="self-start text-xs font-medium text-red-700 dark:text-red-400 hover:underline pt-1">Acessar organização &rarr;</a>` : ''}
+                </article>
+              `).join('')}
+            </div>
+          </div>
+
+          <section class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h2 class="text-lg font-bold">Comentários e Relatos de Base (Giscus)</h2>
+              <a href="https://giscus.app/pt" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-red-700 dark:text-red-400 hover:underline">Configurar no giscus.app &rarr;</a>
+            </div>
+            <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-400">Espaço reservado para comentários via <strong>GitHub Discussions</strong>. Após ativar o Discussions no repositório e instalar o app Giscus, cole o bloco <code>&lt;script src="https://giscus.app/client.js" ...&gt;</code> dentro da <code>&lt;div id="giscus-container"&gt;</code> no arquivo <code>frente.html</code>.</p>
+            <div id="giscus-container" class="p-4 rounded-xl bg-stone-50 dark:bg-stone-800/60 border border-dashed border-stone-300 dark:border-stone-700 text-xs text-stone-500">
+              Bloco pronto para o widget do Giscus (os comentários aparecerão aqui automaticamente após colar o script do seu repositório).
+            </div>
+          </section>
+        </section>
+      `;
+    }
+
     function render() {
       if (state.search.trim().length > 0) {
         appMain.innerHTML = renderSearchResults(state.search.trim());
@@ -2069,6 +2342,12 @@
         appMain.innerHTML = renderEconomia();
       } else if (state.view === 'quizzes') {
         appMain.innerHTML = renderQuizzes();
+      } else if (state.view === 'apoio') {
+        appMain.innerHTML = renderApoio();
+      } else if (state.view === 'sobre') {
+        appMain.innerHTML = renderSobre();
+      } else if (state.view === 'frente') {
+        appMain.innerHTML = renderFrente();
       }
       bindDynamicEvents();
     }
@@ -2206,6 +2485,39 @@
           render();
         });
       }
+      document.querySelectorAll('.afrente-btn').forEach(btn => {
+        btn.addEventListener('click', () => { state.apoioFrente = btn.dataset.afrente; render(); });
+      });
+      document.querySelectorAll('.copy-apoio-btn').forEach(btn => {
+        btn.addEventListener('click', () => fallbackCopy(btn.dataset.copyPix, 'Chave Pix copiada! Confira o beneficiário no app.'));
+      });
+      const copySitePixBtn = document.getElementById('copySitePixBtn');
+      if (copySitePixBtn) {
+        copySitePixBtn.addEventListener('click', () => {
+          const key = document.getElementById('pixSiteKey').textContent;
+          fallbackCopy(key, 'Chave Pix da página copiada!');
+        });
+      }
+      const openSugestaoInfoBtn = document.getElementById('openSugestaoInfoBtn');
+      if (openSugestaoInfoBtn) {
+        openSugestaoInfoBtn.addEventListener('click', () => {
+          openModal('Formulário de Sugestões', 'Enviar contribuição para o Portal', 'Cole a URL pública do seu Google Forms neste botão no arquivo index.html e sobre.html para abrir o formulário diretamente em uma nova aba.', 'Dica: troque o botão por <a href="SEU_LINK_DO_FORMS" target="_blank">.');
+        });
+      }
+      const openApoiaseInfoBtn = document.getElementById('openApoiaseInfoBtn');
+      if (openApoiaseInfoBtn) {
+        openApoiaseInfoBtn.addEventListener('click', () => {
+          openModal('Apoia.se da Página', 'Apoio contínuo à manutenção', 'Cole aqui o link oficial do seu Apoia.se para manutenção técnica do portal, separado das doações diretas aos movimentos sociais da aba Apoie.', 'Edite em renderSobre() no arquivo index.html e sobre.html.');
+        });
+      }
+      document.querySelectorAll('.frente-open-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.frenteId = btn.dataset.frente;
+          state.view = 'frente';
+          render();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      });
       const quizRestartBtn = document.getElementById('quizRestartBtn');
       if (quizRestartBtn) {
         quizRestartBtn.addEventListener('click', () => {
@@ -2258,14 +2570,7 @@
       document.getElementById('mobileMenuBtn').setAttribute('aria-expanded', String(!expanded));
     });
 
-    document.getElementById('copyPixBtn').addEventListener('click', () => {
-      const key = document.getElementById('pixKey').textContent;
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(key).then(() => showToast('Chave Pix copiada!')).catch(() => fallbackCopy(key));
-      } else {
-        fallbackCopy(key);
-      }
-    });
+
 
     function fallbackCopy(text, msg = 'Chave Pix copiada!') {
       const ta = document.createElement('textarea');
@@ -2282,7 +2587,55 @@
       if (e.target === detailModal) detailModal.classList.add('hidden');
     });
 
+    function parseCSV(text) {
+      const rows = [];
+      let row = [], col = '', inQuotes = false;
+      for (let i = 0; i < text.length; i++) {
+        const ch = text[i], next = text[i + 1];
+        if (ch === '"' && inQuotes && next === '"') { col += '"'; i++; }
+        else if (ch === '"') { inQuotes = !inQuotes; }
+        else if (ch === ',' && !inQuotes) { row.push(col.trim()); col = ''; }
+        else if ((ch === '\n' || ch === '\r') && !inQuotes) {
+          if (ch === '\r' && next === '\n') i++;
+          row.push(col.trim());
+          if (row.some(Boolean)) rows.push(row);
+          row = []; col = '';
+        } else { col += ch; }
+      }
+      if (col.length || row.length) { row.push(col.trim()); if (row.some(Boolean)) rows.push(row); }
+      return rows;
+    }
+
+    async function loadExternalData() {
+      try {
+        const res = await fetch('data/noticias.json', { cache: 'no-store' });
+        if (res.ok) {
+          const json = await res.json();
+          if (json && json.manchetes) { NOTICIAS_DATA = json; if (state.view === 'midia') render(); }
+        }
+      } catch (e) {}
+
+      if (SHEETS_COLETIVOS_CSV_URL) {
+        try {
+          const res = await fetch(SHEETS_COLETIVOS_CSV_URL, { cache: 'no-store' });
+          if (res.ok) {
+            const rows = parseCSV(await res.text());
+            if (rows.length > 1) {
+              const headers = rows[0].map(h => h.toLowerCase());
+              const parsed = rows.slice(1).map((r, idx) => {
+                const obj = { id: 'sheet-' + (idx + 1), nome: '', tipo: 'Movimento Social', regiao: 'Nacional', foco: '', url: '', imagem: '', frenteId: '' };
+                headers.forEach((h, i) => { if (h in obj && r[i]) obj[h] = r[i]; });
+                return obj;
+              }).filter(o => o.nome);
+              if (parsed.length) { DATA.coletivos = parsed; if (state.view === 'organizacao') render(); }
+            }
+          }
+        } catch (e) {}
+      }
+    }
+
     render();
+    loadExternalData();
   </script>
 </body>
 </html>
