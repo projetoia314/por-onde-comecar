@@ -1,0 +1,109 @@
+{
+  "CLT": {
+    "titulo": "Trabalhador CLT (Carteira Assinada)",
+    "resumo": "Piso salarial nacional de R$ 1.621,00 em 2026 e isenção total de Imposto de Renda para quem ganha até R$ 5.000,00 por mês.",
+    "itens": [
+      "Salário mínimo vigente de R$ 1.621,00 (Decreto nº 12.797/2025) e isenção de IR até R$ 5.000,00/mês (redução parcial até R$ 7.000,00).",
+      "Conferir depósitos mensais do FGTS (8%) e recolhimento do INSS no aplicativo oficial.",
+      "Guardar contracheques, registros de ponto e comunicações de trabalho para eventual comprovação.",
+      "Em caso de irregularidades, buscar o sindicato da categoria ou o núcleo Juristas Revolucionários (JuRe)."
+    ],
+    "links": [
+      {
+        "label": "Nova tabela IRPF 2026 (Gov.br)",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026"
+      },
+      {
+        "label": "Meu INSS",
+        "url": "https://meu.inss.gov.br/"
+      }
+    ]
+  },
+  "Autônomo": {
+    "titulo": "Trabalhador Autônomo e Informal",
+    "resumo": "Contribuição individual ao INSS atualizada pelo mínimo de R$ 1.621,00 em 2026 e isenção de IR até R$ 5.000,00 mensais.",
+    "itens": [
+      "Plano Simplificado (11% sobre R$ 1.621,00): guia mensal de R$ 178,31 (garante aposentadoria por idade de 1 salário mínimo e auxílios).",
+      "Plano Normal (20%): a partir de R$ 324,20/mês (permite contar tempo para regras de transição e valores acima do mínimo).",
+      "Registrar contratos simples ou recibos de prestação de serviço para comprovar renda e evitar calotes."
+    ],
+    "links": [
+      {
+        "label": "Meu INSS (Guia e inscrição)",
+        "url": "https://meu.inss.gov.br/"
+      }
+    ]
+  },
+  "MEI": {
+    "titulo": "Microempreendedor Individual (MEI)",
+    "resumo": "DAS-MEI 2026 reajustado pelo mínimo de R$ 1.621,00; teto de R$ 81 mil em 2026 com transição aprovada para R$ 110 mil em 2027.",
+    "itens": [
+      "Valores mensais do DAS em 2026 (5% INSS = R$ 81,05 + impostos): R$ 82,05 (Comércio/Indústria), R$ 86,05 (Serviços), R$ 87,05 (Comércio e Serviços) e R$ 194,52 (Caminhoneiro).",
+      "Teto vigente em 2026 segue em R$ 81.000/ano (R$ 6.750/mês); nova lei prevê R$ 110 mil em 2027 e até 2 empregados.",
+      "Alerta de pejotização: se houver subordinação, horário fixo e pessoalidade para uma única empresa, pode configurar vínculo CLT.",
+      "Entregar a Declaração Anual (DASN-SIMEI) no portal do Simples Nacional."
+    ],
+    "links": [
+      {
+        "label": "DASN-SIMEI (Receita Federal)",
+        "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/"
+      },
+      {
+        "label": "Portal do Empreendedor (Gov.br)",
+        "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
+      }
+    ]
+  },
+  "Concursado": {
+    "titulo": "Servidor Público Concursado",
+    "resumo": "Acompanhe o contracheque com a isenção de IR até R$ 5.000,00 em 2026, progressões de carreira e organização sindical.",
+    "itens": [
+      "Verificar a aplicação da isenção de IR até R$ 5.000,00/mês (ou redução parcial até R$ 7.000,00) no contracheque de 2026.",
+      "Acompanhar publicações no Diário Oficial e prazos de progressão ou promoção funcional.",
+      "Consultar o estatuto próprio (municipal, estadual ou federal) sobre licenças, adicionais e RPPS.",
+      "Participar das assembleias do sindicato da categoria em defesa do serviço público."
+    ],
+    "links": [
+      {
+        "label": "Tabela IRPF 2026 (Gov.br)",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026"
+      }
+    ]
+  },
+  "BPC/LOAS": {
+    "titulo": "BPC / LOAS (Benefício de Prestação Continuada)",
+    "resumo": "Benefício de R$ 1.621,00/mês em 2026 para idosos (65+) ou pessoas com deficiência com renda familiar de até R$ 405,25 por pessoa.",
+    "itens": [
+      "Valor mensal em 2026: R$ 1.621,00 (equivalente a 1 salário mínimo).",
+      "Critério de renda per capita familiar: até 1/4 do salário mínimo (R$ 405,25 por pessoa), com análise socioeconômica.",
+      "Exige inscrição e atualização no Cadastro Único (CadÚnico) no CRAS e biometria, sem exigir contribuição prévia ao INSS.",
+      "Em caso de negativa indevida, buscar a Defensoria Pública da União ou Estadual."
+    ],
+    "links": [
+      {
+        "label": "Informações oficiais do BPC (Gov.br)",
+        "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc"
+      }
+    ]
+  },
+  "Aposentadoria": {
+    "titulo": "Aposentadoria e Regras de Transição 2026",
+    "resumo": "Em 2026, sobem os requisitos de transição do INSS: 93/103 pontos e idade progressiva de 59,5 (mulher) e 64,5 anos (homem).",
+    "itens": [
+      "Regra dos Pontos em 2026: 93 pontos (mulheres, mín. 30 anos de contribuição) e 103 pontos (homens, mín. 35 anos de contribuição).",
+      "Idade Mínima Progressiva em 2026: 59 anos e 6 meses (mulheres) e 64 anos e 6 meses (homens), mantendo 30/35 anos de contribuição.",
+      "Regra Geral permanente: 62 anos (mulher, 15 anos contrib.) e 65 anos (homem, 20 anos contrib., ou 15 anos se filiado antes de nov/2019).",
+      "Baixar o extrato do CNIS no Meu INSS para conferir vínculos e separar PPP/LTCAT em caso de atividade insalubre ou perigosa."
+    ],
+    "links": [
+      {
+        "label": "Regras de transição 2026 (INSS)",
+        "url": "https://www.gov.br/inss/pt-br/noticias/noticias/regras-de-transicao-mudam-os-requisitos-para-aposentadoria-em-2026"
+      },
+      {
+        "label": "Simular no Meu INSS",
+        "url": "https://meu.inss.gov.br/"
+      }
+    ]
+  }
+}

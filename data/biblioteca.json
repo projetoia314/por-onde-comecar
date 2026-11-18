@@ -1,0 +1,69 @@
+[
+  {
+    "id": "lib-1",
+    "titulo": "Manifesto do Partido Comunista",
+    "autor": "Karl Marx e Friedrich Engels",
+    "nivel": "Iniciante",
+    "formatos": [
+      "Texto",
+      "Áudio",
+      "Resumo"
+    ],
+    "destaque": true,
+    "desc": "Síntese introdutória sobre luta de classes, capitalismo e programa comunista.",
+    "url": "https://troubled-november-fc6.notion.site/Manifesto-do-Partido-Comunista-1d4fde9da06480de9eacf0496e12bb65"
+  },
+  {
+    "id": "lib-2",
+    "titulo": "Por Onde Começar",
+    "autor": "V. I. Lenin",
+    "nivel": "Iniciante",
+    "formatos": [
+      "Texto",
+      "Resumo"
+    ],
+    "destaque": true,
+    "desc": "Texto clássico sobre organização política, imprensa e agitação.",
+    "url": "https://troubled-november-fc6.notion.site/Por-Onde-Come-ar-1d4fde9da06480f295b6c1ab15f3e31c"
+  },
+  {
+    "id": "lib-3",
+    "titulo": "Estado e a Revolução",
+    "autor": "V. I. Lenin",
+    "nivel": "Intermediário",
+    "formatos": [
+      "Texto",
+      "Áudio"
+    ],
+    "destaque": true,
+    "desc": "Análise marxista sobre o papel do Estado e a transição revolucionária.",
+    "url": "https://troubled-november-fc6.notion.site/Estado-e-a-Revol-o-1d3fde9da06480e6b893f6788f134298"
+  },
+  {
+    "id": "lib-4",
+    "titulo": "Teoria Econômica Marxista",
+    "autor": "Ernest Mandel",
+    "nivel": "Intermediário",
+    "formatos": [
+      "Texto",
+      "Resumo"
+    ],
+    "destaque": true,
+    "desc": "Introdução sistemática à crítica da economia política.",
+    "url": "https://troubled-november-fc6.notion.site/Teoria-Econ-mica-Marxista-1d4fde9da064802fbe47feb8fd0b68ae"
+  },
+  {
+    "id": "lib-5",
+    "titulo": "Biblioteca do Glossário (Acervo de 98 Obras)",
+    "autor": "Curadoria Coletiva",
+    "nivel": "Todos",
+    "formatos": [
+      "Texto",
+      "Áudio",
+      "Resumo"
+    ],
+    "destaque": false,
+    "desc": "Catálogo completo organizado por tema para aprofundamento progressivo.",
+    "url": ""
+  }
+]

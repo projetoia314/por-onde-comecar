@@ -1,0 +1,259 @@
+{
+  "up": {
+    "id": "up",
+    "titulo": "Unidade Popular (UP) — Frentes de Luta",
+    "categoria": "Campo Partidário",
+    "resumo": "Partido político de esquerda radical registrado no TSE em 2019, articulado a movimentos urbanos, de mulheres, estudantis e sindicais.",
+    "site": "https://unidadepopular.org.br",
+    "orgs": [
+      {
+        "nome": "MLB (Movimento de Luta nos Bairros, Vilas e Favelas)",
+        "papel": "Reforma urbana e ocupações",
+        "url": "https://mlbbrasil.org"
+      },
+      {
+        "nome": "Movimento de Mulheres Olga Benario",
+        "papel": "Organização de mulheres e casas de acolhimento",
+        "url": "https://movimentoolga.com"
+      },
+      {
+        "nome": "União da Juventude Rebelião (UJR)",
+        "papel": "Juventude trabalhadora e comunitária",
+        "url": "https://www.rebeliao.org/"
+      },
+      {
+        "nome": "Movimento Correnteza",
+        "papel": "Movimento estudantil (MS e nacional)",
+        "url": "https://www.instagram.com/correnteza.ms"
+      },
+      {
+        "nome": "Movimento Luta de Classes (MLC)",
+        "papel": "Corrente sindical classista",
+        "url": "https://www.instagram.com/mlc.matogrossodosul"
+      },
+      {
+        "nome": "FNR (Frente Nacional de Luta / Movimento Negro)",
+        "papel": "Frente antirracista ligada ao campo",
+        "url": "https://unidadepopular.org.br"
+      }
+    ]
+  },
+  "pstu": {
+    "id": "pstu",
+    "titulo": "PSTU — Frentes e Movimentos",
+    "categoria": "Campo Partidário",
+    "resumo": "Partido Socialista dos Trabalhadores Unificado, com atuação em centrais sindicais independentes, movimentos populares e coletivos de opressões.",
+    "site": "https://pstu.org.br",
+    "orgs": [
+      {
+        "nome": "CSP-Conlutas",
+        "papel": "Central sindical e popular",
+        "url": "https://pstu.org.br"
+      },
+      {
+        "nome": "Luta Popular",
+        "papel": "Movimento urbano e de moradia",
+        "url": "https://pstu.org.br"
+      },
+      {
+        "nome": "Movimento Mulheres em Luta",
+        "papel": "Organização feminista classista",
+        "url": "https://pstu.org.br"
+      },
+      {
+        "nome": "Quilombo Raça e Classe",
+        "papel": "Movimento negro classista",
+        "url": "https://pstu.org.br"
+      },
+      {
+        "nome": "Coletivo Rebeldia",
+        "papel": "Juventude e movimento estudantil",
+        "url": "https://pstu.org.br"
+      }
+    ]
+  },
+  "pcb": {
+    "id": "pcb",
+    "titulo": "PCB — Frentes e Coletivos",
+    "categoria": "Campo Partidário",
+    "resumo": "Partido Comunista Brasileiro, estruturado em coletivos de juventude, sindicalismo classista, mulheres, movimento negro e LGBT.",
+    "site": "https://pcb.org.br/portal2/",
+    "orgs": [
+      {
+        "nome": "UJC (União da Juventude Comunista)",
+        "papel": "Juventude e movimento estudantil",
+        "url": "https://pcb.org.br/portal2/"
+      },
+      {
+        "nome": "Unidade Classista",
+        "papel": "Corrente sindical",
+        "url": "https://pcb.org.br/portal2/"
+      },
+      {
+        "nome": "CFCAM (Coletivo Feminista Classista Ana Montenegro)",
+        "papel": "Organização de mulheres",
+        "url": "https://pcb.org.br/portal2/"
+      },
+      {
+        "nome": "Coletivo Negro Minervino de Oliveira",
+        "papel": "Frente antirracista",
+        "url": "https://pcb.org.br/portal2/"
+      },
+      {
+        "nome": "Coletivo LGBT Comunista",
+        "papel": "Frente LGBTQIA+ radical",
+        "url": "https://pcb.org.br/portal2/"
+      }
+    ]
+  },
+  "pt": {
+    "id": "pt",
+    "titulo": "Campo Ligado ao PT — Centrais e Movimentos",
+    "categoria": "Campo Partidário",
+    "resumo": "Articulação histórica com grandes centrais sindicais, movimentos do campo e frentes populares de massa.",
+    "site": "https://cut.org.br",
+    "orgs": [
+      {
+        "nome": "CUT (Central Única dos Trabalhadores)",
+        "papel": "Maior central sindical do Brasil",
+        "url": "https://cut.org.br"
+      },
+      {
+        "nome": "MST (Movimento dos Trabalhadores Rurais Sem Terra)",
+        "papel": "Reforma agrária e agroecologia",
+        "url": "https://mst.org.br"
+      },
+      {
+        "nome": "CONTAG",
+        "papel": "Trabalhadores rurais e agricultura familiar",
+        "url": "https://contag.org.br"
+      },
+      {
+        "nome": "CMP, Marcha Mundial das Mulheres, Levante Popular e MAB",
+        "papel": "Moradia, mulheres, juventude e atingidos por barragens",
+        "url": "https://cut.org.br"
+      }
+    ]
+  },
+  "psol": {
+    "id": "psol",
+    "titulo": "PSOL — Movimentos e Coletivos",
+    "categoria": "Campo Partidário",
+    "resumo": "Campo com forte presença em movimentos urbanos de moradia, tarifa zero, juventude e frentes antirracistas.",
+    "site": "https://psol50.org.br",
+    "orgs": [
+      {
+        "nome": "MTST (Movimento dos Trabalhadores Sem Teto)",
+        "papel": "Moradia urbana e Cozinhas Solidárias",
+        "url": "https://cozinhasolidaria.com"
+      },
+      {
+        "nome": "MPL (Movimento Passe Livre)",
+        "papel": "Luta pelo transporte público gratuito",
+        "url": "https://psol50.org.br"
+      },
+      {
+        "nome": "Juntos!, RUA e Afronte",
+        "papel": "Coletivos de juventude e movimento estudantil",
+        "url": "https://psol50.org.br"
+      },
+      {
+        "nome": "Círculo Palmarino",
+        "papel": "Movimento negro",
+        "url": "https://psol50.org.br"
+      }
+    ]
+  },
+  "pcdob": {
+    "id": "pcdob",
+    "titulo": "PCdoB — Frentes e Entidades",
+    "categoria": "Campo Partidário",
+    "resumo": "Atuação tradicional no sindicalismo, movimento estudantil, comunitário, de mulheres e igualdade racial.",
+    "site": "https://ctb.org.br",
+    "orgs": [
+      {
+        "nome": "CTB (Central dos Trabalhadores e Trabalhadoras do Brasil)",
+        "papel": "Central sindical",
+        "url": "https://ctb.org.br"
+      },
+      {
+        "nome": "UJS (União da Juventude Socialista)",
+        "papel": "Juventude e movimento estudantil",
+        "url": "https://ctb.org.br"
+      },
+      {
+        "nome": "UBM (União Brasileira de Mulheres)",
+        "papel": "Organização de mulheres",
+        "url": "https://ctb.org.br"
+      },
+      {
+        "nome": "CONAM e UNEGRO",
+        "papel": "Associações de moradores e movimento negro",
+        "url": "https://ctb.org.br"
+      }
+    ]
+  },
+  "centrais": {
+    "id": "centrais",
+    "titulo": "Centrais Sindicais do Brasil",
+    "categoria": "Sindicatos e Centrais",
+    "resumo": "Principais centrais sindicais que articulam sindicatos, negociações coletivas, greves e pautas nacionais do trabalho.",
+    "site": "https://cut.org.br",
+    "orgs": [
+      {
+        "nome": "CUT (Central Única dos Trabalhadores)",
+        "papel": "Central sindical majoritária",
+        "url": "https://cut.org.br"
+      },
+      {
+        "nome": "CTB (Central dos Trabalhadores e Trabalhadoras do Brasil)",
+        "papel": "Central sindical nacional",
+        "url": "https://ctb.org.br"
+      },
+      {
+        "nome": "CSP-Conlutas",
+        "papel": "Central sindical e popular independente",
+        "url": "https://pstu.org.br"
+      },
+      {
+        "nome": "MLC (Movimento Luta de Classes)",
+        "papel": "Corrente sindical classista",
+        "url": "https://www.instagram.com/mlc.matogrossodosul"
+      },
+      {
+        "nome": "Força Sindical e UGT",
+        "papel": "Outras grandes centrais reconhecidas nacionalmente",
+        "url": ""
+      }
+    ]
+  },
+  "confederacoes": {
+    "id": "confederacoes",
+    "titulo": "Confederações e Federações Sindicais",
+    "categoria": "Sindicatos e Centrais",
+    "resumo": "Entidades nacionais e estaduais por ramo de atividade (campo, educação, transportes, telecomunicações e TI).",
+    "site": "https://contag.org.br",
+    "orgs": [
+      {
+        "nome": "CONTAG",
+        "papel": "Confederação Nacional dos Trabalhadores na Agricultura",
+        "url": "https://contag.org.br"
+      },
+      {
+        "nome": "CNTE",
+        "papel": "Confederação Nacional dos Trabalhadores em Educação",
+        "url": "https://contag.org.br"
+      },
+      {
+        "nome": "CNTTL e CNTTT",
+        "papel": "Confederações nacionais de trabalhadores em transportes e logística",
+        "url": "https://contag.org.br"
+      },
+      {
+        "nome": "Fenadados e Sindpd-SP",
+        "papel": "Entidades de trabalhadores em tecnologia da informação e processamento de dados",
+        "url": "https://contag.org.br"
+      }
+    ]
+  }
+}

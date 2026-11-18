@@ -1,0 +1,29 @@
+{
+  "atualizado_em": "2026-11-17",
+  "capa_averdade": {
+    "titulo": "Jornal A Verdade — Edição Semanal",
+    "descricao": "Leia a edição mais recente e confira a capa da semana no portal oficial.",
+    "url": "https://averdade.org.br/",
+    "imagem": ""
+  },
+  "manchetes": [
+    {
+      "veiculo": "ICL Notícias",
+      "titulo": "Acompanhe as últimas reportagens do ICL Notícias",
+      "url": "https://iclnoticias.com.br/",
+      "data": "Atualização via GitHub Actions"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Confira as principais notícias populares no Brasil de Fato",
+      "url": "https://www.brasildefato.com.br/",
+      "data": "Atualização via GitHub Actions"
+    },
+    {
+      "veiculo": "Jornal A Verdade",
+      "titulo": "Leia as matérias da semana no Jornal A Verdade",
+      "url": "https://averdade.org.br/",
+      "data": "Atualização via GitHub Actions"
+    }
+  ]
+}

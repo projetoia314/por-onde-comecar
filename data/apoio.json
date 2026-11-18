@@ -1,0 +1,119 @@
+[
+  {
+    "id": "ap-1",
+    "frente": "Unidade Popular (UP)",
+    "nome": "Fundo Popular de Financiamento das Lutas da UP",
+    "objetivo": "Apoio à luta antifascista, pelo poder popular e pelo socialismo no Brasil (sugestão: R$ 15).",
+    "pix": "26.235.522/0001-66",
+    "beneficiario": "Unidade Popular (UP) — CNPJ 26.235.522/0001-66",
+    "url": "https://unidadepopular.org.br"
+  },
+  {
+    "id": "ap-2",
+    "frente": "Unidade Popular (UP)",
+    "nome": "MLB — Fundo de Lutas",
+    "objetivo": "Reforma urbana, sustentação de ocupações, alimentação e ações de base.",
+    "pix": "mlb.luta.contra.fome@gmail.com",
+    "beneficiario": "Via Apoia.se do MLB",
+    "url": "https://mlbbrasil.org"
+  },
+  {
+    "id": "ap-3",
+    "frente": "Unidade Popular (UP)",
+    "nome": "MLB — Campanha Natal Sem Fome e Sem Miséria",
+    "objetivo": "Arrecadação e distribuição de cestas básicas em ocupações e periferias.",
+    "pix": "natalsemfomemlb@gmail.com",
+    "beneficiario": "Coordenação Nacional do MLB",
+    "url": "https://instagram.com"
+  },
+  {
+    "id": "ap-4",
+    "frente": "Unidade Popular (UP)",
+    "nome": "Movimento de Mulheres Olga Benario (Núcleo SP)",
+    "objetivo": "Casas de acolhimento para mulheres vítimas de violência (ex.: Ocupação Ondina Seabra, em Sorocaba) e luta por creches.",
+    "pix": "movimentoolgabenario.sp@gmail.com",
+    "beneficiario": "Núcleo São Paulo do Movimento Olga Benario",
+    "url": "https://movimentoolga.com"
+  },
+  {
+    "id": "ap-5",
+    "frente": "Unidade Popular (UP)",
+    "nome": "União da Juventude Rebelião (UJR — CRJ Minas Caixa BH)",
+    "objetivo": "Atuação estudantil e comunitária (Centro de Referência da Juventude no Minas Caixa, em BH).",
+    "pix": "apoieocrjmc@gmail.com",
+    "beneficiario": "Campanha local CRJ Minas Caixa (BH)",
+    "url": "https://www.rebeliao.org/"
+  },
+  {
+    "id": "ap-6",
+    "frente": "Combate à Fome & Cozinhas",
+    "nome": "Natal Sem Fome 2026 (Ação da Cidadania)",
+    "objetivo": "Campanha nacional ('Ilumine o Natal de quem precisa') para combater a insegurança alimentar.",
+    "pix": "doe@natalsemfome.org.br",
+    "beneficiario": "Ação da Cidadania",
+    "url": "https://natalsemfome.org.br"
+  },
+  {
+    "id": "ap-7",
+    "frente": "Combate à Fome & Cozinhas",
+    "nome": "Cozinhas Solidárias do MTST",
+    "objetivo": "Rede com mais de 50 cozinhas em 14 estados e DF, servindo marmitas gratuitas e oferecendo oficinas e apoio jurídico/psicológico.",
+    "pix": "maiscozinhas@apoia.se",
+    "beneficiario": "Via Apoia.se Cozinhas Solidárias",
+    "url": "https://cozinhasolidaria.com"
+  },
+  {
+    "id": "ap-8",
+    "frente": "Combate à Fome & Cozinhas",
+    "nome": "Cozinha Solidária Vale do Taquari (RS)",
+    "objetivo": "Produção e distribuição de alimentação gratuita para a população vulnerável da região.",
+    "pix": "ajudavt@univates.br",
+    "beneficiario": "Fundação Univates (apoio regional)",
+    "url": ""
+  },
+  {
+    "id": "ap-9",
+    "frente": "Solidariedade a Cuba",
+    "nome": "Campanha Nacional de Medicamentos para Cuba (MST)",
+    "objetivo": "Compra e envio aéreo de remédios solicitados pelo Ministério da Saúde cubano.",
+    "pix": "11.586.301/0001-65",
+    "beneficiario": "Instituto Cultivar | CEF Ag. 1231, Op. 1292, CC 000577559399-1",
+    "url": "https://mst.org.br"
+  },
+  {
+    "id": "ap-10",
+    "frente": "Solidariedade a Cuba",
+    "nome": "Campanha Painéis Solares para Cuba",
+    "objetivo": "Compra de painéis solares no Porto de Mariel para levar energia a hospitais, escolas e residências.",
+    "pix": "34.131.511/0001-64",
+    "beneficiario": "Câmara Empresarial Brasil-Cuba | BB Ag. 4770-8, CC 13844-4",
+    "url": ""
+  },
+  {
+    "id": "ap-11",
+    "frente": "Solidariedade a Cuba",
+    "nome": "Campanha do Movimento Estudantil (UNE, UBES, ANPG, OCLAE)",
+    "objetivo": "Envio de insumos essenciais e ajuda humanitária organizada pelas entidades estudantis.",
+    "pix": "29.258.597/0001-50",
+    "beneficiario": "Entidades Estudantis | Ag. 0712-9, CC 34608-X",
+    "url": "https://une.org.br"
+  },
+  {
+    "id": "ap-12",
+    "frente": "Movimentos Populares",
+    "nome": "MST (Movimento dos Trabalhadores Rurais Sem Terra)",
+    "objetivo": "Produção e distribuição de alimentos agroecológicos e ações de solidariedade nacional.",
+    "pix": "09.352.141/0001-48",
+    "beneficiario": "Instituto Brasileiro de Solidariedade (CNPJ 09.352.141/0001-48)",
+    "url": "https://mst.org.br"
+  },
+  {
+    "id": "ap-13",
+    "frente": "Movimentos Populares",
+    "nome": "Cáritas Brasileira e Parceiros (CPT e MAB)",
+    "objetivo": "Ações humanitárias e emergenciais em rede com a Comissão Pastoral da Terra e o Movimento dos Atingidos por Barragens.",
+    "pix": "33.654.419/0010-07",
+    "beneficiario": "Cáritas Brasileira (CNPJ 33.654.419/0010-07)",
+    "url": "https://caritas.org.br"
+  }
+]

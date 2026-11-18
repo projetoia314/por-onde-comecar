@@ -1,0 +1,191 @@
+[
+  {
+    "id": "col-1",
+    "nome": "Unidade Popular (UP) — MS",
+    "tipo": "Movimento Social",
+    "regiao": "MS",
+    "imagem": "",
+    "foco": "Partido político de esquerda radical fundado em 2016 e registrado no TSE em 2019. Atua no Mato Grosso do Sul com pautas voltadas para a classe trabalhadora, o socialismo e a construção do poder popular.",
+    "url": "https://www.instagram.com/unidadepopular.ms"
+  },
+  {
+    "id": "col-2",
+    "nome": "Movimento de Mulheres Olga Benario — MS",
+    "tipo": "Movimento Social",
+    "regiao": "MS",
+    "imagem": "",
+    "foco": "Organiza mulheres trabalhadoras, mães e jovens no Mato Grosso do Sul para combater a violência de gênero, a exploração capitalista e o patriarcado, com formação política e ações nos territórios.",
+    "url": "https://www.instagram.com/movimentoolga.ms"
+  },
+  {
+    "id": "col-3",
+    "nome": "Correnteza MS",
+    "tipo": "Movimento Social",
+    "regiao": "MS",
+    "imagem": "",
+    "foco": "Organização estudantil fundada em 2017 atuante no MS em instituições públicas e privadas pela universalização da educação, assistência estudantil, moradia, alimentação e contra mensalidades abusivas.",
+    "url": "https://www.instagram.com/correnteza.ms"
+  },
+  {
+    "id": "col-4",
+    "nome": "Movimento Luta de Classes MS (MLC)",
+    "tipo": "Movimento Social",
+    "regiao": "MS",
+    "imagem": "",
+    "foco": "Corrente sindical classista e revolucionária ligada à UP no MS, com pautas pelo fim da escala 6x1, valorização dos profissionais da educação e fortalecimento da saúde e segurança pública.",
+    "url": "https://www.instagram.com/mlc.matogrossodosul"
+  },
+  {
+    "id": "col-5",
+    "nome": "Audioteca Crítica",
+    "tipo": "Movimento Digital",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Projeto de audiobooks de obras marxistas e revolucionárias produzido pelas camaradas Elisa e Zorzal, disponível na Orelo, Spotify e YouTube.",
+    "url": "https://open.spotify.com/show/2OqMb7eUrRPeOZFfVA3JJl?si=878a0baab4744070"
+  },
+  {
+    "id": "col-6",
+    "nome": "Soberana",
+    "tipo": "Movimento Digital",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Coletivo marxista-leninista que atua na disputa pela consciência política dos trabalhadores na internet, ocupando os espaços virtuais mais utilizados pelo celular.",
+    "url": "https://soberana.tv/#projects-hr"
+  },
+  {
+    "id": "col-7",
+    "nome": "CeZPEM",
+    "tipo": "Movimento Digital",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Centro Zoia Prestes de Educação Multidisciplinar voltado a organizar professores de todo o Brasil e ofertar educação acadêmica e cultural crítica a preços populares.",
+    "url": "https://soberana.tv/#projects-hr"
+  },
+  {
+    "id": "col-8",
+    "nome": "Juristas Revolucionários (JuRe)",
+    "tipo": "Apoio Legal",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Frente de massas da Soberana voltada para organizar profissionais da área jurídica, realizar formação teórica e política e oferecer suporte à classe trabalhadora.",
+    "url": "https://soberana.tv/#projects-hr"
+  },
+  {
+    "id": "col-9",
+    "nome": "Tecnologia e Classe (TeClas)",
+    "tipo": "Movimento Digital",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Canal sobre tecnologia e política feito por Azhariel, Tarcísio e Zawacki com notícias, videoensaios e tutoriais no YouTube, Instagram e TikTok.",
+    "url": "https://www.youtube.com/@TecnologiaeClasse"
+  },
+  {
+    "id": "col-10",
+    "nome": "Unidade Popular (UP) — Frentes",
+    "tipo": "Campo Partidário",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Frentes ligadas: MLB, Movimento de Mulheres Olga Benario, UJR, Movimento Correnteza, MLC e FNR.",
+    "url": "https://unidadepopular.org.br"
+  },
+  {
+    "id": "col-11",
+    "nome": "PSTU — Frentes",
+    "tipo": "Campo Partidário",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Frentes ligadas: CSP-Conlutas, Luta Popular, Movimento Mulheres em Luta, Quilombo Raça e Classe e Coletivo Rebeldia.",
+    "url": "https://pstu.org.br"
+  },
+  {
+    "id": "col-12",
+    "nome": "PCB — Frentes",
+    "tipo": "Campo Partidário",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Frentes ligadas: UJC, Unidade Classista, CFCAM, Coletivo Negro Minervino de Oliveira e Coletivo LGBT Comunista.",
+    "url": "https://pcb.org.br/portal2/"
+  },
+  {
+    "id": "col-13",
+    "nome": "PT — Frentes",
+    "tipo": "Campo Partidário",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Frentes ligadas: CUT, CONTAG, CMP, Marcha Mundial das Mulheres, Levante Popular da Juventude, MST e MAB.",
+    "url": "https://cut.org.br"
+  },
+  {
+    "id": "col-14",
+    "nome": "PSOL — Frentes",
+    "tipo": "Campo Partidário",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Frentes ligadas: MTST, MPL, Juntos!, RUA, Afronte e Círculo Palmarino.",
+    "url": "https://psol50.org.br"
+  },
+  {
+    "id": "col-15",
+    "nome": "PCdoB — Frentes",
+    "tipo": "Campo Partidário",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Frentes ligadas: CTB, UJS, UBM, CONAM e UNEGRO.",
+    "url": "https://ctb.org.br"
+  },
+  {
+    "id": "col-16",
+    "nome": "Movimentos Estudantis",
+    "tipo": "Frentes Específicas",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Organizações: UNE, Movimento Correnteza, UJS, Levante Popular, Juntos!/RUA/Afronte, UJC e Rebeldia.",
+    "url": "https://une.org.br"
+  },
+  {
+    "id": "col-17",
+    "nome": "Movimentos Negros de Esquerda Radical",
+    "tipo": "Frentes Específicas",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Organizações: MNU, FNR, UNEGRO, Quilombo Raça e Classe, Coletivo Minervino de Oliveira e Círculo Palmarino.",
+    "url": "https://mnu.org.br"
+  },
+  {
+    "id": "col-18",
+    "nome": "Movimentos Indígenas e de Luta Direta",
+    "tipo": "Frentes Específicas",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Organizações: APIB, Aty Guasu, COIAB, APOINME, Comissão Guarani Yvyrupa e Teia dos Povos.",
+    "url": "https://apiboficial.org/"
+  },
+  {
+    "id": "col-19",
+    "nome": "Movimentos LGBTQIA+ de Esquerda Radical",
+    "tipo": "Frentes Específicas",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Organizações: Coletivo LGBT Comunista, Coletivo Rebeldia, Afronte e Coletivos Ecossocialistas.",
+    "url": ""
+  },
+  {
+    "id": "col-20",
+    "nome": "Centrais Sindicais do Brasil",
+    "tipo": "Sindicatos e Centrais",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Principais centrais: CUT, Força Sindical, CTB, UGT, CSP-Conlutas e MLC.",
+    "url": "https://cut.org.br"
+  },
+  {
+    "id": "col-21",
+    "nome": "Confederações e Federações",
+    "tipo": "Sindicatos e Centrais",
+    "regiao": "Nacional",
+    "imagem": "",
+    "foco": "Organizações: CONTAG, CNTE, CNTTL, CNTTT, Fenadados e Sindpd-SP.",
+    "url": "https://contag.org.br"
+  }
+]

@@ -1,0 +1,158 @@
+{
+  "glossario": {
+    "titulo": "Glossário Marxista na Prática",
+    "desc": "Associe situações concretas aos conceitos fundamentais do Glossário Marxista-Leninista.",
+    "destino": "formacao",
+    "destinoLabel": "Revisar no Dicionário (30)",
+    "perguntas": [
+      {
+        "q": "Em uma fábrica, um operário produz em 3 horas o valor equivalente ao seu salário diário, mas trabalha 8 horas. Como o marxismo chama o valor criado nas 5 horas excedentes?",
+        "opcoes": [
+          "Mais-valia",
+          "Critério Brasil",
+          "Capital constante",
+          "Fundo de reserva"
+        ],
+        "correta": 0,
+        "exp": "Mais-valia é o valor novo criado pelo trabalho vivo além do tempo necessário para reproduzir o salário, apropriado pelo capitalista."
+      },
+      {
+        "q": "Quando alguém acusa um trabalhador de hipocrisia por usar um smartphone sem enxergar os milhares de mineiros, engenheiros e operários que o produziram, qual conceito explica essa cegueira?",
+        "opcoes": [
+          "Centralismo democrático",
+          "Fetichismo da mercadoria",
+          "Socialismo utópico",
+          "Pedágio de 50%"
+        ],
+        "correta": 1,
+        "exp": "No fetichismo da mercadoria, relações sociais entre pessoas que trabalham aparecem ocultadas como se fossem propriedades mágicas dos objetos."
+      },
+      {
+        "q": "Para o marxismo, o critério que define a classe social de uma pessoa é:",
+        "opcoes": [
+          "A faixa de renda mensal (Classes A, B, C)",
+          "O diploma universitário",
+          "Sua posição em relação aos meios de produção",
+          "A autodeclaração em pesquisas"
+        ],
+        "correta": 2,
+        "exp": "Classe social é uma categoria material ligada à propriedade ou não dos meios de produção (burguesia vs. proletariado), e não apenas faixa de consumo."
+      },
+      {
+        "q": "Qual regra resume o método organizativo leninista do centralismo democrático?",
+        "opcoes": [
+          "Voto secreto sem debate prévio",
+          "Liberdade de crítica, unidade de ação",
+          "Decisões individuais por voluntarismo",
+          "Pureza ideológica acima da prática"
+        ],
+        "correta": 1,
+        "exp": "O centralismo democrático combina amplo debate interno das bases com ação coletiva unificada após a decisão da maioria."
+      }
+    ]
+  },
+  "direitos": {
+    "titulo": "Direitos Trabalhistas e Previdenciários 2026",
+    "desc": "Teste seus conhecimentos sobre salário mínimo, MEI, IR 2026, BPC/LOAS e aposentadoria.",
+    "destino": "direitos",
+    "destinoLabel": "Consultar Guia de Direitos 2026",
+    "perguntas": [
+      {
+        "q": "Um trabalhador contratado como MEI cumpre horário fixo, recebe ordens diretas e trabalha exclusivamente para uma única empresa. O que essa situação pode configurar?",
+        "opcoes": [
+          "Autonomia plena sem direitos",
+          "Pejotização disfarçando vínculo CLT",
+          "Benefício automático do BPC/LOAS",
+          "Isenção do DAS-MEI"
+        ],
+        "correta": 1,
+        "exp": "Quando há subordinação, horário fixo e pessoalidade para um único tomador, pode haver reconhecimento judicial de vínculo empregatício (CLT)."
+      },
+      {
+        "q": "Em 2026, qual é o valor oficial do salário mínimo nacional e do benefício mensal do BPC/LOAS?",
+        "opcoes": [
+          "R$ 1.412,00",
+          "R$ 1.518,00",
+          "R$ 1.621,00",
+          "R$ 1.750,00"
+        ],
+        "correta": 2,
+        "exp": "O Decreto nº 12.797/2025 fixou o salário mínimo de 2026 em R$ 1.621,00, que também é o piso do INSS e o valor do BPC/LOAS."
+      },
+      {
+        "q": "Pela regra de Imposto de Renda vigente em 2026, quem tem isenção total mensal na fonte?",
+        "opcoes": [
+          "Quem ganha até R$ 2.259,20",
+          "Quem ganha até R$ 3.500,00",
+          "Quem ganha até R$ 5.000,00",
+          "Apenas servidores públicos"
+        ],
+        "correta": 2,
+        "exp": "Desde janeiro de 2026, trabalhadores com renda mensal total de até R$ 5.000,00 têm isenção total de IR (com redução parcial até R$ 7.000,00)."
+      },
+      {
+        "q": "Na regra de transição por pontos do INSS em 2026, qual é a pontuação mínima exigida para mulheres e homens?",
+        "opcoes": [
+          "90 pontos (mulher) e 100 (homem)",
+          "93 pontos (mulher) e 103 (homem)",
+          "95 pontos (mulher) e 105 (homem)",
+          "Não há pontuação mínima"
+        ],
+        "correta": 1,
+        "exp": "Em 2026, a regra dos pontos exige 93 pontos para mulheres (mín. 30 anos de contribuição) e 103 pontos para homens (mín. 35 anos)."
+      }
+    ]
+  },
+  "matrizes": {
+    "titulo": "Duelo de Matrizes Econômicas",
+    "desc": "Leia o cenário econômico e descubra qual matriz propõe aquela saída na prática.",
+    "destino": "economia",
+    "destinoLabel": "Explorar no Lab. Economia",
+    "perguntas": [
+      {
+        "q": "Cenário: A economia está em recessão e empresas privadas pararam de investir. Qual matriz defende que o Estado amplie obras públicas para reativar a demanda e diluir a dívida via crescimento do PIB?",
+        "opcoes": [
+          "Ortodoxa",
+          "Heterodoxa",
+          "Socialismo Chinês apenas",
+          "Nenhuma"
+        ],
+        "correta": 1,
+        "exp": "A matriz Heterodoxa (keynesiana/desenvolvimentista) usa o gasto de investimento público e seu efeito multiplicador para destravar o emprego e o PIB."
+      },
+      {
+        "q": "Cenário: O governo quer conter a inflação e ganhar confiança dos credores. Qual matriz propõe cortar despesas públicas para gerar superávit primário e subir os juros?",
+        "opcoes": [
+          "Marxista",
+          "Heterodoxa",
+          "Ortodoxa",
+          "Socialismo Chinês"
+        ],
+        "correta": 2,
+        "exp": "A matriz Ortodoxa trata o orçamento estatal como o de uma família e usa juros altos e corte de gastos para conter demanda e preços."
+      },
+      {
+        "q": "Cenário: Para eliminar o desemprego estrutural sem cortar salários, propõe-se dividir o total de horas produtivas necessárias entre toda a população ativa. Qual matriz defende essa saída?",
+        "opcoes": [
+          "Marxista",
+          "Ortodoxa",
+          "Heterodoxa",
+          "Liberal clássica"
+        ],
+        "correta": 0,
+        "exp": "A matriz Marxista busca eliminar o exército industrial de reserva reduzindo a jornada de trabalho e planificando a produção para o valor de uso."
+      },
+      {
+        "q": "Cenário: O Estado mantém monopólio sobre terra, energia e grandes bancos públicos ('A Gaiola'), enquanto permite empresas privadas competirem no varejo e tecnologia ('O Pássaro'). Qual modelo é esse?",
+        "opcoes": [
+          "Ortodoxa",
+          "Marxista clássico",
+          "Socialismo Chinês",
+          "Anarcocapitalismo"
+        ],
+        "correta": 2,
+        "exp": "A metáfora do 'Pássaro e a Gaiola' (Chen Yun) descreve a Economia de Mercado Socialista da China."
+      }
+    ]
+  }
+}
