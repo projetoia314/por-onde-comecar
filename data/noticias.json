@@ -1,29 +1,47 @@
 {
   "atualizado_em": "17/11/2026 • Sincronizado via GitHub Actions",
   "capa_averdade": {
-    "titulo": "Jornal A Verdade — Edição Semanal",
-    "descricao": "Capa da edição impressa atualizada automaticamente toda semana (link fixo: img/capa-a-verdade.jpg).",
+    "titulo": "Jornal A Verdade — Edição nº 344",
+    "edicao": "Edição nº 344",
+    "descricao": "Capa oficial da edição impressa semanal (padrão javNNN) atualizada automaticamente.",
     "url": "https://averdade.org.br/",
-    "imagem": "img/capa-a-verdade.jpg"
+    "imagem": "img/capa-a-verdade.jpg",
+    "origem_url": "https://averdade.org.br/wp-content/uploads/2026/11/jav344.jpeg"
   },
-  "manchetes": [
+  "destaques_ao_vivo": [
     {
-      "veiculo": "ICL Notícias",
-      "titulo": "Acompanhe as últimas reportagens ao vivo do ICL Notícias",
-      "url": "https://iclnoticias.com.br/",
-      "data": "Atualização automática (6h)"
+      "veiculo": "ICL Notícias • Política",
+      "titulo": "Acompanhe a manchete principal de Política do ICL Notícias",
+      "resumo": "Cobertura política ao vivo, bastidores do Congresso e análises independentes atualizadas a cada 6 horas.",
+      "url": "https://iclnoticias.com.br/politica/",
+      "imagem": "",
+      "data": "Ao vivo via RSS/OG"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Confira as principais notícias populares no Brasil de Fato",
+      "titulo": "Confira o destaque principal do dia no Brasil de Fato",
+      "resumo": "Jornalismo popular, direitos trabalhistas, movimentos sociais e política nacional em tempo real.",
       "url": "https://www.brasildefato.com.br/",
-      "data": "Atualização automática (6h)"
+      "imagem": "",
+      "data": "Ao vivo via RSS/OG"
+    }
+  ],
+  "manchetes": [
+    {
+      "veiculo": "ICL Notícias • Política",
+      "titulo": "Últimas notícias de Política no ICL Notícias",
+      "resumo": "Acesse a editoria de política do ICL Notícias.",
+      "url": "https://iclnoticias.com.br/politica/",
+      "imagem": "",
+      "data": "Atualização automática"
     },
     {
-      "veiculo": "Jornal A Verdade",
-      "titulo": "Leia as matérias da edição semanal no Jornal A Verdade",
-      "url": "https://averdade.org.br/",
-      "data": "Atualização automática (6h)"
+      "veiculo": "Brasil de Fato",
+      "titulo": "Últimas reportagens do Brasil de Fato",
+      "resumo": "Acesse a página principal do Brasil de Fato.",
+      "url": "https://www.brasildefato.com.br/",
+      "imagem": "",
+      "data": "Atualização automática"
     }
   ]
 }

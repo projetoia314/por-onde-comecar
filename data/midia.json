@@ -1,146 +1,249 @@
-[
-  {
-    "id": "mid-1",
-    "nome": "A Verdade",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Canal de notícias e lutas populares do jornal A Verdade.",
-    "url": "https://whatsapp.com/channel/0029VaAigaE8vd1SXgmmxM2o"
-  },
-  {
-    "id": "mid-2",
-    "nome": "Agência Lupa",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Verificação de fatos e combate à desinformação.",
-    "url": "https://whatsapp.com/channel/0029Vai4sJO5vKA6ONWTcZ3T"
-  },
-  {
-    "id": "mid-3",
-    "nome": "Brasil de Fato",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Agência de notícias populares com foco em direitos e movimentos sociais.",
-    "url": "https://whatsapp.com/channel/0029Va4dymQAzNbyazHfrK0S"
-  },
-  {
-    "id": "mid-4",
-    "nome": "Brasil Parasita",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Canal informativo no WhatsApp.",
-    "url": "https://whatsapp.com/channel/0029VaeZD4G7T8bU0oO02P0D"
-  },
-  {
-    "id": "mid-5",
-    "nome": "BRIGADAS DA CUT",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Comunicação sindical e mobilização das Brigadas da CUT.",
-    "url": "https://whatsapp.com/channel/0029VaBgfGmG8l5M65aZDa3J"
-  },
-  {
-    "id": "mid-6",
-    "nome": "ICL Notícias | Jornalismo independente",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Cobertura diária independente de política, economia e trabalho.",
-    "url": "https://whatsapp.com/channel/0029VaWdGw8F6sn3C6Zmk62s"
-  },
-  {
-    "id": "mid-7",
-    "nome": "Instituto Paektu - Brasil",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Canal de estudos e divulgação do Instituto Paektu - Brasil.",
-    "url": "https://whatsapp.com/channel/0029Va4i7jYBadmdICWmHf0r"
-  },
-  {
-    "id": "mid-8",
-    "nome": "MST",
-    "plataforma": "Instagram",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Movimento dos Trabalhadores Rurais Sem Terra: reforma agrária e agroecologia.",
-    "url": "https://www.instagram.com/movimentosemterra?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-  },
-  {
-    "id": "mid-9",
-    "nome": "O Futuro",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Canal informativo O Futuro no WhatsApp.",
-    "url": "https://whatsapp.com/channel/0029Va4Ml1a4inom38WnJ90r"
-  },
-  {
-    "id": "mid-10",
-    "nome": "OPINIÃO SOCIALISTA",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Canal de notícias e análises do jornal Opinião Socialista.",
-    "url": "https://whatsapp.com/channel/0029Va5V1T0GzzKP7DLBVS3R"
-  },
-  {
-    "id": "mid-11",
-    "nome": "Soberana",
-    "plataforma": "WhatsApp",
-    "categoria": "Imprensa e Movimentos",
-    "desc": "Canal oficial de informes do coletivo Soberana no WhatsApp.",
-    "url": "https://whatsapp.com/channel/0029Va8nDfh2f3EH5CWJDL37"
-  },
-  {
-    "id": "mid-12",
-    "nome": "Samara Martins",
-    "plataforma": "WhatsApp",
-    "categoria": "Comunicadores",
-    "desc": "Canal de informes e análises de Samara Martins.",
-    "url": "https://whatsapp.com/channel/0029VbCfZPhDjiOUCoEDbN39"
-  },
-  {
-    "id": "mid-13",
-    "nome": "Jones Manoel",
-    "plataforma": "WhatsApp",
-    "categoria": "Comunicadores",
-    "desc": "Análises políticas, história e formação marxista.",
-    "url": "https://whatsapp.com/channel/0029VaGaLeV17En4ggzxCi2z"
-  },
-  {
-    "id": "mid-14",
-    "nome": "Assim Disse O João",
-    "plataforma": "WhatsApp",
-    "categoria": "Comunicadores",
-    "desc": "Canal de comunicação popular e comentários políticos.",
-    "url": "https://whatsapp.com/channel/0029Vavj7017tkj0jgTRek3d"
-  },
-  {
-    "id": "mid-15",
-    "nome": "Elias Jabbour",
-    "plataforma": "Instagram",
-    "categoria": "Comunicadores",
-    "desc": "Economia política, desenvolvimento e socialismo.",
-    "url": "https://www.instagram.com/eliasmkjabbour?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-  },
-  {
-    "id": "mid-16",
-    "nome": "Rick Azevedo",
-    "plataforma": "WhatsApp",
-    "categoria": "Comunicadores",
-    "desc": "Mobilização trabalhista e pauta pelo fim da escala 6x1.",
-    "url": "https://whatsapp.com/channel/0029Va8bffXAe5VorwcYc72g"
-  },
-  {
-    "id": "mid-17",
-    "nome": "Humberto Matos",
-    "plataforma": "Instagram",
-    "categoria": "Comunicadores",
-    "desc": "Crítica da economia política e conjuntura nacional.",
-    "url": "https://www.instagram.com/prof_humberto_matos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-  },
-  {
-    "id": "mid-18",
-    "nome": "Frederico Krepe",
-    "plataforma": "WhatsApp",
-    "categoria": "Comunicadores",
-    "desc": "Canal de análises políticas de Frederico Krepe.",
-    "url": "https://whatsapp.com/channel/0029Va6qWkI1Hspz572H4R0s"
-  }
-]
+{
+  "portais": [
+    {
+      "id": "portal-averdade",
+      "nome": "Jornal A Verdade",
+      "eixo": "Imprensa Popular & Revolucionária",
+      "vinculo": "Unidade Popular (UP) / PCR",
+      "desc": "Publicação ligada à Unidade Popular (UP) e ao Partido Comunista Revolucionário (PCR), com foco no movimento operário, estudantil e popular, além de edição impressa semanal.",
+      "url": "https://averdade.org.br/",
+      "whatsapp": "https://whatsapp.com/channel/0029VaAigaE8vd1SXgmmxM2o"
+    },
+    {
+      "id": "portal-bdf",
+      "nome": "Brasil de Fato",
+      "eixo": "Imprensa Popular & Revolucionária",
+      "vinculo": "Movimentos Populares",
+      "desc": "Agência de notícias e jornal popular com foco em movimentos sociais, trabalhadores rurais e urbanos, direitos sociais e política nacional com redações regionais.",
+      "url": "https://www.brasildefato.com.br/",
+      "whatsapp": "https://whatsapp.com/channel/0029Va4dymQAzNbyazHfrK0S"
+    },
+    {
+      "id": "portal-vermelho",
+      "nome": "Portal Vermelho",
+      "eixo": "Imprensa Partidária & Socialista",
+      "vinculo": "PCdoB",
+      "desc": "Veículo diário de notícias, cultura, debate teórico e análises políticas ligado ao Partido Comunista do Brasil (PCdoB).",
+      "url": "https://vermelho.org.br/",
+      "whatsapp": ""
+    },
+    {
+      "id": "portal-esquerdaonline",
+      "nome": "Esquerda Online",
+      "eixo": "Imprensa Partidária & Socialista",
+      "vinculo": "Correntes do PSOL",
+      "desc": "Portal de notícias, teoria marxista, debates estratégicos e análises ligado a correntes internas do Partido Socialismo e Liberdade (PSOL).",
+      "url": "https://esquerdaonline.com.br/",
+      "whatsapp": ""
+    },
+    {
+      "id": "portal-esquerdadiario",
+      "nome": "Esquerda Diário",
+      "eixo": "Imprensa Partidária & Socialista",
+      "vinculo": "MRT",
+      "desc": "Jornal digital vinculado ao Movimento Revolucionário de Trabalhadores (MRT), com foco em greves, lutas sindicais, juventude e marxismo.",
+      "url": "https://www.esquerdadiario.com.br/",
+      "whatsapp": ""
+    },
+    {
+      "id": "portal-opiniaosocialista",
+      "nome": "Opinião Socialista",
+      "eixo": "Imprensa Partidária & Socialista",
+      "vinculo": "PSTU",
+      "desc": "Jornal e portal do Partido Socialista dos Trabalhadores Unificado (PSTU), voltado às lutas operárias, independência de classe e internacionalismo.",
+      "url": "https://www.opiniaosocialista.com.br/",
+      "whatsapp": "https://whatsapp.com/channel/0029Va5V1T0GzzKP7DLBVS3R"
+    },
+    {
+      "id": "portal-icl",
+      "nome": "ICL Notícias",
+      "eixo": "Geopolítica & Economia Crítica",
+      "vinculo": "Instituto Conhecimento Liberta",
+      "desc": "Portal ligado ao Instituto Conhecimento Liberta, focado em jornalismo investigativo, economia crítica, denúncias contra o rentismo e política nacional.",
+      "url": "https://iclnoticias.com.br/",
+      "whatsapp": "https://whatsapp.com/channel/0029VaWdGw8F6sn3C6Zmk62s"
+    },
+    {
+      "id": "portal-operamundi",
+      "nome": "Opera Mundi",
+      "eixo": "Geopolítica & Economia Crítica",
+      "vinculo": "Jornalismo Internacional Progressista",
+      "desc": "Portal focado principalmente em jornalismo internacional, América Latina, anti-imperialismo e geopolítica com abordagem progressista.",
+      "url": "https://operamundi.uol.com.br/",
+      "whatsapp": ""
+    },
+    {
+      "id": "portal-diplomatique",
+      "nome": "Le Monde Diplomatique Brasil",
+      "eixo": "Geopolítica & Economia Crítica",
+      "vinculo": "Análise e Ensaios",
+      "desc": "Edição brasileira da publicação francesa, voltada para ensaios e análises aprofundadas de geopolítica, economia política e sociedade.",
+      "url": "https://diplomatique.org.br/",
+      "whatsapp": ""
+    },
+    {
+      "id": "portal-intercept",
+      "nome": "The Intercept Brasil",
+      "eixo": "Investigativo & Direitos Humanos",
+      "vinculo": "Agência Independente",
+      "desc": "Agência de jornalismo investigativo sem vínculo partidário focada em bastidores da política, justiça, direitos humanos e tecnologia.",
+      "url": "https://www.intercept.com.br/",
+      "whatsapp": ""
+    },
+    {
+      "id": "portal-publica",
+      "nome": "Agência Pública",
+      "eixo": "Investigativo & Direitos Humanos",
+      "vinculo": "Sem fins lucrativos",
+      "desc": "Primeira agência de jornalismo investigativo sem fins lucrativos do Brasil, com foco em direitos humanos, meio ambiente e transparência pública.",
+      "url": "https://apublica.org/",
+      "whatsapp": ""
+    }
+  ],
+  "canais": [
+    {
+      "id": "mid-1",
+      "nome": "A Verdade",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Canal de notícias e lutas populares do jornal A Verdade.",
+      "url": "https://whatsapp.com/channel/0029VaAigaE8vd1SXgmmxM2o"
+    },
+    {
+      "id": "mid-2",
+      "nome": "Agência Lupa",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Verificação de fatos e combate à desinformação.",
+      "url": "https://whatsapp.com/channel/0029Vai4sJO5vKA6ONWTcZ3T"
+    },
+    {
+      "id": "mid-3",
+      "nome": "Brasil de Fato",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Agência de notícias populares com foco em direitos e movimentos sociais.",
+      "url": "https://whatsapp.com/channel/0029Va4dymQAzNbyazHfrK0S"
+    },
+    {
+      "id": "mid-4",
+      "nome": "Brasil Parasita",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Canal informativo no WhatsApp.",
+      "url": "https://whatsapp.com/channel/0029VaeZD4G7T8bU0oO02P0D"
+    },
+    {
+      "id": "mid-5",
+      "nome": "BRIGADAS DA CUT",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Comunicação sindical e mobilização das Brigadas da CUT.",
+      "url": "https://whatsapp.com/channel/0029VaBgfGmG8l5M65aZDa3J"
+    },
+    {
+      "id": "mid-6",
+      "nome": "ICL Notícias | Jornalismo independente",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Cobertura diária independente de política, economia e trabalho.",
+      "url": "https://whatsapp.com/channel/0029VaWdGw8F6sn3C6Zmk62s"
+    },
+    {
+      "id": "mid-7",
+      "nome": "Instituto Paektu - Brasil",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Canal de estudos e divulgação do Instituto Paektu - Brasil.",
+      "url": "https://whatsapp.com/channel/0029Va4i7jYBadmdICWmHf0r"
+    },
+    {
+      "id": "mid-8",
+      "nome": "MST",
+      "plataforma": "Instagram",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Movimento dos Trabalhadores Rurais Sem Terra: reforma agrária e agroecologia.",
+      "url": "https://www.instagram.com/movimentosemterra?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+    },
+    {
+      "id": "mid-9",
+      "nome": "O Futuro",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Canal informativo O Futuro no WhatsApp.",
+      "url": "https://whatsapp.com/channel/0029Va4Ml1a4inom38WnJ90r"
+    },
+    {
+      "id": "mid-10",
+      "nome": "OPINIÃO SOCIALISTA",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Canal de notícias e análises do jornal Opinião Socialista.",
+      "url": "https://whatsapp.com/channel/0029Va5V1T0GzzKP7DLBVS3R"
+    },
+    {
+      "id": "mid-11",
+      "nome": "Soberana",
+      "plataforma": "WhatsApp",
+      "categoria": "Imprensa e Movimentos",
+      "desc": "Canal oficial de informes do coletivo Soberana no WhatsApp.",
+      "url": "https://whatsapp.com/channel/0029Va8nDfh2f3EH5CWJDL37"
+    },
+    {
+      "id": "mid-12",
+      "nome": "Samara Martins",
+      "plataforma": "WhatsApp",
+      "categoria": "Comunicadores",
+      "desc": "Canal de informes e análises de Samara Martins.",
+      "url": "https://whatsapp.com/channel/0029VbCfZPhDjiOUCoEDbN39"
+    },
+    {
+      "id": "mid-13",
+      "nome": "Jones Manoel",
+      "plataforma": "WhatsApp",
+      "categoria": "Comunicadores",
+      "desc": "Análises políticas, história e formação marxista.",
+      "url": "https://whatsapp.com/channel/0029VaGaLeV17En4ggzxCi2z"
+    },
+    {
+      "id": "mid-14",
+      "nome": "Assim Disse O João",
+      "plataforma": "WhatsApp",
+      "categoria": "Comunicadores",
+      "desc": "Canal de comunicação popular e comentários políticos.",
+      "url": "https://whatsapp.com/channel/0029Vavj7017tkj0jgTRek3d"
+    },
+    {
+      "id": "mid-15",
+      "nome": "Elias Jabbour",
+      "plataforma": "Instagram",
+      "categoria": "Comunicadores",
+      "desc": "Economia política, desenvolvimento e socialismo.",
+      "url": "https://www.instagram.com/eliasmkjabbour?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+    },
+    {
+      "id": "mid-16",
+      "nome": "Rick Azevedo",
+      "plataforma": "WhatsApp",
+      "categoria": "Comunicadores",
+      "desc": "Mobilização trabalhista e pauta pelo fim da escala 6x1.",
+      "url": "https://whatsapp.com/channel/0029Va8bffXAe5VorwcYc72g"
+    },
+    {
+      "id": "mid-17",
+      "nome": "Humberto Matos",
+      "plataforma": "Instagram",
+      "categoria": "Comunicadores",
+      "desc": "Crítica da economia política e conjuntura nacional.",
+      "url": "https://www.instagram.com/prof_humberto_matos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+    },
+    {
+      "id": "mid-18",
+      "nome": "Frederico Krepe",
+      "plataforma": "WhatsApp",
+      "categoria": "Comunicadores",
+      "desc": "Canal de análises políticas de Frederico Krepe.",
+      "url": "https://whatsapp.com/channel/0029Va6qWkI1Hspz572H4R0s"
+    }
+  ]
+}
