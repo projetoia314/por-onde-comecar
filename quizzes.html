@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Por Onde Começar? — Portal de Formação, Direitos e Organização</title>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -106,6 +107,85 @@
       </div>
       <div id="modalBody" class="text-sm leading-relaxed text-stone-700 dark:text-stone-300 space-y-3 max-h-[60vh] overflow-y-auto pr-1"></div>
       <p id="modalHint" class="text-sm text-stone-700 dark:text-stone-300 dark:text-stone-400 border-t border-stone-200 dark:border-stone-800 pt-3"></p>
+    </div>
+  </div>
+
+
+  <!-- Modal Estúdio Card Instagram (Story 9:16 e Feed 4:5) -->
+  <div id="igStudioModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
+    <div id="igStudioShell" class="bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-700 rounded-3xl max-w-4xl w-full p-4 sm:p-6 shadow-2xl space-y-4 my-auto">
+      <div id="igStudioToolbar" class="flex flex-wrap items-center justify-between gap-3 border-b border-stone-200 dark:border-stone-800 pb-3">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Estúdio de Divulgação</span>
+          <h3 class="text-lg sm:text-xl font-extrabold">Gerar Post ou Story — Por Onde Começar?</h3>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          <div class="inline-flex rounded-xl bg-stone-100 dark:bg-stone-800 p-1 border border-stone-200 dark:border-stone-700">
+            <button id="igFormatStoryBtn" class="px-3 py-1.5 rounded-lg text-xs font-bold bg-red-700 text-white">Story (9:16)</button>
+            <button id="igFormatFeedBtn" class="px-3 py-1.5 rounded-lg text-xs font-bold text-stone-700 dark:text-stone-300">Feed (4:5)</button>
+          </div>
+          <div class="inline-flex rounded-xl bg-stone-100 dark:bg-stone-800 p-1 border border-stone-200 dark:border-stone-700">
+            <button id="igThemeRedBtn" title="Tema Vermelho" class="w-7 h-7 rounded-lg bg-gradient-to-br from-red-800 to-stone-950 border-2 border-white shadow-xs"></button>
+            <button id="igThemeDarkBtn" title="Tema Grafite" class="w-7 h-7 rounded-lg bg-gradient-to-br from-stone-800 to-stone-950 border border-stone-500 ml-1"></button>
+            <button id="igThemePaperBtn" title="Tema Jornal Claro" class="w-7 h-7 rounded-lg bg-amber-50 border border-stone-400 ml-1"></button>
+          </div>
+          <button id="closeIgStudioBtn" class="px-3 py-1.5 rounded-xl text-xs font-bold bg-stone-200 dark:bg-stone-800 hover:bg-stone-300 dark:hover:bg-stone-700">Fechar &times;</button>
+        </div>
+      </div>
+
+      <div class="grid gap-5 lg:grid-cols-12 items-center">
+        <!-- Pré-visualização da Arte -->
+        <div class="lg:col-span-7 flex flex-col items-center justify-center bg-stone-100 dark:bg-stone-950 rounded-2xl p-4 border border-stone-200 dark:border-stone-800">
+          <div id="igCardCanvas" class="w-full max-w-[330px] aspect-[9/16] rounded-3xl p-6 flex flex-col justify-between shadow-2xl bg-gradient-to-b from-red-900 via-red-950 to-stone-950 text-white border border-red-700/40 relative overflow-hidden">
+            <div class="flex items-center justify-between gap-2">
+              <span id="igCardBadge" class="text-[11px] font-extrabold uppercase tracking-wider px-3 py-1 rounded-full bg-white/15 border border-white/25">Mídia Popular</span>
+              <span class="text-[11px] font-bold opacity-80">POR ONDE COMEÇAR?</span>
+            </div>
+
+            <div id="igCardImageWrap" class="hidden my-2 rounded-2xl overflow-hidden border border-white/20 bg-black/30 flex items-center justify-center max-h-[52%]">
+              <img id="igCardImage" src="" alt="Capa em destaque" class="w-full h-full object-contain" />
+            </div>
+
+            <div class="my-auto py-2 space-y-2.5">
+              <h4 id="igCardTitle" class="text-2xl font-extrabold leading-tight">Título do Card</h4>
+              <p id="igCardSubtitle" class="text-sm opacity-90 leading-relaxed">Descrição curta para divulgação nas redes sociais.</p>
+            </div>
+
+            <div class="pt-3 border-t border-white/20 flex items-center justify-between gap-2">
+              <div>
+                <div id="igCardCta" class="text-xs font-extrabold uppercase tracking-wide text-amber-300">Acesse o guia completo</div>
+                <div class="text-[11px] opacity-80">projetoia314.github.io/por-onde-comecar</div>
+              </div>
+              <span class="inline-flex items-center justify-center w-8 h-8 rounded-xl bg-white text-red-900 font-extrabold text-sm shrink-0">P</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controles de Edição Rápida e Exportação -->
+        <div id="igStudioControls" class="lg:col-span-5 space-y-3.5">
+          <div>
+            <label for="igInputBadge" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Etiqueta do Topo</label>
+            <input id="igInputBadge" type="text" class="w-full px-3 py-2 text-sm rounded-xl border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800" />
+          </div>
+          <div>
+            <label for="igInputTitle" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Manchete / Título</label>
+            <input id="igInputTitle" type="text" class="w-full px-3 py-2 text-sm rounded-xl border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800" />
+          </div>
+          <div>
+            <label for="igInputSubtitle" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Texto de Apoio</label>
+            <textarea id="igInputSubtitle" rows="3" class="w-full px-3 py-2 text-sm rounded-xl border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800"></textarea>
+          </div>
+          <div>
+            <label for="igInputCta" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Chamada no Rodapé</label>
+            <input id="igInputCta" type="text" class="w-full px-3 py-2 text-sm rounded-xl border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800" />
+          </div>
+          <div class="pt-2 space-y-2">
+            <button id="igDownloadPngBtn" class="w-full py-3 px-4 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-extrabold shadow transition">Baixar Imagem PNG Pronta</button>
+            <button id="igPrintModeBtn" class="w-full py-2.5 px-4 rounded-xl border border-stone-300 dark:border-stone-700 text-sm font-bold hover:bg-stone-100 dark:hover:bg-stone-800 transition">Modo Tela Cheia para Printar</button>
+          </div>
+          <p class="text-xs text-stone-700 dark:text-stone-300">Dica: Você também pode colar (<kbd class="px-1.5 py-0.5 rounded bg-stone-200 dark:bg-stone-800 font-mono">Ctrl+V</kbd>) qualquer print recortado enquanto o estúdio estiver aberto.</p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -1552,7 +1632,158 @@
       document.querySelectorAll('.nav-btn').forEach(btn => {
         btn.classList.toggle('tab-active', btn.dataset.view === view);
       });
-      render();
+  
+    // === Estúdio de Card Instagram & Troca Rápida de Capa JAV ===
+    const igStudioModal = document.getElementById('igStudioModal');
+    const igCardCanvas = document.getElementById('igCardCanvas');
+    const igCardBadge = document.getElementById('igCardBadge');
+    const igCardTitle = document.getElementById('igCardTitle');
+    const igCardSubtitle = document.getElementById('igCardSubtitle');
+    const igCardCta = document.getElementById('igCardCta');
+    const igCardImageWrap = document.getElementById('igCardImageWrap');
+    const igCardImage = document.getElementById('igCardImage');
+
+    const igInputBadge = document.getElementById('igInputBadge');
+    const igInputTitle = document.getElementById('igInputTitle');
+    const igInputSubtitle = document.getElementById('igInputSubtitle');
+    const igInputCta = document.getElementById('igInputCta');
+
+    let igPrintOnly = false;
+
+    function openIgStudio({ badge, title, subtitle, cta, imageSrc }) {
+      igInputBadge.value = badge || 'Por Onde Começar?';
+      igInputTitle.value = title || 'Informação e Organização Popular';
+      igInputSubtitle.value = subtitle || 'Conheça os veículos de imprensa operária, popular e investigativa do Brasil.';
+      igInputCta.value = cta || 'Acesse o portal completo';
+
+      igCardBadge.textContent = igInputBadge.value;
+      igCardTitle.textContent = igInputTitle.value;
+      igCardSubtitle.textContent = igInputSubtitle.value;
+      igCardCta.textContent = igInputCta.value;
+
+      if (imageSrc) {
+        igCardImage.src = imageSrc;
+        igCardImageWrap.classList.remove('hidden');
+      } else {
+        igCardImage.src = '';
+        igCardImageWrap.classList.add('hidden');
+      }
+      igStudioModal.classList.remove('hidden');
+    }
+
+    function setIgFormat(fmt) {
+      const storyBtn = document.getElementById('igFormatStoryBtn');
+      const feedBtn = document.getElementById('igFormatFeedBtn');
+      if (fmt === 'feed') {
+        igCardCanvas.classList.remove('aspect-[9/16]');
+        igCardCanvas.classList.add('aspect-[4/5]');
+        feedBtn.classList.add('bg-red-700', 'text-white');
+        storyBtn.classList.remove('bg-red-700', 'text-white');
+      } else {
+        igCardCanvas.classList.remove('aspect-[4/5]');
+        igCardCanvas.classList.add('aspect-[9/16]');
+        storyBtn.classList.add('bg-red-700', 'text-white');
+        feedBtn.classList.remove('bg-red-700', 'text-white');
+      }
+    }
+
+    function setIgTheme(theme) {
+      igCardCanvas.classList.remove(
+        'from-red-900', 'via-red-950', 'to-stone-950', 'border-red-700/40',
+        'from-stone-800', 'via-stone-900', 'border-stone-700',
+        'bg-amber-50', 'text-stone-950', 'border-amber-300', 'text-white'
+      );
+      if (theme === 'dark') {
+        igCardCanvas.classList.add('bg-gradient-to-b', 'from-stone-800', 'via-stone-900', 'to-stone-950', 'text-white', 'border-stone-700');
+      } else if (theme === 'paper') {
+        igCardCanvas.classList.remove('bg-gradient-to-b');
+        igCardCanvas.classList.add('bg-amber-50', 'text-stone-950', 'border-amber-300');
+      } else {
+        igCardCanvas.classList.add('bg-gradient-to-b', 'from-red-900', 'via-red-950', 'to-stone-950', 'text-white', 'border-red-700/40');
+      }
+    }
+
+    if (igInputBadge) igInputBadge.addEventListener('input', e => igCardBadge.textContent = e.target.value);
+    if (igInputTitle) igInputTitle.addEventListener('input', e => igCardTitle.textContent = e.target.value);
+    if (igInputSubtitle) igInputSubtitle.addEventListener('input', e => igCardSubtitle.textContent = e.target.value);
+    if (igInputCta) igInputCta.addEventListener('input', e => igCardCta.textContent = e.target.value);
+
+    document.getElementById('igFormatStoryBtn')?.addEventListener('click', () => setIgFormat('story'));
+    document.getElementById('igFormatFeedBtn')?.addEventListener('click', () => setIgFormat('feed'));
+    document.getElementById('igThemeRedBtn')?.addEventListener('click', () => setIgTheme('red'));
+    document.getElementById('igThemeDarkBtn')?.addEventListener('click', () => setIgTheme('dark'));
+    document.getElementById('igThemePaperBtn')?.addEventListener('click', () => setIgTheme('paper'));
+    document.getElementById('closeIgStudioBtn')?.addEventListener('click', () => {
+      igPrintOnly = false;
+      document.getElementById('igStudioToolbar')?.classList.remove('hidden');
+      document.getElementById('igStudioControls')?.classList.remove('hidden');
+      igStudioModal.classList.add('hidden');
+    });
+
+    document.getElementById('igPrintModeBtn')?.addEventListener('click', () => {
+      igPrintOnly = true;
+      document.getElementById('igStudioToolbar')?.classList.add('hidden');
+      document.getElementById('igStudioControls')?.classList.add('hidden');
+      showToast('Modo Print ativo! Tire o print e toque fora do card para voltar.');
+    });
+
+    igStudioModal?.addEventListener('click', (e) => {
+      if (igPrintOnly && !igCardCanvas.contains(e.target)) {
+        igPrintOnly = false;
+        document.getElementById('igStudioToolbar')?.classList.remove('hidden');
+        document.getElementById('igStudioControls')?.classList.remove('hidden');
+      } else if (!igPrintOnly && e.target === igStudioModal) {
+        igStudioModal.classList.add('hidden');
+      }
+    });
+
+    document.getElementById('igDownloadPngBtn')?.addEventListener('click', async () => {
+      if (typeof html2canvas === 'undefined') {
+        showToast('Use o botão Modo Tela Cheia para printar o card.');
+        return;
+      }
+      try {
+        const canvas = await html2canvas(igCardCanvas, { scale: 2, useCORS: true, backgroundColor: null });
+        const link = document.createElement('a');
+        link.download = 'por-onde-comecar-card.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+        showToast('Imagem PNG baixada!');
+      } catch (err) {
+        showToast('Use o Modo Tela Cheia para printar.');
+      }
+    });
+
+    function saveCustomJavCover(dataUrl) {
+      try {
+        localStorage.setItem('jav_custom_cover', dataUrl);
+        if (!igStudioModal.classList.contains('hidden')) {
+          igCardImage.src = dataUrl;
+          igCardImageWrap.classList.remove('hidden');
+        }
+        if (state.view === 'midia') render();
+        showToast('Capa do Jornal A Verdade atualizada!');
+      } catch (e) {
+        showToast('Imagem muito grande para salvar no navegador.');
+      }
+    }
+
+    // Paste image directly from clipboard (Ctrl+V) on Mídia or IG Studio
+    document.addEventListener('paste', (e) => {
+      if (state.view !== 'midia' && igStudioModal.classList.contains('hidden')) return;
+      const items = e.clipboardData?.items || [];
+      for (const item of items) {
+        if (item.type.startsWith('image/')) {
+          const blob = item.getAsFile();
+          const reader = new FileReader();
+          reader.onload = (ev) => saveCustomJavCover(ev.target.result);
+          reader.readAsDataURL(blob);
+          break;
+        }
+      }
+    });
+
+    render();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
@@ -1982,93 +2213,104 @@
       const canaisFiltrados = DATA.midia.filter(m => state.canalCat === 'Todos' || m.categoria === state.canalCat);
 
       const capa = NOTICIAS_DATA.capa_averdade || {};
-      const destaques = NOTICIAS_DATA.destaques_ao_vivo || [];
-      const manchetes = NOTICIAS_DATA.manchetes || [];
       const cacheTag = encodeURIComponent(NOTICIAS_DATA.atualizado_em || '1');
+      const customCapa = localStorage.getItem('jav_custom_cover') || '';
+      const capaSrc = customCapa || `${capa.imagem || 'img/capa-a-verdade.jpg'}?v=${cacheTag}`;
+
+      const destaquesLimpos = [
+        {
+          id: 'dest-icl',
+          veiculo: 'ICL Notícias • Política',
+          tag: 'Ao Vivo • Conjuntura',
+          titulo: 'Acompanhe as denúncias e a cobertura política do dia no ICL Notícias',
+          desc: 'Jornalismo investigativo, bastidores de Brasília e análise econômica crítica.',
+          url: 'https://iclnoticias.com.br/politica/'
+        },
+        {
+          id: 'dest-bdf',
+          veiculo: 'Brasil de Fato',
+          tag: 'Ao Vivo • Movimentos',
+          titulo: 'Veja as principais notícias dos trabalhadores e movimentos populares',
+          desc: 'Cobertura nacional e regional sobre direitos, terra, moradia e lutas sociais.',
+          url: 'https://www.brasildefato.com.br/'
+        }
+      ];
 
       return `
         <section class="space-y-8">
           <div class="flex flex-wrap items-end justify-between gap-3">
-            <div>
-              <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Hemeroteca &amp; Redação Ao Vivo</span>
+            <div class="space-y-1">
+              <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Hemeroteca &amp; Comunicação Popular</span>
               <h1 class="text-2xl sm:text-3xl font-extrabold">Mídia de Esquerda, Imprensa Operária e Investigativa</h1>
-              <p class="text-base text-stone-700 dark:text-stone-300">Capa semanal do Jornal A Verdade, manchetes ao vivo e guia curado das principais redações populares, socialistas e independentes do Brasil.</p>
+              <p class="text-base text-stone-700 dark:text-stone-300">Capa semanal do Jornal A Verdade com troca rápida para divulgação e guia curado das redações progressistas.</p>
             </div>
-            <span class="text-xs font-semibold px-3 py-1.5 rounded-full bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-700 text-stone-700 dark:text-stone-300">
-              Sincronizado: ${NOTICIAS_DATA.atualizado_em || '—'}
-            </span>
+            <button data-ig-open="midia-geral" class="px-4 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-sm font-extrabold hover:opacity-90 transition shadow-sm">
+              Gerar Story desta Aba
+            </button>
           </div>
 
-          <!-- Bloco 1: Capa Exata do Jornal + Destaques Ao Vivo -->
-          <div class="grid gap-6 lg:grid-cols-12 items-start">
-            <article class="lg:col-span-4 p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 flex flex-col justify-between gap-4 shadow-sm">
+          <!-- Bloco 1: Vitrine Limpa (Capa JAV com Colar/Upload Rápido + 2 Portais Ao Vivo sem duplicação) -->
+          <div class="grid gap-6 lg:grid-cols-12 items-stretch">
+            <!-- Capa Semanal JAV -->
+            <article id="javDropZone" class="lg:col-span-5 p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 flex flex-col justify-between gap-4 shadow-sm">
               <div class="space-y-3">
+                <div class="flex flex-wrap items-center justify-between gap-2">
+                  <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">Capa da Semana</span>
+                  <span class="text-xs font-bold text-stone-700 dark:text-stone-300">${capa.edicao || 'Jornal A Verdade'}</span>
+                </div>
                 <div class="flex items-center justify-between gap-2">
-                  <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">Capa Semanal</span>
-                  ${capa.edicao ? `<span class="text-xs font-bold text-stone-700 dark:text-stone-300">${capa.edicao}</span>` : ''}
+                  <h2 class="font-extrabold text-lg">${capa.titulo || 'Jornal A Verdade'}</h2>
+                  <button data-ig-open="capa-jav" class="px-3 py-1.5 rounded-lg bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200 text-xs font-extrabold hover:opacity-90">Card IG</button>
                 </div>
-                <h2 class="font-extrabold text-lg">${capa.titulo || 'Jornal A Verdade'}</h2>
-                <a href="${capa.url || 'https://averdade.org.br/'}" target="_blank" rel="noopener noreferrer" class="block rounded-xl overflow-hidden border border-stone-300 dark:border-stone-700 bg-stone-100 dark:bg-stone-950 p-1.5">
-                  <img src="${(capa.imagem || 'img/capa-a-verdade.jpg')}?v=${cacheTag}" alt="Capa impressa do Jornal A Verdade" loading="lazy" class="w-full h-auto max-h-[520px] object-contain mx-auto rounded-lg hover:scale-[1.01] transition-transform" />
-                </a>
+
+                <div class="relative rounded-xl overflow-hidden border border-stone-300 dark:border-stone-700 bg-stone-100 dark:bg-stone-950 p-2">
+                  <img id="javCoverPreviewImg" src="${capaSrc}" alt="Capa semanal do Jornal A Verdade" class="w-full h-auto max-h-[430px] object-contain mx-auto rounded-lg" />
+                </div>
+
+                <!-- Barra de Troca Rápida da Capa (Colar Print ou Escolher Arquivo) -->
+                <div class="p-3 rounded-xl bg-stone-50 dark:bg-stone-800/70 border border-dashed border-stone-300 dark:border-stone-700 flex flex-wrap items-center justify-between gap-2">
+                  <span class="text-xs font-semibold text-stone-700 dark:text-stone-300">Atualizar capa agora: cole (<kbd class="px-1.5 py-0.5 rounded bg-stone-200 dark:bg-stone-700 font-mono">Ctrl+V</kbd>) ou</span>
+                  <div class="flex items-center gap-2">
+                    <label for="javCoverUploadInput" class="cursor-pointer px-3 py-1.5 rounded-lg bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-xs font-bold hover:opacity-90">Escolher Imagem</label>
+                    <input id="javCoverUploadInput" type="file" accept="image/*" class="hidden" />
+                    ${customCapa ? `<button id="javCoverResetBtn" class="px-2.5 py-1.5 rounded-lg border border-stone-300 dark:border-stone-600 text-xs font-bold">Restaurar</button>` : ''}
+                  </div>
+                </div>
               </div>
-              <div class="space-y-2 pt-2 border-t border-stone-200 dark:border-stone-800">
-                <div class="grid grid-cols-2 gap-2">
-                  <a href="${capa.url || 'https://averdade.org.br/'}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-3 py-2.5 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-bold transition text-center">Ler Edição &rarr;</a>
-                  <button data-copy-capa="${capa.imagem || 'img/capa-a-verdade.jpg'}" class="copy-capa-btn px-3 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800">Copiar Link</button>
-                </div>
+
+              <div class="grid grid-cols-2 gap-2 pt-2 border-t border-stone-200 dark:border-stone-800">
+                <a href="${capa.url || 'https://averdade.org.br/'}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-3 py-2.5 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-bold transition text-center">Ler no Portal &rarr;</a>
+                <button data-ig-open="capa-jav" class="px-3 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-extrabold hover:bg-stone-100 dark:hover:bg-stone-800">Criar Story da Capa</button>
               </div>
             </article>
 
-            <div class="lg:col-span-8 space-y-5">
+            <!-- Coluna Direita (7 cols): Portais Diários Ao Vivo (sem links duplicados) + Atalho para Divulgação -->
+            <div class="lg:col-span-7 flex flex-col justify-between gap-5">
               <div class="grid gap-4 sm:grid-cols-2">
-                ${destaques.map(d => `
-                  <article class="rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 overflow-hidden flex flex-col justify-between shadow-sm">
-                    <div>
-                      ${d.imagem ? `
-                        <a href="${d.url}" target="_blank" rel="noopener noreferrer" class="block aspect-video bg-stone-200 dark:bg-stone-800 overflow-hidden">
-                          <img src="${d.imagem}" alt="${d.titulo}" loading="lazy" class="w-full h-full object-cover hover:scale-[1.02] transition-transform" />
-                        </a>
-                      ` : `
-                        <div class="px-5 pt-5">
-                          <span class="inline-block text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-lg bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">${d.veiculo}</span>
-                        </div>
-                      `}
-                      <div class="p-5 space-y-2">
-                        ${d.imagem ? `<span class="inline-block text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">${d.veiculo}</span>` : ''}
-                        <h3 class="font-extrabold text-lg leading-snug">
-                          <a href="${d.url}" target="_blank" rel="noopener noreferrer" class="hover:text-red-700 dark:hover:text-red-400 transition">${d.titulo}</a>
-                        </h3>
-                        ${d.resumo ? `<p class="text-sm text-stone-700 dark:text-stone-300">${d.resumo}</p>` : ''}
+                ${destaquesLimpos.map(d => `
+                  <article class="p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 flex flex-col justify-between gap-4 shadow-sm">
+                    <div class="space-y-2.5">
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">${d.tag}</span>
+                        <button data-ig-custom-badge="${d.veiculo}" data-ig-custom-title="${d.titulo}" data-ig-custom-sub="${d.desc}" class="ig-custom-btn px-2.5 py-1 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800">Card IG</button>
                       </div>
+                      <div class="text-xs font-extrabold uppercase tracking-wide text-red-700 dark:text-red-400">${d.veiculo}</div>
+                      <h3 class="font-extrabold text-lg leading-snug">${d.titulo}</h3>
+                      <p class="text-sm text-stone-700 dark:text-stone-300 leading-relaxed">${d.desc}</p>
                     </div>
-                    <div class="px-5 pb-4 pt-2 flex items-center justify-between gap-2 border-t border-stone-100 dark:border-stone-800">
-                      <span class="text-xs font-semibold text-stone-700 dark:text-stone-300">${d.data || 'Ao vivo'}</span>
-                      <a href="${d.url}" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-red-700 dark:text-red-400 hover:underline">Ler matéria &rarr;</a>
-                    </div>
+                    <a href="${d.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-bold transition">Acessar ao Vivo &rarr;</a>
                   </article>
                 `).join('')}
               </div>
 
-              <article class="p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 space-y-3 shadow-sm">
-                <div class="flex flex-wrap items-center justify-between gap-2">
-                  <h2 class="font-extrabold text-lg">Últimas Manchetes Sincronizadas</h2>
-                  <div class="flex flex-wrap gap-2 text-xs font-bold">
-                    <a href="https://iclnoticias.com.br/politica/" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 rounded-lg bg-stone-100 dark:bg-stone-800 hover:bg-red-100 dark:hover:bg-red-950/50 text-red-700 dark:text-red-400">ICL Política &nearr;</a>
-                    <a href="https://www.brasildefato.com.br/" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 rounded-lg bg-stone-100 dark:bg-stone-800 hover:bg-red-100 dark:hover:bg-red-950/50 text-red-700 dark:text-red-400">Brasil de Fato &nearr;</a>
-                  </div>
+              <!-- Painel de Divulgação Rápida para Instagram e WhatsApp -->
+              <article class="p-6 rounded-2xl bg-gradient-to-br from-stone-900 to-red-950 text-white border border-red-800/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-md">
+                <div class="space-y-1.5">
+                  <span class="inline-block text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/30">Kit de Agitação &amp; Propaganda</span>
+                  <h3 class="text-xl font-extrabold">Transforme qualquer fonte em Post ou Story</h3>
+                  <p class="text-sm text-stone-200">Clique em <strong>Card IG</strong> em qualquer jornal abaixo para gerar uma arte limpa no formato 9:16 ou 4:5 com a marca do portal.</p>
                 </div>
-                <div class="divide-y divide-stone-200 dark:divide-stone-800">
-                  ${manchetes.map(n => `
-                    <a href="${n.url}" target="_blank" rel="noopener noreferrer" class="block py-3 hover:bg-stone-50 dark:hover:bg-stone-800/50 rounded-xl px-2.5 transition">
-                      <div class="flex items-center justify-between gap-2 text-xs font-bold text-red-700 dark:text-red-400">
-                        <span>${n.veiculo}</span>
-                        <span class="text-stone-700 dark:text-stone-300 font-normal">${n.data || ''}</span>
-                      </div>
-                      <div class="text-base font-bold mt-0.5">${n.titulo}</div>
-                    </a>
-                  `).join('')}
-                </div>
+                <button data-ig-open="midia-geral" class="shrink-0 px-4 py-3 rounded-xl bg-amber-400 hover:bg-amber-300 text-stone-950 text-sm font-extrabold transition shadow">Abrir Estúdio &rarr;</button>
               </article>
             </div>
           </div>
@@ -2078,7 +2320,7 @@
             <div class="space-y-1">
               <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Guia Editorial Curado</span>
               <h2 class="text-xl sm:text-2xl font-extrabold">Fontes da Esquerda Radical, Partidária e Investigativa (${portaisFiltrados.length})</h2>
-              <p class="text-sm sm:text-base text-stone-700 dark:text-stone-300">Filtre por linha política e editorial para acompanhar a conjuntura nacional e internacional.</p>
+              <p class="text-base text-stone-700 dark:text-stone-300">Filtre por linha política e editorial para acompanhar a conjuntura nacional e internacional.</p>
             </div>
 
             <div class="flex flex-wrap gap-2">
@@ -2089,8 +2331,9 @@
               ${portaisFiltrados.map(p => `
                 <article class="p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 flex flex-col justify-between gap-4 shadow-sm hover:border-red-600 transition">
                   <div class="space-y-2">
-                    <div class="flex flex-wrap items-center justify-between gap-1.5">
+                    <div class="flex items-center justify-between gap-2">
                       <span class="text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">${p.eixo}</span>
+                      <button data-ig-custom-badge="${p.eixo}" data-ig-custom-title="${p.nome}" data-ig-custom-sub="${p.desc}" class="ig-custom-btn px-2.5 py-1 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800">Card IG</button>
                     </div>
                     <div class="text-xs font-bold text-stone-700 dark:text-stone-300">Vínculo / Foco: ${p.vinculo}</div>
                     <h3 class="text-lg font-extrabold">${p.nome}</h3>
@@ -2716,6 +2959,59 @@
       document.querySelectorAll('.mcat-btn').forEach(btn => {
         btn.addEventListener('click', () => { state.midiaCat = btn.dataset.mcat; render(); });
       });
+      
+      document.querySelectorAll('[data-ig-open]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const kind = btn.dataset.igOpen;
+          if (kind === 'capa-jav') {
+            const capa = NOTICIAS_DATA.capa_averdade || {};
+            const customCapa = localStorage.getItem('jav_custom_cover') || '';
+            openIgStudio({
+              badge: 'Imprensa Popular • Edição Semanal',
+              title: capa.titulo || 'Leia o Jornal A Verdade',
+              subtitle: 'A voz da classe trabalhadora e do movimento popular nas ruas e fábricas.',
+              cta: 'Leia completo em averdade.org.br',
+              imageSrc: customCapa || (capa.imagem || 'img/capa-a-verdade.jpg')
+            });
+          } else {
+            openIgStudio({
+              badge: 'Mídia Popular & Radical',
+              title: 'Onde se informar fora da mídia comercial?',
+              subtitle: 'Confira nossa curadoria com Jornal A Verdade, Brasil de Fato, ICL Notícias, Opera Mundi, Intercept e Agência Pública.',
+              cta: 'Acesse a aba Mídia no portal'
+            });
+          }
+        });
+      });
+      document.querySelectorAll('.ig-custom-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          openIgStudio({
+            badge: btn.dataset.igCustomBadge,
+            title: btn.dataset.igCustomTitle,
+            subtitle: btn.dataset.igCustomSub,
+            cta: 'Conheça mais fontes na aba Mídia'
+          });
+        });
+      });
+      const javUpload = document.getElementById('javCoverUploadInput');
+      if (javUpload) {
+        javUpload.addEventListener('change', (e) => {
+          const file = e.target.files?.[0];
+          if (!file) return;
+          const reader = new FileReader();
+          reader.onload = (ev) => saveCustomJavCover(ev.target.result);
+          reader.readAsDataURL(file);
+        });
+      }
+      const javReset = document.getElementById('javCoverResetBtn');
+      if (javReset) {
+        javReset.addEventListener('click', () => {
+          localStorage.removeItem('jav_custom_cover');
+          render();
+          showToast('Capa padrão restaurada.');
+        });
+      }
+
       document.querySelectorAll('.ccat-btn').forEach(btn => {
         btn.addEventListener('click', () => { state.canalCat = btn.dataset.ccat; render(); });
       });
