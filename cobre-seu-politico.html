@@ -1586,6 +1586,7 @@
           <button data-mtab="explicacao" class="mtab-btn px-2.5 py-1 rounded text-xs font-medium ${tab === 'explicacao' ? 'bg-red-700 text-white' : 'bg-stone-100 dark:bg-stone-800'}">Explicação</button>
           <button data-mtab="midia" class="mtab-btn px-2.5 py-1 rounded text-xs font-medium ${tab === 'midia' ? 'bg-red-700 text-white' : 'bg-stone-100 dark:bg-stone-800'}">Vídeo e Áudio</button>
           <button data-mtab="refs" class="mtab-btn px-2.5 py-1 rounded text-xs font-medium ${tab === 'refs' ? 'bg-red-700 text-white' : 'bg-stone-100 dark:bg-stone-800'}">Bibliografia (${v.refs.length})</button>
+          <button id="modalDicIgBtn" class="ml-auto px-3 py-1 rounded-lg bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-xs font-bold">Card IG</button>
         </div>
         ${tab === 'explicacao' ? `
           <p class="font-medium">${v.resumo}</p>
@@ -1991,43 +1992,44 @@
         <section class="space-y-6">
           <div class="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h1 class="text-2xl font-bold">Formação Política e Teórica</h1>
-              <p class="text-sm text-stone-700 dark:text-stone-300">Glossário Marxista-Leninista (30 verbetes em 5 áreas) e Biblioteca de entrada.</p>
+              <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Estudo &amp; Agitação Teórica</span>
+              <h1 class="text-2xl sm:text-3xl font-extrabold">Formação Política e Teórica</h1>
+              <p class="text-base text-stone-700 dark:text-stone-300">Glossário Marxista-Leninista (30 verbetes em 5 áreas) e Biblioteca de entrada.</p>
             </div>
-            <div class="flex gap-2">
-              <button data-ftab="dicionario" class="ftab-btn px-3.5 py-1.5 rounded-lg text-sm font-medium ${state.formacaoTab === 'dicionario' ? 'tab-active' : 'bg-stone-200 dark:bg-stone-800'}">Dicionário (30)</button>
-              <button data-ftab="biblioteca" class="ftab-btn px-3.5 py-1.5 rounded-lg text-sm font-medium ${state.formacaoTab === 'biblioteca' ? 'tab-active' : 'bg-stone-200 dark:bg-stone-800'}">Biblioteca</button>
+            <div class="flex flex-wrap gap-2">
+              <button data-ftab="dicionario" class="ftab-btn px-4 py-2 rounded-xl text-sm font-bold ${state.formacaoTab === 'dicionario' ? 'tab-active' : 'bg-stone-200 dark:bg-stone-800'}">Dicionário (30)</button>
+              <button data-ftab="biblioteca" class="ftab-btn px-4 py-2 rounded-xl text-sm font-bold ${state.formacaoTab === 'biblioteca' ? 'tab-active' : 'bg-stone-200 dark:bg-stone-800'}">Biblioteca</button>
             </div>
           </div>
 
           ${state.formacaoTab === 'dicionario' ? `
-            <div class="p-4 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-3">
+            <div class="p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 space-y-3 shadow-sm">
               <div class="flex flex-wrap items-center justify-between gap-2">
-                <span class="text-xs font-semibold uppercase tracking-wider text-red-700 dark:text-red-400">Percursos sugeridos de estudo:</span>
-                <a href="https://soberana.tv/docs/glossario.pdf" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-red-700 dark:text-red-400 hover:underline">PDF oficial da bibliografia &rarr;</a>
+                <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Percursos sugeridos de estudo:</span>
+                <a href="https://soberana.tv/docs/glossario.pdf" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-red-700 dark:text-red-400 hover:underline">PDF oficial da bibliografia &rarr;</a>
               </div>
               <div class="flex flex-wrap gap-2">
-                ${percursos.map(p => `<button data-dperc="${p}" class="dperc-btn px-3 py-1 rounded-full text-xs font-medium border ${state.dicPercurso === p ? 'bg-red-700 text-white border-red-700' : 'border-stone-300 dark:border-stone-700'}">${p === 'Todos' ? 'Todos os percursos' : p}</button>`).join('')}
+                ${percursos.map(p => `<button data-dperc="${p}" class="dperc-btn px-3.5 py-1.5 rounded-full text-xs font-bold border ${state.dicPercurso === p ? 'bg-red-700 text-white border-red-700' : 'border-stone-300 dark:border-stone-700'}">${p === 'Todos' ? 'Todos os percursos' : p}</button>`).join('')}
               </div>
-              <div class="pt-2 border-t border-stone-100 dark:border-stone-800 flex flex-wrap gap-2">
-                ${areas.map(c => `<button data-dcat="${c}" class="dcat-btn px-3 py-1 rounded-full text-xs font-medium border ${state.dicCat === c ? 'bg-stone-800 text-white border-stone-800 dark:bg-stone-200 dark:text-stone-900' : 'border-stone-300 dark:border-stone-700'}">${c === 'Todas' ? 'Todas as 5 áreas' : c}</button>`).join('')}
+              <div class="pt-2 border-t border-stone-200 dark:border-stone-800 flex flex-wrap gap-2">
+                ${areas.map(c => `<button data-dcat="${c}" class="dcat-btn px-3.5 py-1.5 rounded-full text-xs font-bold border ${state.dicCat === c ? 'bg-stone-900 text-white border-stone-900 dark:bg-stone-100 dark:text-stone-950' : 'border-stone-300 dark:border-stone-700'}">${c === 'Todas' ? 'Todas as 5 áreas' : c}</button>`).join('')}
               </div>
             </div>
             <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               ${verbetes.map(v => `
-                <article class="p-5 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 flex flex-col justify-between gap-3">
-                  <div class="space-y-1.5">
+                <article class="p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 flex flex-col justify-between gap-4 shadow-sm hover:border-red-600 transition">
+                  <div class="space-y-2">
                     <div class="flex items-center justify-between gap-2">
-                      <span class="text-xs font-semibold text-red-700 dark:text-red-400">${v.num} • ${v.area}</span>
-                      <span class="text-sm text-stone-700 dark:text-stone-300">${v.duracao}</span>
+                      <span class="text-xs font-bold text-red-700 dark:text-red-400">${v.num} • ${v.area}</span>
+                      <button data-dic-ig="${v.id}" class="dic-ig-btn px-2.5 py-1 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800">Card IG</button>
                     </div>
-                    <h2 class="text-lg font-semibold">${v.termo}</h2>
-                    <p class="text-sm text-stone-700 dark:text-stone-300">${v.resumo}</p>
+                    <h2 class="text-lg font-extrabold">${v.termo}</h2>
+                    <p class="text-sm text-stone-700 dark:text-stone-300 leading-relaxed">${v.resumo}</p>
                   </div>
-                  <div class="flex flex-wrap items-center gap-3 pt-2 border-t border-stone-100 dark:border-stone-800">
-                    <button data-dic-id="${v.id}" class="dic-open-btn px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-800 text-white text-xs font-medium transition">Estudar termo</button>
-                    <a href="${v.youtube}" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-stone-600 dark:text-stone-300 hover:underline">YouTube (${v.inicio})</a>
-                    ${v.reel ? `<a href="${v.reel}" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-red-700 dark:text-red-400 hover:underline">Reel</a>` : ''}
+                  <div class="flex flex-wrap items-center gap-3 pt-3 border-t border-stone-200 dark:border-stone-800">
+                    <button data-dic-id="${v.id}" class="dic-open-btn px-3.5 py-2 rounded-xl bg-red-700 hover:bg-red-800 text-white text-xs font-bold transition">Estudar termo</button>
+                    <a href="${v.youtube}" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-stone-700 dark:text-stone-300 hover:underline">YouTube (${v.inicio})</a>
+                    ${v.reel ? `<a href="${v.reel}" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-red-700 dark:text-red-400 hover:underline">Reel</a>` : ''}
                   </div>
                 </article>
               `).join('')}
@@ -2035,15 +2037,17 @@
           ` : `
             <div class="grid gap-4 sm:grid-cols-2">
               ${DATA.biblioteca.map(b => `
-                <article class="p-5 rounded-xl bg-white dark:bg-stone-900 border ${b.destaque ? 'border-red-300 dark:border-red-800' : 'border-stone-200 dark:border-stone-800'} space-y-2">
-                  <div class="flex items-center justify-between gap-2">
-                    <span class="text-xs font-medium px-2 py-0.5 rounded bg-stone-100 dark:bg-stone-800">${b.nivel}</span>
-                    <span class="text-sm text-stone-700 dark:text-stone-300">${b.formatos.join(' • ')}</span>
+                <article class="p-5 rounded-2xl bg-white dark:bg-stone-900 border ${b.destaque ? 'border-red-400 dark:border-red-800' : 'border-stone-300 dark:border-stone-800'} flex flex-col justify-between gap-3 shadow-sm">
+                  <div class="space-y-2">
+                    <div class="flex items-center justify-between gap-2">
+                      <span class="text-xs font-bold px-2.5 py-0.5 rounded-lg bg-stone-100 dark:bg-stone-800">${b.nivel}</span>
+                      <button data-ig-custom-badge="Leitura Recomendada • ${b.nivel}" data-ig-custom-title="${b.titulo} (${b.autor})" data-ig-custom-sub="${b.desc}" class="ig-custom-btn px-2.5 py-1 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800">Card IG</button>
+                    </div>
+                    <h2 class="text-lg font-extrabold">${b.titulo}</h2>
+                    <p class="text-xs font-bold text-stone-700 dark:text-stone-300">${b.autor} • ${b.formatos.join(' • ')}</p>
+                    <p class="text-sm text-stone-700 dark:text-stone-300 leading-relaxed">${b.desc}</p>
                   </div>
-                  <h2 class="text-lg font-semibold">${b.titulo}</h2>
-                  <p class="text-xs font-medium text-stone-700 dark:text-stone-300">${b.autor}</p>
-                  <p class="text-sm text-stone-700 dark:text-stone-300">${b.desc}</p>
-                  ${b.url ? `<a href="${b.url}" target="_blank" rel="noopener noreferrer" class="inline-block pt-1 text-sm font-medium text-red-700 dark:text-red-400 hover:underline">Ler texto completo &rarr;</a>` : ''}
+                  ${b.url ? `<a href="${b.url}" target="_blank" rel="noopener noreferrer" class="inline-block pt-2 border-t border-stone-200 dark:border-stone-800 text-sm font-bold text-red-700 dark:text-red-400 hover:underline">Ler texto completo &rarr;</a>` : ''}
                 </article>
               `).join('')}
             </div>
@@ -2058,29 +2062,53 @@
 
       return `
         <section class="space-y-6">
-          <div>
-            <h1 class="text-2xl font-bold">Guia Trabalhista e Previdenciário 2026</h1>
-            <p class="text-sm text-stone-700 dark:text-stone-300">Selecione seu vínculo atual para ver apenas as orientações pertinentes.</p>
+          <div class="flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Utilidade Pública &amp; Defesa do Trabalhador</span>
+              <h1 class="text-2xl sm:text-3xl font-extrabold">Guia Trabalhista e Previdenciário 2026</h1>
+              <p class="text-base text-stone-700 dark:text-stone-300">Selecione seu vínculo atual para consultar seus direitos ou gerar um card informativo para redes.</p>
+            </div>
+            <button id="direitoIgBtn" class="px-4 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-sm font-extrabold hover:opacity-90 transition shadow-sm">
+              Gerar Post/Story deste Guia
+            </button>
           </div>
+
           <div class="flex flex-wrap gap-2">
-            ${cats.map(c => `<button data-rcat="${c}" class="rcat-btn px-3.5 py-1.5 rounded-lg text-sm font-medium border ${state.direitoCat === c ? 'bg-red-700 text-white border-red-700' : 'bg-white dark:bg-stone-900 border-stone-300 dark:border-stone-700'}">${c}</button>`).join('')}
+            ${cats.map(c => `<button data-rcat="${c}" class="rcat-btn px-4 py-2 rounded-xl text-sm font-bold border transition ${state.direitoCat === c ? 'bg-red-700 text-white border-red-700 shadow-sm' : 'bg-white dark:bg-stone-900 border-stone-300 dark:border-stone-700 hover:bg-stone-100 dark:hover:bg-stone-800'}">${c}</button>`).join('')}
           </div>
-          <article class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-4">
-            <h2 class="text-xl font-bold">${atual.titulo}</h2>
-            <p class="text-sm text-stone-700 dark:text-stone-300">${atual.resumo}</p>
-            <ul class="space-y-2.5 text-sm">
-              ${atual.itens.map(item => `<li class="flex items-start gap-2.5"><span class="mt-1 w-2 h-2 rounded-full bg-red-600 shrink-0"></span><span>${item}</span></li>`).join('')}
-            </ul>
+
+          <article class="p-6 sm:p-8 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 space-y-5 shadow-sm">
+            <div class="flex flex-wrap items-start justify-between gap-3 border-b border-stone-200 dark:border-stone-800 pb-4">
+              <div class="space-y-1 max-w-2xl">
+                <span class="inline-block text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">Categoria: ${state.direitoCat}</span>
+                <h2 class="text-xl sm:text-2xl font-extrabold">${atual.titulo}</h2>
+                <p class="text-base text-stone-700 dark:text-stone-300">${atual.resumo}</p>
+              </div>
+              <button id="direitoCardIgSecondary" class="px-3.5 py-2 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-extrabold hover:bg-stone-100 dark:hover:bg-stone-800">Card IG</button>
+            </div>
+
+            <div class="grid gap-3">
+              ${atual.itens.map((item, idx) => `
+                <div class="p-4 rounded-xl bg-stone-50 dark:bg-stone-800/60 border border-stone-200 dark:border-stone-700 flex items-start justify-between gap-3">
+                  <div class="flex items-start gap-3">
+                    <span class="mt-0.5 inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-700 text-white text-xs font-extrabold shrink-0">${idx + 1}</span>
+                    <span class="text-sm sm:text-base text-stone-900 dark:text-stone-100 leading-relaxed">${item}</span>
+                  </div>
+                  <button data-direito-item-idx="${idx}" class="direito-item-ig shrink-0 px-2.5 py-1 rounded-lg border border-stone-300 dark:border-stone-600 text-xs font-bold hover:bg-stone-200 dark:hover:bg-stone-700" title="Transformar esta dica em card">Card</button>
+                </div>
+              `).join('')}
+            </div>
+
             ${atual.audio ? `
-              <div class="p-3 rounded-xl bg-stone-100 dark:bg-stone-800 space-y-1.5">
-                <span class="text-xs font-semibold uppercase tracking-wider text-red-700 dark:text-red-400">Resumo em Áudio (NotebookLM)</span>
+              <div class="p-4 rounded-xl bg-stone-100 dark:bg-stone-800 space-y-2">
+                <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Resumo em Áudio (NotebookLM)</span>
                 <audio controls preload="none" class="w-full"><source src="${atual.audio}" /></audio>
               </div>
             ` : ''}
-            ${atual.imagem ? `<img src="${atual.imagem}" alt="Infográfico ${atual.titulo}" loading="lazy" class="w-full h-auto rounded-xl border border-stone-200 dark:border-stone-800" />` : ''}
+            ${atual.imagem ? `<img src="${atual.imagem}" alt="Infográfico ${atual.titulo}" loading="lazy" class="w-full h-auto rounded-xl border border-stone-300 dark:border-stone-800" />` : ''}
             ${atual.links && atual.links.length ? `
               <div class="pt-3 border-t border-stone-200 dark:border-stone-800 flex flex-wrap gap-3">
-                ${atual.links.map(lk => `<a href="${lk.url}" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-xs font-medium text-red-700 dark:text-red-400">${lk.label} &rarr;</a>`).join('')}
+                ${atual.links.map(lk => `<a href="${lk.url}" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-xs font-bold text-red-700 dark:text-red-400">${lk.label} &rarr;</a>`).join('')}
               </div>
             ` : ''}
           </article>
@@ -2918,6 +2946,49 @@
       document.querySelectorAll('.dperc-btn').forEach(btn => {
         btn.addEventListener('click', () => { state.dicPercurso = btn.dataset.dperc; render(); });
       });
+      
+      document.querySelectorAll('.dic-ig-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const item = DATA.dicionario.find(d => d.id === btn.dataset.dicIg);
+          if (item) {
+            openIgStudio({
+              badge: `Conceito • ${item.area}`,
+              title: `O que é ${item.termo}?`,
+              subtitle: item.resumo,
+              cta: 'Veja a explicação completa em Formação'
+            });
+          }
+        });
+      });
+
+      const openDireitoGuiaIg = () => {
+        const atual = DATA.direitos[state.direitoCat];
+        if (!atual) return;
+        const topItens = atual.itens.slice(0, 3).map((it, i) => `${i + 1}. ${it.replace(/<[^>]+>/g, '')}`).join(' • ');
+        openIgStudio({
+          badge: `Guia de Direitos 2026 • ${state.direitoCat}`,
+          title: atual.titulo,
+          subtitle: topItens.slice(0, 230) + (topItens.length > 230 ? '...' : ''),
+          cta: 'Consulte todos os seus direitos no portal'
+        });
+      };
+      document.getElementById('direitoIgBtn')?.addEventListener('click', openDireitoGuiaIg);
+      document.getElementById('direitoCardIgSecondary')?.addEventListener('click', openDireitoGuiaIg);
+
+      document.querySelectorAll('.direito-item-ig').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const atual = DATA.direitos[state.direitoCat];
+          const idx = parseInt(btn.dataset.direitoItemIdx, 10);
+          const rawItem = (atual?.itens?.[idx] || '').replace(/<[^>]+>/g, '');
+          openIgStudio({
+            badge: `Direitos 2026 • ${state.direitoCat}`,
+            title: atual?.titulo || 'Conheça seus direitos',
+            subtitle: rawItem,
+            cta: 'Salve e compartilhe com quem trabalha'
+          });
+        });
+      });
+
       document.querySelectorAll('.dic-open-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           const item = DATA.dicionario.find(d => d.id === btn.dataset.dicId);
