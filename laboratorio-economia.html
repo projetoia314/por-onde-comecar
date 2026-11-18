@@ -111,13 +111,13 @@
   </div>
 
 
-  <!-- Modal Estúdio Card Instagram (Story 9:16 e Feed 4:5) -->
+  <!-- Modal Estúdio Card Instagram (Recorte Retangular 100% Preciso) -->
   <div id="igStudioModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
-    <div id="igStudioShell" class="bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-700 rounded-3xl max-w-4xl w-full p-4 sm:p-6 shadow-2xl space-y-4 my-auto">
+    <div id="igStudioShell" class="bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-700 rounded-2xl max-w-4xl w-full p-4 sm:p-6 shadow-2xl space-y-4 my-auto">
       <div id="igStudioToolbar" class="flex flex-wrap items-center justify-between gap-3 border-b border-stone-200 dark:border-stone-800 pb-3">
         <div>
-          <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Estúdio de Divulgação</span>
-          <h3 class="text-lg sm:text-xl font-extrabold">Gerar Post ou Story — Por Onde Começar?</h3>
+          <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Estúdio Público de Divulgação</span>
+          <h3 class="text-lg sm:text-xl font-extrabold">Gerar Post (4:5) ou Story (9:16) — Recorte Retangular</h3>
         </div>
         <div class="flex flex-wrap items-center gap-2">
           <div class="inline-flex rounded-xl bg-stone-100 dark:bg-stone-800 p-1 border border-stone-200 dark:border-stone-700">
@@ -125,38 +125,41 @@
             <button id="igFormatFeedBtn" class="px-3 py-1.5 rounded-lg text-xs font-bold text-stone-700 dark:text-stone-300">Feed (4:5)</button>
           </div>
           <div class="inline-flex rounded-xl bg-stone-100 dark:bg-stone-800 p-1 border border-stone-200 dark:border-stone-700">
-            <button id="igThemeRedBtn" title="Tema Vermelho" class="w-7 h-7 rounded-lg bg-gradient-to-br from-red-800 to-stone-950 border-2 border-white shadow-xs"></button>
-            <button id="igThemeDarkBtn" title="Tema Grafite" class="w-7 h-7 rounded-lg bg-gradient-to-br from-stone-800 to-stone-950 border border-stone-500 ml-1"></button>
-            <button id="igThemePaperBtn" title="Tema Jornal Claro" class="w-7 h-7 rounded-lg bg-amber-50 border border-stone-400 ml-1"></button>
+            <button id="igThemeRedBtn" title="Tema Vermelho" class="w-7 h-7 rounded-sm bg-gradient-to-br from-red-800 to-stone-950 border-2 border-white shadow-xs"></button>
+            <button id="igThemeDarkBtn" title="Tema Grafite" class="w-7 h-7 rounded-sm bg-gradient-to-br from-stone-800 to-stone-950 border border-stone-500 ml-1"></button>
+            <button id="igThemePaperBtn" title="Tema Jornal Claro" class="w-7 h-7 rounded-sm bg-amber-50 border border-stone-400 ml-1"></button>
           </div>
           <button id="closeIgStudioBtn" class="px-3 py-1.5 rounded-xl text-xs font-bold bg-stone-200 dark:bg-stone-800 hover:bg-stone-300 dark:hover:bg-stone-700">Fechar &times;</button>
         </div>
       </div>
 
       <div class="grid gap-5 lg:grid-cols-12 items-center">
-        <!-- Pré-visualização da Arte -->
-        <div class="lg:col-span-7 flex flex-col items-center justify-center bg-stone-100 dark:bg-stone-950 rounded-2xl p-4 border border-stone-200 dark:border-stone-800">
-          <div id="igCardCanvas" class="w-full max-w-[330px] aspect-[9/16] rounded-3xl p-6 flex flex-col justify-between shadow-2xl bg-gradient-to-b from-red-900 via-red-950 to-stone-950 text-white border border-red-700/40 relative overflow-hidden">
-            <div class="flex items-center justify-between gap-2">
-              <span id="igCardBadge" class="text-[11px] font-extrabold uppercase tracking-wider px-3 py-1 rounded-full bg-white/15 border border-white/25">Mídia Popular</span>
-              <span class="text-[11px] font-bold opacity-80">POR ONDE COMEÇAR?</span>
+        <!-- Pré-visualização Retangular Sem Bordas Arredondadas (Sem Perda nas Pontas) -->
+        <div class="lg:col-span-7 flex flex-col items-center justify-center bg-stone-200 dark:bg-stone-950 rounded-xl p-4 border border-stone-300 dark:border-stone-800">
+          <div id="igCardCanvas" class="w-full max-w-[330px] aspect-[9/16] rounded-none p-7 flex flex-col justify-between shadow-2xl bg-gradient-to-b from-red-900 via-red-950 to-stone-950 text-white border border-white/15 relative overflow-hidden">
+            <!-- Topo com Barra Lateral Retangular Perfeitamente Alinhada -->
+            <div class="flex items-start justify-between gap-3 border-b border-white/15 pb-3">
+              <div class="border-l-4 border-amber-400 pl-2.5 py-0.5">
+                <div id="igCardBadge" class="text-[11px] font-extrabold uppercase tracking-wider leading-snug text-amber-300">Mídia Popular</div>
+              </div>
+              <span class="text-[10px] font-extrabold uppercase tracking-widest opacity-80 shrink-0 pt-0.5">POR ONDE COMEÇAR?</span>
             </div>
 
-            <div id="igCardImageWrap" class="hidden my-2 rounded-2xl overflow-hidden border border-white/20 bg-black/30 flex items-center justify-center max-h-[52%]">
+            <div id="igCardImageWrap" class="hidden my-2 overflow-hidden border border-white/20 bg-black/30 flex items-center justify-center max-h-[50%]">
               <img id="igCardImage" src="" alt="Capa em destaque" class="w-full h-full object-contain" />
             </div>
 
-            <div class="my-auto py-2 space-y-2.5">
-              <h4 id="igCardTitle" class="text-2xl font-extrabold leading-tight">Título do Card</h4>
-              <p id="igCardSubtitle" class="text-sm opacity-90 leading-relaxed">Descrição curta para divulgação nas redes sociais.</p>
+            <div class="my-auto py-3 space-y-3">
+              <h4 id="igCardTitle" class="text-2xl font-extrabold leading-tight tracking-tight">Título do Card</h4>
+              <p id="igCardSubtitle" class="text-sm opacity-95 leading-relaxed">Descrição curta para divulgação nas redes sociais.</p>
             </div>
 
-            <div class="pt-3 border-t border-white/20 flex items-center justify-between gap-2">
-              <div>
-                <div id="igCardCta" class="text-xs font-extrabold uppercase tracking-wide text-amber-300">Acesse o guia completo</div>
-                <div class="text-[11px] opacity-80">projetoia314.github.io/por-onde-comecar</div>
+            <div class="pt-3 border-t border-white/20 flex items-center justify-between gap-3">
+              <div class="min-w-0">
+                <div id="igCardCta" class="text-xs font-extrabold uppercase tracking-wide text-amber-300 truncate">Acesse o guia completo</div>
+                <div class="text-[11px] opacity-80 truncate">projetoia314.github.io/por-onde-comecar</div>
               </div>
-              <span class="inline-flex items-center justify-center w-8 h-8 rounded-xl bg-white text-red-900 font-extrabold text-sm shrink-0">P</span>
+              <div class="w-8 h-8 bg-white text-red-900 font-extrabold text-sm flex items-center justify-center shrink-0">P</div>
             </div>
           </div>
         </div>
@@ -164,7 +167,7 @@
         <!-- Controles de Edição Rápida e Exportação -->
         <div id="igStudioControls" class="lg:col-span-5 space-y-3.5">
           <div>
-            <label for="igInputBadge" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Etiqueta do Topo</label>
+            <label for="igInputBadge" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Categoria / Chapéu do Topo</label>
             <input id="igInputBadge" type="text" class="w-full px-3 py-2 text-sm rounded-xl border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800" />
           </div>
           <div>
@@ -172,18 +175,17 @@
             <input id="igInputTitle" type="text" class="w-full px-3 py-2 text-sm rounded-xl border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800" />
           </div>
           <div>
-            <label for="igInputSubtitle" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Texto de Apoio</label>
+            <label for="igInputSubtitle" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Texto Explicativo</label>
             <textarea id="igInputSubtitle" rows="3" class="w-full px-3 py-2 text-sm rounded-xl border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800"></textarea>
           </div>
           <div>
-            <label for="igInputCta" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Chamada no Rodapé</label>
+            <label for="igInputCta" class="block text-xs font-bold uppercase tracking-wider text-stone-700 dark:text-stone-300 mb-1">Destaque no Rodapé (Pix ou Chamada)</label>
             <input id="igInputCta" type="text" class="w-full px-3 py-2 text-sm rounded-xl border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800" />
           </div>
           <div class="pt-2 space-y-2">
-            <button id="igDownloadPngBtn" class="w-full py-3 px-4 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-extrabold shadow transition">Baixar Imagem PNG Pronta</button>
+            <button id="igDownloadPngBtn" class="w-full py-3 px-4 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-extrabold shadow transition">Baixar PNG Retangular em Alta (1080p)</button>
             <button id="igPrintModeBtn" class="w-full py-2.5 px-4 rounded-xl border border-stone-300 dark:border-stone-700 text-sm font-bold hover:bg-stone-100 dark:hover:bg-stone-800 transition">Modo Tela Cheia para Printar</button>
           </div>
-          <p class="text-xs text-stone-700 dark:text-stone-300">Dica: Você também pode colar (<kbd class="px-1.5 py-0.5 rounded bg-stone-200 dark:bg-stone-800 font-mono">Ctrl+V</kbd>) qualquer print recortado enquanto o estúdio estiver aberto.</p>
         </div>
       </div>
     </div>
@@ -195,6 +197,26 @@
   <script>
     // 1) CONECTOR PLANILHA GOOGLE (CSV): cole a URL gerada em Arquivo > Compartilhar > Publicar na web (CSV)
     const SHEETS_COLETIVOS_CSV_URL = '';
+
+    // 3) MODELOS DE COBRANÇA PARLAMENTAR (FIXO NO TOPO PARA NUNCA SER SOBRESCRITO)
+    const MODELOS_COBRANCA = {
+      escala6x1: {
+        nome: 'Fim da Escala 6x1',
+        assunto: (p) => `Cobrança Popular: Apoio ao Fim da Escala 6x1 — ${p.nome} (${p.partido}/${p.uf})`,
+        corpo: (p) => `Exmo(a). ${p.casa === 'Senado' ? 'Senador(a)' : 'Deputado(a)'} ${p.nome} (${p.partido}/${p.uf}),\n\nComo trabalhador(a) e eleitor(a) de ${p.uf}, cobro seu posicionamento público e voto favorável à PEC pelo fim da escala 6x1 e redução da jornada de trabalho sem redução salarial.\n\nA classe trabalhadora brasileira não aguenta mais jornadas exaustivas que impedem o descanso, o estudo e o convívio familiar. Contamos com sua posição em defesa dos trabalhadores.\n\nAtenciosamente,`
+      },
+      direitos: {
+        nome: 'Defesa dos Direitos Trabalhistas',
+        assunto: (p) => `Cobrança de Mandato: Defesa dos Direitos Trabalhistas e Salário Mínimo (${p.uf})`,
+        corpo: (p) => `Exmo(a). ${p.casa === 'Senado' ? 'Senador(a)' : 'Deputado(a)'} ${p.nome} (${p.partido}/${p.uf}),\n\nAcompanho sua atuação parlamentar e cobro compromisso firme contra qualquer retirada de direitos da CLT, pela valorização real do salário mínimo e pela isenção do Imposto de Renda para quem ganha até R$ 5 mil.\n\nAguardo retorno oficial do seu gabinete sobre suas votações nessas pautas.\n\nAtenciosamente,`
+      },
+      servicos: {
+        nome: 'Saúde, Educação e Contra Privatizações',
+        assunto: (p) => `Cobrança Popular: Defesa do SUS, Educação Pública e Estatais (${p.uf})`,
+        corpo: (p) => `Exmo(a). ${p.casa === 'Senado' ? 'Senador(a)' : 'Deputado(a)'} ${p.nome} (${p.partido}/${p.uf}),\n\nSolicito posicionamento contra privatizações de serviços essenciais e cortes no orçamento do SUS, das universidades e institutos federais.\n\nO patrimônio público deve servir ao povo brasileiro, não ao lucro de acionistas.\n\nAtenciosamente,`
+      }
+    };
+
 
     // 2) NOTÍCIAS AO VIVO: atualizado automaticamente via GitHub Actions em data/noticias.json
     let NOTICIAS_DATA = {"atualizado_em": "2026-11-17", "capa_averdade": {"titulo": "Jornal A Verdade — Edição Semanal", "descricao": "Leia a edição mais recente e confira a capa da semana no portal oficial.", "url": "https://averdade.org.br/", "imagem": ""}, "manchetes": [{"veiculo": "ICL Notícias", "titulo": "Acompanhe as últimas reportagens do ICL Notícias", "url": "https://iclnoticias.com.br/", "data": "Atualização via GitHub Actions"}, {"veiculo": "Brasil de Fato", "titulo": "Confira as principais notícias populares no Brasil de Fato", "url": "https://www.brasildefato.com.br/", "data": "Atualização via GitHub Actions"}, {"veiculo": "Jornal A Verdade", "titulo": "Leia as matérias da semana no Jornal A Verdade", "url": "https://averdade.org.br/", "data": "Atualização via GitHub Actions"}]};
@@ -2093,10 +2115,9 @@
 
       const capa = NOTICIAS_DATA.capa_averdade || {};
       const cacheTag = encodeURIComponent(NOTICIAS_DATA.atualizado_em || '1');
-      const customCapa = localStorage.getItem('jav_custom_cover') || '';
-      // LOCAL DA IMAGEM DE CAPA DO JORNAL A VERDADE (substitua 'img/capa-a-verdade.jpg' ou cole o link direto abaixo):
+      // ALTERE SOMENTE AQUI NO GITHUB SE QUISER MUDAR O CAMINHO OU URL DA CAPA DO JORNAL A VERDADE:
       const CAPA_JAV_PADRAO = 'img/capa-a-verdade.jpg';
-      const capaSrc = customCapa || `${CAPA_JAV_PADRAO}?v=${cacheTag}`;
+      const capaSrc = `${CAPA_JAV_PADRAO}?v=${cacheTag}`;
 
       const destaquesLimpos = [
         {
@@ -2125,33 +2146,24 @@
               <h1 class="text-2xl sm:text-3xl font-extrabold">Mídia de Esquerda, Imprensa Operária e Investigativa</h1>
             </div>
             <button data-ig-open="midia-geral" class="px-4 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-sm font-extrabold hover:opacity-90 transition shadow-sm">
-              Gerar Story desta Aba
+              Gerar Card desta Aba
             </button>
           </div>
 
-          <!-- Bloco 1: Bento Grid Compacto sem espaços vazios -->
+          <!-- Bloco 1: Bento Grid Compacto -->
           <div class="grid gap-4 lg:grid-cols-12 items-stretch">
-            <!-- Capa Semanal JAV (4 cols) -->
-            <article id="javDropZone" class="lg:col-span-4 p-4 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 flex flex-col justify-between gap-3 shadow-sm">
+            <!-- Capa Semanal JAV (4 cols) — somente leitura via código/GitHub -->
+            <article class="lg:col-span-4 p-4 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 flex flex-col justify-between gap-3 shadow-sm">
               <div class="space-y-2.5">
                 <div class="flex items-center justify-between gap-2">
-                  <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">Capa da Semana</span>
+                  <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-md bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">Capa da Semana</span>
                   <button data-ig-open="capa-jav" class="px-2.5 py-1 rounded-lg bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200 text-xs font-extrabold hover:opacity-90">Card IG</button>
                 </div>
                 <h2 class="font-extrabold text-base sm:text-lg">${capa.titulo || 'Jornal A Verdade'}</h2>
 
-                <div class="rounded-xl overflow-hidden border border-stone-300 dark:border-stone-700 bg-stone-100 dark:bg-stone-950 p-1.5">
-                  <img id="javCoverPreviewImg" src="${capaSrc}" alt="Capa semanal do Jornal A Verdade" class="w-full h-auto max-h-[360px] object-contain mx-auto rounded-lg" />
-                </div>
-
-                <div class="p-2.5 rounded-xl bg-stone-50 dark:bg-stone-800/70 border border-dashed border-stone-300 dark:border-stone-700 flex flex-wrap items-center justify-between gap-2">
-                  <span class="text-xs font-semibold text-stone-700 dark:text-stone-300">Trocar capa (<kbd class="px-1 py-0.5 rounded bg-stone-200 dark:bg-stone-700 font-mono">Ctrl+V</kbd>):</span>
-                  <div class="flex items-center gap-1.5">
-                    <label for="javCoverUploadInput" class="cursor-pointer px-2.5 py-1 rounded-lg bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-xs font-bold hover:opacity-90">Arquivo</label>
-                    <input id="javCoverUploadInput" type="file" accept="image/*" class="hidden" />
-                    ${customCapa ? `<button id="javCoverResetBtn" class="px-2 py-1 rounded-lg border border-stone-300 dark:border-stone-600 text-xs font-bold">Resetar</button>` : ''}
-                  </div>
-                </div>
+                <a href="${capa.url || 'https://averdade.org.br/'}" target="_blank" rel="noopener noreferrer" class="block rounded-xl overflow-hidden border border-stone-300 dark:border-stone-700 bg-stone-100 dark:bg-stone-950 p-1.5">
+                  <img id="javCoverPreviewImg" src="${capaSrc}" alt="Capa semanal do Jornal A Verdade" class="w-full h-auto max-h-[380px] object-contain mx-auto" />
+                </a>
               </div>
 
               <div class="grid grid-cols-2 gap-2 pt-2 border-t border-stone-200 dark:border-stone-800">
@@ -2160,14 +2172,14 @@
               </div>
             </article>
 
-            <!-- Coluna Direita (8 cols): Destaques Ao Vivo + Kit Estúdio em layout equilibrado -->
+            <!-- Coluna Direita (8 cols): Destaques Ao Vivo + Kit Estúdio -->
             <div class="lg:col-span-8 flex flex-col justify-between gap-4">
               <div class="grid gap-4 sm:grid-cols-2 flex-1">
                 ${destaquesLimpos.map(d => `
                   <article class="p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 flex flex-col justify-between gap-3 shadow-sm">
                     <div class="space-y-2">
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">${d.tag}</span>
+                        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-md bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">${d.tag}</span>
                         <button data-ig-custom-badge="${d.veiculo}" data-ig-custom-title="${d.titulo}" data-ig-custom-sub="${d.desc}" class="ig-custom-btn px-2.5 py-1 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800">Card IG</button>
                       </div>
                       <div class="text-xs font-extrabold uppercase tracking-wide text-red-700 dark:text-red-400">${d.veiculo}</div>
@@ -2179,12 +2191,12 @@
                 `).join('')}
               </div>
 
-              <!-- Kit de Divulgação compacto -->
+              <!-- Kit de Divulgação compacto com alinhamento corrigido -->
               <article class="p-5 rounded-2xl bg-gradient-to-br from-stone-900 to-red-950 text-white border border-red-800/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-sm">
-                <div class="space-y-1">
-                  <span class="inline-block text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/30">Estúdio Instagram &amp; WhatsApp</span>
-                  <h3 class="text-lg sm:text-xl font-extrabold">Transforme qualquer fonte em Post (4:5) ou Story (9:16)</h3>
-                  <p class="text-sm text-stone-200">Clique em <strong>Card IG</strong> em qualquer veículo para gerar ou printar a arte pronta para divulgação.</p>
+                <div class="space-y-1.5">
+                  <div class="inline-flex items-center px-2.5 py-1 rounded-md bg-amber-400/20 text-amber-300 border border-amber-400/30 text-xs font-bold uppercase tracking-wider leading-none">Estúdio Instagram &amp; WhatsApp</div>
+                  <h3 class="text-lg sm:text-xl font-extrabold leading-snug">Transforme qualquer fonte em Post (4:5) ou Story (9:16)</h3>
+                  <p class="text-sm text-stone-200">Clique em <strong>Card IG</strong> em qualquer veículo, conceito ou direito para baixar a arte retangular pronta para postar.</p>
                 </div>
                 <button data-ig-open="midia-geral" class="shrink-0 px-4 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-stone-950 text-sm font-extrabold transition shadow">Abrir Estúdio &rarr;</button>
               </article>
@@ -2193,11 +2205,9 @@
 
           <!-- Bloco 2: Portais e Jornais Organizados por Linha Editorial -->
           <div class="space-y-3 pt-1">
-            <div class="flex flex-wrap items-end justify-between gap-2">
-              <div>
-                <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Guia Editorial Curado</span>
-                <h2 class="text-xl sm:text-2xl font-extrabold">Fontes da Esquerda Radical, Partidária e Investigativa (${portaisFiltrados.length})</h2>
-              </div>
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">Guia Editorial Curado</span>
+              <h2 class="text-xl sm:text-2xl font-extrabold">Fontes da Esquerda Radical, Partidária e Investigativa (${portaisFiltrados.length})</h2>
             </div>
 
             <div class="flex flex-wrap gap-2">
@@ -2209,7 +2219,7 @@
                 <article class="p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 flex flex-col justify-between gap-3 shadow-sm hover:border-red-600 transition">
                   <div class="space-y-2">
                     <div class="flex items-center justify-between gap-2">
-                      <span class="text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">${p.eixo}</span>
+                      <span class="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md bg-red-100 text-red-900 dark:bg-red-900/50 dark:text-red-200">${p.eixo}</span>
                       <button data-ig-custom-badge="${p.eixo}" data-ig-custom-title="${p.nome}" data-ig-custom-sub="${p.desc}" class="ig-custom-btn px-2.5 py-1 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800">Card IG</button>
                     </div>
                     <div class="text-xs font-bold text-stone-700 dark:text-stone-300">Vínculo / Foco: ${p.vinculo}</div>
@@ -2971,13 +2981,12 @@
           const kind = btn.dataset.igOpen;
           if (kind === 'capa-jav') {
             const capa = NOTICIAS_DATA.capa_averdade || {};
-            const customCapa = localStorage.getItem('jav_custom_cover') || '';
             openIgStudio({
               badge: 'Imprensa Popular • Edição Semanal',
               title: capa.titulo || 'Leia o Jornal A Verdade',
               subtitle: 'A voz da classe trabalhadora e do movimento popular nas ruas e fábricas.',
               cta: 'Leia completo em averdade.org.br',
-              imageSrc: customCapa || (capa.imagem || 'img/capa-a-verdade.jpg')
+              imageSrc: capa.imagem || 'img/capa-a-verdade.jpg'
             });
           } else {
             openIgStudio({
@@ -3301,7 +3310,7 @@
       }
     }
 
-    // === Estúdio de Card Instagram & Troca Rápida de Capa JAV ===
+    // === Estúdio de Card Instagram (Recorte Retangular 1080p Nativo Sem Deslocamento) ===
     const igStudioModal = document.getElementById('igStudioModal');
     const igCardCanvas = document.getElementById('igCardCanvas');
     const igCardBadge = document.getElementById('igCardBadge');
@@ -3317,6 +3326,8 @@
     const igInputCta = document.getElementById('igInputCta');
 
     let igPrintOnly = false;
+    let currentIgFormat = 'story'; // 'story' (1080x1920) | 'feed' (1080x1350)
+    let currentIgTheme = 'red';    // 'red' | 'dark' | 'paper'
 
     function openIgStudio({ badge, title, subtitle, cta, imageSrc }) {
       igInputBadge.value = badge || 'Por Onde Começar?';
@@ -3340,6 +3351,7 @@
     }
 
     function setIgFormat(fmt) {
+      currentIgFormat = fmt;
       const storyBtn = document.getElementById('igFormatStoryBtn');
       const feedBtn = document.getElementById('igFormatFeedBtn');
       if (fmt === 'feed') {
@@ -3356,18 +3368,25 @@
     }
 
     function setIgTheme(theme) {
+      currentIgTheme = theme;
       igCardCanvas.classList.remove(
-        'from-red-900', 'via-red-950', 'to-stone-950', 'border-red-700/40',
-        'from-stone-800', 'via-stone-900', 'border-stone-700',
-        'bg-amber-50', 'text-stone-950', 'border-amber-300', 'text-white'
+        'from-red-900', 'via-red-950', 'to-stone-950',
+        'from-stone-800', 'via-stone-900',
+        'bg-amber-50', 'text-stone-950', 'text-white'
       );
       if (theme === 'dark') {
-        igCardCanvas.classList.add('bg-gradient-to-b', 'from-stone-800', 'via-stone-900', 'to-stone-950', 'text-white', 'border-stone-700');
+        igCardCanvas.classList.add('bg-gradient-to-b', 'from-stone-800', 'via-stone-900', 'to-stone-950', 'text-white');
+        igCardBadge.className = 'text-[11px] font-extrabold uppercase tracking-wider leading-snug text-amber-300';
+        igCardCta.className = 'text-xs font-extrabold uppercase tracking-wide text-amber-300 truncate';
       } else if (theme === 'paper') {
         igCardCanvas.classList.remove('bg-gradient-to-b');
-        igCardCanvas.classList.add('bg-amber-50', 'text-stone-950', 'border-amber-300');
+        igCardCanvas.classList.add('bg-amber-50', 'text-stone-950');
+        igCardBadge.className = 'text-[11px] font-extrabold uppercase tracking-wider leading-snug text-red-800';
+        igCardCta.className = 'text-xs font-extrabold uppercase tracking-wide text-red-800 truncate';
       } else {
-        igCardCanvas.classList.add('bg-gradient-to-b', 'from-red-900', 'via-red-950', 'to-stone-950', 'text-white', 'border-red-700/40');
+        igCardCanvas.classList.add('bg-gradient-to-b', 'from-red-900', 'via-red-950', 'to-stone-950', 'text-white');
+        igCardBadge.className = 'text-[11px] font-extrabold uppercase tracking-wider leading-snug text-amber-300';
+        igCardCta.className = 'text-xs font-extrabold uppercase tracking-wide text-amber-300 truncate';
       }
     }
 
@@ -3405,52 +3424,155 @@
       }
     });
 
-    document.getElementById('igDownloadPngBtn')?.addEventListener('click', async () => {
-      if (typeof html2canvas === 'undefined') {
-        showToast('Use o botão Modo Tela Cheia para printar o card.');
-        return;
-      }
-      try {
-        const canvas = await html2canvas(igCardCanvas, { scale: 2, useCORS: true, backgroundColor: null });
-        const link = document.createElement('a');
-        link.download = 'por-onde-comecar-card.png';
-        link.href = canvas.toDataURL('image/png');
-        link.click();
-        showToast('Imagem PNG baixada!');
-      } catch (err) {
-        showToast('Use o Modo Tela Cheia para printar.');
-      }
-    });
-
-    function saveCustomJavCover(dataUrl) {
-      try {
-        localStorage.setItem('jav_custom_cover', dataUrl);
-        if (!igStudioModal.classList.contains('hidden')) {
-          igCardImage.src = dataUrl;
-          igCardImageWrap.classList.remove('hidden');
+    // Renderizador Canvas 2D Nativo (1080x1920 ou 1080x1350) — 100% Retangular e Alinhado
+    function wrapCanvasLines(ctx, text, maxWidth) {
+      const words = String(text || '').split(/\s+/);
+      const lines = [];
+      let line = '';
+      for (const word of words) {
+        const test = line ? line + ' ' + word : word;
+        if (ctx.measureText(test).width > maxWidth && line) {
+          lines.push(line);
+          line = word;
+        } else {
+          line = test;
         }
-        if (state.view === 'midia') render();
-        showToast('Capa do Jornal A Verdade atualizada!');
-      } catch (e) {
-        showToast('Imagem muito grande para salvar no navegador.');
       }
+      if (line) lines.push(line);
+      return lines;
     }
 
-    // Paste image directly from clipboard (Ctrl+V) on Mídia or IG Studio
-    document.addEventListener('paste', (e) => {
-      if (state.view !== 'midia' && igStudioModal.classList.contains('hidden')) return;
-      const items = e.clipboardData?.items || [];
-      for (const item of items) {
-        if (item.type.startsWith('image/')) {
-          const blob = item.getAsFile();
-          const reader = new FileReader();
-          reader.onload = (ev) => saveCustomJavCover(ev.target.result);
-          reader.readAsDataURL(blob);
-          break;
-        }
-      }
-    });
+    document.getElementById('igDownloadPngBtn')?.addEventListener('click', async () => {
+      const W = 1080;
+      const H = currentIgFormat === 'feed' ? 1350 : 1920;
+      const cvs = document.createElement('canvas');
+      cvs.width = W;
+      cvs.height = H;
+      const ctx = cvs.getContext('2d');
 
+      // 1. Fundo retangular sem cantos arredondados
+      if (currentIgTheme === 'paper') {
+        ctx.fillStyle = '#fffbeb';
+        ctx.fillRect(0, 0, W, H);
+      } else {
+        const grad = ctx.createLinearGradient(0, 0, 0, H);
+        if (currentIgTheme === 'dark') {
+          grad.addColorStop(0, '#292524');
+          grad.addColorStop(0.5, '#1c1917');
+          grad.addColorStop(1, '#0c0a09');
+        } else {
+          grad.addColorStop(0, '#7f1d1d');
+          grad.addColorStop(0.55, '#450a0a');
+          grad.addColorStop(1, '#0c0a09');
+        }
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, W, H);
+      }
+
+      const isPaper = currentIgTheme === 'paper';
+      const mainColor = isPaper ? '#0c0a09' : '#ffffff';
+      const subColor = isPaper ? '#292524' : '#e7e5e4';
+      const accentColor = isPaper ? '#991b1b' : '#fcd34d';
+      const lineColor = isPaper ? 'rgba(12,10,9,0.18)' : 'rgba(255,255,255,0.22)';
+      const pad = 90;
+
+      // 2. Cabeçalho Retangular com Barra Lateral (sem deslocamento de texto)
+      ctx.fillStyle = accentColor;
+      ctx.fillRect(pad, 88, 10, 56);
+
+      ctx.fillStyle = accentColor;
+      ctx.font = '800 30px "Plus Jakarta Sans", sans-serif';
+      ctx.textBaseline = 'middle';
+      const badgeLines = wrapCanvasLines(ctx, (igInputBadge.value || '').toUpperCase(), W - pad * 2 - 320);
+      badgeLines.slice(0, 2).forEach((ln, idx) => {
+        ctx.fillText(ln, pad + 28, 102 + idx * 34);
+      });
+
+      ctx.fillStyle = isPaper ? '#57534e' : 'rgba(255,255,255,0.75)';
+      ctx.font = '800 24px "Plus Jakarta Sans", sans-serif';
+      ctx.textAlign = 'right';
+      ctx.fillText('POR ONDE COMEÇAR?', W - pad, 104);
+      ctx.textAlign = 'left';
+
+      ctx.fillStyle = lineColor;
+      ctx.fillRect(pad, 175, W - pad * 2, 2);
+
+      // 3. Imagem de destaque (ex.: Capa do Jornal A Verdade) se visível
+      let contentY = 240;
+      const hasImg = !igCardImageWrap.classList.contains('hidden') && igCardImage.src;
+      if (hasImg) {
+        try {
+          const imgEl = new Image();
+          imgEl.crossOrigin = 'anonymous';
+          await new Promise((res, rej) => {
+            imgEl.onload = res;
+            imgEl.onerror = rej;
+            imgEl.src = igCardImage.src;
+          });
+          const maxImgH = currentIgFormat === 'feed' ? 540 : 880;
+          const maxImgW = W - pad * 2;
+          const ratio = Math.min(maxImgW / imgEl.width, maxImgH / imgEl.height);
+          const drawW = imgEl.width * ratio;
+          const drawH = imgEl.height * ratio;
+          const drawX = (W - drawW) / 2;
+          ctx.drawImage(imgEl, drawX, contentY, drawW, drawH);
+          contentY += drawH + 65;
+        } catch (e) {}
+      } else {
+        contentY = currentIgFormat === 'feed' ? 360 : 540;
+      }
+
+      // 4. Título Principal e Subtítulo
+      ctx.fillStyle = mainColor;
+      ctx.font = '800 68px "Plus Jakarta Sans", sans-serif';
+      ctx.textBaseline = 'top';
+      const titleLines = wrapCanvasLines(ctx, igInputTitle.value || '', W - pad * 2);
+      titleLines.slice(0, 5).forEach(ln => {
+        ctx.fillText(ln, pad, contentY);
+        contentY += 80;
+      });
+
+      contentY += 28;
+      ctx.fillStyle = subColor;
+      ctx.font = '400 40px "Atkinson Hyperlegible", sans-serif';
+      const subLines = wrapCanvasLines(ctx, igInputSubtitle.value || '', W - pad * 2);
+      subLines.slice(0, 8).forEach(ln => {
+        ctx.fillText(ln, pad, contentY);
+        contentY += 56;
+      });
+
+      // 5. Rodapé Retangular Alinhado
+      const footerY = H - 210;
+      ctx.fillStyle = lineColor;
+      ctx.fillRect(pad, footerY, W - pad * 2, 2);
+
+      ctx.fillStyle = accentColor;
+      ctx.font = '800 32px "Plus Jakarta Sans", sans-serif';
+      ctx.fillText((igInputCta.value || '').toUpperCase().slice(0, 48), pad, footerY + 38);
+
+      ctx.fillStyle = subColor;
+      ctx.font = '400 28px "Atkinson Hyperlegible", sans-serif';
+      ctx.fillText('projetoia314.github.io/por-onde-comecar', pad, footerY + 86);
+
+      // Selo quadrado 'P' no canto inferior direito
+      const boxSize = 92;
+      const boxX = W - pad - boxSize;
+      const boxY = footerY + 32;
+      ctx.fillStyle = isPaper ? '#991b1b' : '#ffffff';
+      ctx.fillRect(boxX, boxY, boxSize, boxSize);
+      ctx.fillStyle = isPaper ? '#ffffff' : '#7f1d1d';
+      ctx.font = '800 48px "Plus Jakarta Sans", sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('P', boxX + boxSize / 2, boxY + boxSize / 2 + 2);
+      ctx.textAlign = 'left';
+
+      const link = document.createElement('a');
+      link.download = `por-onde-comecar-${currentIgFormat}.png`;
+      link.href = cvs.toDataURL('image/png');
+      link.click();
+      showToast('Imagem PNG retangular (1080p) baixada!');
+    });
 
     render();
     loadExternalData();
