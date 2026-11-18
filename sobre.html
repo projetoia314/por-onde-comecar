@@ -2177,9 +2177,10 @@
                       <span class="font-semibold text-stone-700 dark:text-stone-300">Pix:</span> <code class="break-all">${o.pix}</code>
                       <div class="mt-0.5">Titularidade: ${o.titular}</div>
                     </div>
-                    <div class="flex items-center gap-2">
-                      <button data-copy-pix="${o.pix}" class="copy-apoio-btn flex-1 py-2 px-3 rounded-lg bg-red-700 hover:bg-red-800 text-white text-xs font-semibold transition">Copiar Pix</button>
-                      ${o.instagram ? `<a href="${o.instagram}" target="_blank" rel="noopener noreferrer" class="py-2 px-2.5 rounded-lg border border-stone-300 dark:border-stone-600 text-xs font-medium hover:bg-stone-100 dark:hover:bg-stone-700">Site/IG &rarr;</a>` : ''}
+                    <div class="flex items-center gap-1.5">
+                      <button data-copy-pix="${o.pix}" class="copy-apoio-btn flex-1 py-2 px-3 rounded-lg bg-red-700 hover:bg-red-800 text-white text-xs font-bold transition">Copiar Pix</button>
+                      <button data-ocup-ig="${o.id}" class="ocup-ig-btn py-2 px-2.5 rounded-lg bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-xs font-bold hover:opacity-90 transition" title="Gerar card de arrecadação para Instagram">Card IG</button>
+                      ${o.instagram ? `<a href="${o.instagram}" target="_blank" rel="noopener noreferrer" class="py-2 px-2.5 rounded-lg border border-stone-300 dark:border-stone-600 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-700">Site &rarr;</a>` : ''}
                     </div>
                   </div>
                 </article>
@@ -2431,7 +2432,10 @@
               <h1 class="text-2xl sm:text-3xl font-extrabold">Cobre Seu Político (${DATA.politicos.length})</h1>
               <p class="text-base text-stone-700 dark:text-stone-300">Filtre deputados federais e senadores do seu estado, revise ou personalize a mensagem e envie cobranças por e-mail ou copie em 1 toque.</p>
             </div>
-            <button data-jump="inicio" class="jump-btn px-4 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-sm font-semibold hover:bg-stone-100 dark:hover:bg-stone-800">&larr; Voltar ao Início</button>
+            <div class="flex flex-wrap gap-2">
+              <button id="cobreListaIgBtn" class="px-4 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-sm font-extrabold hover:opacity-90 transition shadow-sm">Card IG da Pauta</button>
+              <button data-jump="inicio" class="jump-btn px-4 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-sm font-semibold hover:bg-stone-100 dark:hover:bg-stone-800">&larr; Início</button>
+            </div>
           </div>
 
           <div class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-800 space-y-5 shadow-sm">
@@ -2507,8 +2511,9 @@
                       <button data-copy-msg="${p.id}" class="copy-msg-btn px-3 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-sm font-bold hover:opacity-90 transition">Copiar Texto</button>
                     </div>
                     <div class="flex items-center justify-between gap-2 pt-1">
-                      <button data-copy-email="${p.email}" class="copy-email-btn px-3 py-1.5 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800">Copiar só o e-mail</button>
-                      ${p.pagina ? `<a href="${p.pagina}" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-red-700 dark:text-red-400 hover:underline">Ficha Oficial &rarr;</a>` : ''}
+                      <button data-copy-email="${p.email}" class="copy-email-btn px-3 py-1.5 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800">Copiar e-mail</button>
+                      <button data-pol-ig="${p.id}" class="pol-ig-btn px-3 py-1.5 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-extrabold hover:bg-stone-100 dark:hover:bg-stone-800">Card IG</button>
+                      ${p.pagina ? `<a href="${p.pagina}" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-red-700 dark:text-red-400 hover:underline">Ficha &rarr;</a>` : ''}
                     </div>
                   </div>
                 </article>
@@ -2612,7 +2617,10 @@
           <!-- Bloco 1: Comparativo Lado a Lado -->
           <div class="p-5 sm:p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-4">
             <div class="flex flex-wrap items-center justify-between gap-3">
-              <h2 class="text-lg font-bold">Comparativo Lado a Lado</h2>
+              <div class="flex items-center gap-2.5">
+                <h2 class="text-lg font-extrabold">Comparativo Lado a Lado</h2>
+                <button id="ecoDuelIgBtn" class="px-3 py-1 rounded-lg bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-xs font-extrabold hover:opacity-90">Card IG do Duelo</button>
+              </div>
               <div class="flex flex-wrap items-center gap-2 text-xs">
                 <select id="ecoSelA" class="px-2.5 py-1.5 rounded-lg border border-stone-300 dark:border-stone-700 bg-stone-50 dark:bg-stone-800">
                   ${Object.entries(ECONOMIA_DATA.matrizes).map(([k, v]) => `<option value="${k}" ${state.ecoLadoA === k ? 'selected' : ''}>Lado A: ${v.nome}</option>`).join('')}
@@ -2667,12 +2675,15 @@
             <h2 class="text-lg font-bold">Explorador de Dilemas Reais</h2>
             ${ECONOMIA_DATA.dilemas.map(d => `
               <details class="rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 p-4">
-                <summary class="cursor-pointer font-semibold text-sm sm:text-base">${d.pergunta}</summary>
-                <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 mt-4 pt-3 border-t border-stone-100 dark:border-stone-800 text-xs">
-                  <div><strong class="text-sky-600 dark:text-sky-400">Ortodoxa:</strong> ${d.ortodoxa}</div>
-                  <div><strong class="text-emerald-600 dark:text-emerald-400">Heterodoxa:</strong> ${d.heterodoxa}</div>
-                  <div><strong class="text-amber-600 dark:text-amber-400">Marxista:</strong> ${d.marxista}</div>
-                  <div><strong class="text-yellow-600 dark:text-yellow-400">Chinesa:</strong> ${d.chinesa}</div>
+                <summary class="cursor-pointer font-bold text-sm sm:text-base flex items-center justify-between gap-2"><span>${d.pergunta}</span></summary>
+                <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 mt-4 pt-3 border-t border-stone-200 dark:border-stone-800 text-xs sm:text-sm">
+                  <div><strong class="text-sky-700 dark:text-sky-400">Ortodoxa:</strong> ${d.ortodoxa}</div>
+                  <div><strong class="text-emerald-700 dark:text-emerald-400">Heterodoxa:</strong> ${d.heterodoxa}</div>
+                  <div><strong class="text-amber-700 dark:text-amber-400">Marxista:</strong> ${d.marxista}</div>
+                  <div><strong class="text-yellow-700 dark:text-yellow-400">Chinesa:</strong> ${d.chinesa}</div>
+                </div>
+                <div class="mt-3 pt-2 border-t border-stone-100 dark:border-stone-800 flex justify-end">
+                  <button data-ig-custom-badge="Lab. Macroeconomia • Dilema Real" data-ig-custom-title="${d.pergunta}" data-ig-custom-sub="Ortodoxa: ${d.ortodoxa} | Marxista: ${d.marxista}" class="ig-custom-btn px-3 py-1.5 rounded-lg border border-stone-300 dark:border-stone-700 text-xs font-extrabold hover:bg-stone-100 dark:hover:bg-stone-800">Gerar Card IG deste Dilema</button>
                 </div>
               </details>
             `).join('')}
@@ -2713,8 +2724,9 @@
               <h2 class="text-2xl font-bold">Você acertou ${state.quizScore} de ${total} perguntas!</h2>
               <p class="text-sm text-stone-700 dark:text-stone-300">${mod.desc}</p>
               <div class="flex flex-wrap justify-center gap-3 pt-2">
-                <button id="quizRestartBtn" class="px-4 py-2 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-medium">Refazer este Quiz</button>
-                <button data-jump="${mod.destino}" class="jump-btn px-4 py-2 rounded-xl border border-stone-300 dark:border-stone-700 text-sm font-medium hover:bg-stone-100 dark:hover:bg-stone-800">${mod.destinoLabel} &rarr;</button>
+                <button id="quizScoreIgBtn" class="px-5 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-950 text-sm font-extrabold hover:opacity-90 shadow">Compartilhar Resultado (Card IG)</button>
+                <button id="quizRestartBtn" class="px-4 py-2.5 rounded-xl bg-red-700 hover:bg-red-800 text-white text-sm font-bold">Refazer Quiz</button>
+                <button data-jump="${mod.destino}" class="jump-btn px-4 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-sm font-bold hover:bg-stone-100 dark:hover:bg-stone-800">${mod.destinoLabel} &rarr;</button>
               </div>
             </article>
           ` : `
@@ -2789,7 +2801,8 @@
                   <div class="text-sm text-stone-700 dark:text-stone-300"><strong>Beneficiário:</strong> ${a.beneficiario}</div>
                   <div class="flex items-center gap-2">
                     <code class="flex-1 px-2.5 py-1.5 text-xs rounded-lg bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 truncate select-all">${a.pix}</code>
-                    <button data-copy-pix="${a.pix}" class="copy-apoio-btn shrink-0 px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-800 text-white text-xs font-medium transition">Copiar Pix</button>
+                    <button data-apoio-ig="${a.id}" class="apoio-ig-btn px-3 py-2 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-extrabold hover:bg-stone-100 dark:hover:bg-stone-800">Card IG</button>
+                  <button data-copy-pix="${a.pix}" class="copy-apoio-btn shrink-0 px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-800 text-white text-xs font-medium transition">Copiar Pix</button>
                   </div>
                 </div>
               </article>
@@ -3013,6 +3026,85 @@
       const goStoryNext = () => { state.storyIdx = (state.storyIdx + 1) % STORIES_DATA.length; render(); };
       if (storyNextZone) storyNextZone.addEventListener('click', goStoryNext);
       if (storyNextBtn) storyNextBtn.addEventListener('click', goStoryNext);
+
+      
+      document.querySelectorAll('.ocup-ig-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const o = OCUPACOES_DATA.find(x => x.id === btn.dataset.ocupIg);
+          if (o) {
+            openIgStudio({
+              badge: `Apoie a Luta • ${o.movimento} (${o.uf})`,
+              title: o.nome,
+              subtitle: `${o.descricao} — Chave Pix: ${o.pix}`,
+              cta: `Pix: ${o.pix}`
+            });
+          }
+        });
+      });
+
+      document.querySelectorAll('.apoio-ig-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const a = APOIO_DATA.find(x => x.id === btn.dataset.apoioIg);
+          if (a) {
+            openIgStudio({
+              badge: `Campanha de Solidariedade • ${a.frente}`,
+              title: a.nome,
+              subtitle: `${a.objetivo} — Chave Pix: ${a.pix}`,
+              cta: `Pix: ${a.pix}`
+            });
+          }
+        });
+      });
+
+      document.getElementById('cobreListaIgBtn')?.addEventListener('click', () => {
+        const mod = MODELOS_COBRANCA[state.polModelo] || MODELOS_COBRANCA.escala6x1;
+        const ufLabel = state.polUf === 'Todas' ? 'todo o Brasil' : `o estado de ${state.polUf}`;
+        openIgStudio({
+          badge: `Pressão Popular • ${mod.nome}`,
+          title: `Cobre os parlamentares de ${ufLabel}!`,
+          subtitle: `Envie e-mail direto para deputados e senadores exigindo posição sobre: ${mod.nome}.`,
+          cta: 'Acesse a aba Cobre Seu Político'
+        });
+      });
+
+      document.querySelectorAll('.pol-ig-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const pol = DATA.politicos.find(p => p.id === btn.dataset.polIg);
+          const mod = MODELOS_COBRANCA[state.polModelo] || MODELOS_COBRANCA.escala6x1;
+          if (pol) {
+            openIgStudio({
+              badge: `Cobre Seu Político • ${pol.casa} (${pol.uf})`,
+              title: `${pol.nome} (${pol.partido}/${pol.uf})`,
+              subtitle: `Pauta: ${mod.nome}. E-mail oficial do gabinete: ${pol.email} | Tel: (61) ${pol.telefone}.`,
+              cta: 'Cobre seu representante no portal'
+            });
+          }
+        });
+      });
+
+      document.getElementById('ecoDuelIgBtn')?.addEventListener('click', () => {
+        const ladoA = ECONOMIA_DATA.matrizes[state.ecoLadoA];
+        const ladoB = ECONOMIA_DATA.matrizes[state.ecoLadoB];
+        if (ladoA && ladoB) {
+          openIgStudio({
+            badge: 'Laboratório de Economia Comparada',
+            title: `${ladoA.nome} vs. ${ladoB.nome}`,
+            subtitle: `${ladoA.nome}: ${ladoA.desc} || ${ladoB.nome}: ${ladoB.desc}`,
+            cta: 'Compare equações e dilemas no portal'
+          });
+        }
+      });
+
+      document.getElementById('quizScoreIgBtn')?.addEventListener('click', () => {
+        const mod = QUIZZES_DATA[state.quizMode];
+        const total = mod?.perguntas?.length || 4;
+        openIgStudio({
+          badge: `Desafio Concluído • ${mod?.titulo || 'Quiz'}`,
+          title: `Acertei ${state.quizScore} de ${total} no Quiz!`,
+          subtitle: 'Teste seus conhecimentos sobre marxismo, direitos trabalhistas 2026 e economia política.',
+          cta: 'Faça o quiz você também'
+        });
+      });
 
       document.querySelectorAll('.ocupmov-btn').forEach(btn => {
         btn.addEventListener('click', () => { state.ocupMov = btn.dataset.ocupmov; render(); });
