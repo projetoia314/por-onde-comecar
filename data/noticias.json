@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/11/2026 12:53 UTC",
+  "atualizado_em": "18/11/2026 18:42 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 344",
     "edicao": "Edição nº 344",
@@ -11,83 +11,91 @@
   "destaques_ao_vivo": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "PF faz operação contra quadrilha que explora apostas ilegais e bloqueia R$ 2,3 bi",
-      "resumo": "A Polícia Federal deflagrou, na manhã desta quarta-feira (18), a Operação Cash Out, que investiga uma organização criminosa suspeita de explorar ilegalmente jogos e apostas, além de praticar lavagem de dinheiro, evasão...",
-      "url": "https://iclnoticias.com.br/pf-operacao-apostas-ilegais/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/831ca9ac-5496-402a-abfd-99188247b82d.webp",
+      "titulo": "Professor espancado após defender mulher foi perseguido 11 segundos após saída da PM",
+      "resumo": "Por Gabriel Gomes O professor, escritor e artista André Luiz de Oliveira, conhecido como André Aires, de 42 anos, permanece internado em estado grave no Hospital Municipal Miguel Couto, na Zona Sul do Rio de Janeiro,...",
+      "url": "https://iclnoticias.com.br/professor-espancado-perseguido-11-s-saida-pm/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/familia--e1795026553779.webp",
       "data": "Wed, 18 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "No Rio, Feira da Reforma Agrária Cícero Guedes acontece em dezembro",
-      "resumo": "A tradicional Feira Estadual da Reforma Agrária Cícero Guedes, organizada pelo Movimento dos Trabalhadores Rurais Sem Terra (MST) no Rio de Janeiro, terá como lema “30 anos do MST-RJ: Ocupar as ruas, alimentar o povo”....",
-      "url": "https://www.brasildefato.com.br/2026/11/18/no-rio-feira-da-reforma-agraria-cicero-guedes-acontece-em-dezembro/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/1000278197-1536x1024-1-8ff74a0b.webp",
+      "titulo": "Curitiba terá ato contra o mercado financeiro nesta quinta-feira (19)",
+      "resumo": "Em Curitiba (PR), nesta quinta-feira (19), movimentos e organizações vão protestar contra as pressões do mercado financeiro por ajuste fiscal, sobre o governo brasileiro. O ato reivindica o aumento dos investimentos...",
+      "url": "https://www.brasildefato.com.br/2026/11/18/curitiba-tera-ato-contra-o-mercado-financeiro-nesta-quinta-feira-19/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/img3808-a277ec7c.webp",
       "data": "Wed, 18 Nov 2026"
     }
   ],
   "manchetes": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "PF faz operação contra quadrilha que explora apostas ilegais e bloqueia R$ 2,3 bi",
-      "resumo": "A Polícia Federal deflagrou, na manhã desta quarta-feira (18), a Operação Cash Out, que investiga uma organização criminosa suspeita de explorar ilegalmente jogos e apostas, além de praticar lavagem de dinheiro, evasão...",
-      "url": "https://iclnoticias.com.br/pf-operacao-apostas-ilegais/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/831ca9ac-5496-402a-abfd-99188247b82d.webp",
+      "titulo": "Professor espancado após defender mulher foi perseguido 11 segundos após saída da PM",
+      "resumo": "Por Gabriel Gomes O professor, escritor e artista André Luiz de Oliveira, conhecido como André Aires, de 42 anos, permanece internado em estado grave no Hospital Municipal Miguel Couto, na Zona Sul do Rio de Janeiro,...",
+      "url": "https://iclnoticias.com.br/professor-espancado-perseguido-11-s-saida-pm/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/familia--e1795026553779.webp",
       "data": "Wed, 18 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Moraes é alvo de pressão e indica a parlamentares que vai liberar ação que reduz pena de Bolsonaro",
-      "resumo": "Por Thaísa Oliveira, Isadora Albernaz e Ana Pompeu (Folhapress) – O ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal), indicou a parlamentares que vai liberar para julgamento a ação que pode diminuir a...",
-      "url": "https://iclnoticias.com.br/moraes-e-alvo-de-pressao/",
-      "imagem": "",
-      "data": "Wed, 18 Nov 2026"
-    },
-    {
-      "veiculo": "ICL Notícias",
-      "titulo": "PT fecha apoio ao ajuste fiscal, mas quer tirar investimentos públicos do arcabouço",
-      "resumo": "Por Cleber Lourenço A bancada do PT na Câmara dos Deputados decidiu nesta terça-feira (17) apoiar o projeto de ajuste fiscal do governo Lula, mas vai manter a defesa da retirada dos investimentos públicos dos limites...",
-      "url": "https://iclnoticias.com.br/pt-fecha-apoio-ao-ajuste-fiscal/",
+      "titulo": "Fernanda Torres é listada pela Variety para ser vilã de novo filme de ‘007’",
+      "resumo": "Por Leonardo Volpato (Folhapress) – Fernanda Torres entrou na lista de artistas que a revista americana Variety gostaria de ver como vilões do próximo filme de James Bond. A brasileira aparece entre 22 nomes sugeridos...",
+      "url": "https://iclnoticias.com.br/fernanda-torres-listada-variety-vila-filme-007/",
       "imagem": "",
       "data": "Wed, 18 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Senado faz hoje nova tentativa de votar ajuste fiscal proposto pelo governo",
-      "resumo": "O Senado tenta concluir nesta quarta-feira (18) a votação do Projeto de Lei Complementar (PLP) do ajuste fiscal. Para encerrar a análise na Casa, os senadores ainda precisam avaliar quatro destaques (sugestões de...",
-      "url": "https://iclnoticias.com.br/economia/senado-nova-tentativa-ajuste-fiscal/",
+      "titulo": "Maioria da Aneel recomenda romper contrato da Enel em SP, mas diretor-geral trava decisão final",
+      "resumo": "Por André Borges (Folhapress) – Quatro dos cinco diretores da Aneel (Agência Nacional de Energia Elétrica) decidiram nesta terça-feira (17) recomendar ao governo federal o rompimento do contrato de concessão da Enel São...",
+      "url": "https://iclnoticias.com.br/aneel-recomenda-romper-contrato-da-enel/",
+      "imagem": "",
+      "data": "Wed, 18 Nov 2026"
+    },
+    {
+      "veiculo": "ICL Notícias",
+      "titulo": "STF inaugura símbolo de Xangô e amplia representação religiosa no Judiciário",
+      "resumo": "O Supremo Tribunal Federal (STF) inaugurou, na terça-feira (17), uma escultura do Oxê de Xangô, símbolo da Justiça na tradição iorubá e expressão da cultura afro-brasileira. A obra foi instalada no hall do Salão Nobre,...",
+      "url": "https://iclnoticias.com.br/stf-inaugura-simbolo-xango-representacao/",
       "imagem": "",
       "data": "Wed, 18 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "No Rio, Feira da Reforma Agrária Cícero Guedes acontece em dezembro",
-      "resumo": "A tradicional Feira Estadual da Reforma Agrária Cícero Guedes, organizada pelo Movimento dos Trabalhadores Rurais Sem Terra (MST) no Rio de Janeiro, terá como lema “30 anos do MST-RJ: Ocupar as ruas, alimentar o povo”....",
-      "url": "https://www.brasildefato.com.br/2026/11/18/no-rio-feira-da-reforma-agraria-cicero-guedes-acontece-em-dezembro/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/1000278197-1536x1024-1-8ff74a0b.webp",
+      "titulo": "Curitiba terá ato contra o mercado financeiro nesta quinta-feira (19)",
+      "resumo": "Em Curitiba (PR), nesta quinta-feira (19), movimentos e organizações vão protestar contra as pressões do mercado financeiro por ajuste fiscal, sobre o governo brasileiro. O ato reivindica o aumento dos investimentos...",
+      "url": "https://www.brasildefato.com.br/2026/11/18/curitiba-tera-ato-contra-o-mercado-financeiro-nesta-quinta-feira-19/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/img3808-a277ec7c.webp",
       "data": "Wed, 18 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Machado de Assis era negro. Por que ainda precisamos provar o que a história tentou apagar?",
-      "resumo": "Durante mais de um século, o Brasil celebrou Machado de Assis como seu maior escritor. Publicou seus romances, estudou sua ironia, reverenciou sua inteligência. Mas frequentemente deixou à margem uma dimensão...",
-      "url": "https://www.brasildefato.com.br/2026/11/18/machado-de-assis-era-negro-por-que-ainda-precisamos-provar-o-que-a-historia-tentou-apagar/",
+      "titulo": "Feriado e Tarifa Zero: propostas tentam ampliar participação popular na posse de Lula em Brasília",
+      "resumo": "A posse presidencial de 2027 será a primeira, desde a redemocratização, a acontecer fora do feriado de 1º de janeiro. Marcada para uma terça-feira, 5 de janeiro, a cerimônia que marcará o início do novo mandato de Luiz...",
+      "url": "https://www.brasildefato.com.br/2026/11/18/feriado-e-tarifa-zero-propostas-tentam-ampliar-participacao-popular-na-posse-de-lula-em-brasilia/",
       "imagem": "",
       "data": "Wed, 18 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Cátedra Sabotage: a periferia ocupa a universidade e disputa o futuro",
-      "resumo": "Antes do professor Richard Santos, veio o Big Richard. Nasci no Rio Comprido, naquela altura o local era conhecido como “o bairro proibido”, conforme cantava o Nando-E. Foi através do hip-hop que aperfeiçoei as...",
-      "url": "https://www.brasildefato.com.br/2026/11/18/catedra-sabotage-a-periferia-ocupa-a-universidade-e-disputa-o-futuro/",
+      "titulo": "‘Apec é o último refúgio seguro’: professor chinês defende integração produtiva e busca por paz",
+      "resumo": "“Não acredito que a guerra e a turbulência sejam os temas eternos da nossa comunidade na era moderna. Paz, prosperidade e desenvolvimento são os temas da comunidade humana hoje.” A declaração do professor chinês Qu...",
+      "url": "https://www.brasildefato.com.br/2026/11/18/apec-e-o-ultimo-refugio-seguro-professor-chines-defende-integracao-produtiva-e-busca-por-paz/",
       "imagem": "",
       "data": "Wed, 18 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "O fio da tesoura: o ajuste fiscal, os limites do reformismo e a urgência da luta de classes",
-      "resumo": "Enquanto o Congresso Nacional avança a passos largos para aprovar o Projeto de Lei Complementar (PLP 299/2026) (encabeçado pela base governista para endurecer as travas do arcabouço fiscal e comprimir o crescimento real...",
-      "url": "https://www.brasildefato.com.br/2026/11/18/o-fio-da-tesoura-o-ajuste-fiscal-os-limites-do-reformismo-e-a-urgencia-da-luta-de-classes/",
+      "titulo": "Festa na Pedreira Prado Lopes celebra consciência negra e 10 anos do coletivo Brejo das Sapas",
+      "resumo": "A Pedreira Prado Lopes, em Belo Horizonte, recebe nesta sexta-feira (20), feriado nacional do Dia da Consciência Negra, a festa comunitária “Consciência Negra de Favela”. Com programação gratuita das 10h às 22h, o...",
+      "url": "https://www.brasildefato.com.br/2026/11/18/festa-na-pedreira-prado-lopes-celebra-consciencia-negra-e-10-anos-do-coletivo-brejo-das-sapas/",
+      "imagem": "",
+      "data": "Wed, 18 Nov 2026"
+    },
+    {
+      "veiculo": "Jornal A Verdade",
+      "titulo": "O jornal físico ainda tem espaço na era das redes",
+      "resumo": "Mesmo com o crescimento das plataformas digitais, a circulação de jornais impressos continua sendo uma ferramenta de comunicação e organização política e contribui na difusão das ideias. Luiz Henrique| Recife OPINIÃO-...",
+      "url": "https://averdade.org.br/2026/11/o-jornal-fisico-ainda-tem-espaco-na-era-das-redes/",
       "imagem": "",
       "data": "Wed, 18 Nov 2026"
     },
@@ -96,14 +104,6 @@
       "titulo": "Incêndio na fábrica Aratell põem em risco trabalhadores",
       "resumo": "No dia 29 de outubro, por volta das 16 horas, um incêndio atingiu o quadro geral de energia de um dos galpões da empresa Aratell, na capital paulista. Ao Jornal A Verdade, os operários denunciam que a falta de...",
       "url": "https://averdade.org.br/2026/11/botijao-explode-e-causa-incendio-na-fabrica-aratell-em-sao-paulo/",
-      "imagem": "",
-      "data": "Tue, 17 Nov 2026"
-    },
-    {
-      "veiculo": "Jornal A Verdade",
-      "titulo": "Trabalhadores se organizam para denunciar projeto de túnel da prefeitura de SP",
-      "resumo": "O projeto de construção de um túnel que liga a Rua Sena Madureira á Avenida Ricardo Jafet pela prefeitura de São Paulo tem apresentado risco aos trabalhadores que moram na região afetada pelas obras. Além de denúncias...",
-      "url": "https://averdade.org.br/2026/11/trabalhadores-se-organizam-para-denunciar-projeto-de-tunel-da-prefeitura-de-sp/",
       "imagem": "",
       "data": "Tue, 17 Nov 2026"
     }
