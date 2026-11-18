@@ -1,47 +1,111 @@
 {
-  "atualizado_em": "17/11/2026 • Sincronizado via GitHub Actions",
+  "atualizado_em": "18/11/2026 06:56 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 344",
     "edicao": "Edição nº 344",
-    "descricao": "Capa oficial da edição impressa semanal (padrão javNNN) atualizada automaticamente.",
-    "url": "https://averdade.org.br/",
+    "descricao": "Capa da edição impressa extraída diretamente do arquivo oficial (padrão javNNN) do Jornal A Verdade.",
+    "url": "https://averdade.org.br/2026/11/sexta-edicao-da-feira-de-livros-do-ccml-movimenta-o-calendario-cultural-do-recife/",
     "imagem": "img/capa-a-verdade.jpg",
     "origem_url": "https://averdade.org.br/wp-content/uploads/2026/11/jav344.jpeg"
   },
   "destaques_ao_vivo": [
     {
-      "veiculo": "ICL Notícias • Política",
-      "titulo": "Acompanhe a manchete principal de Política do ICL Notícias",
-      "resumo": "Cobertura política ao vivo, bastidores do Congresso e análises independentes atualizadas a cada 6 horas.",
-      "url": "https://iclnoticias.com.br/politica/",
-      "imagem": "",
-      "data": "Ao vivo via RSS/OG"
+      "veiculo": "ICL Notícias",
+      "titulo": "Indígenas isolados se aproximam de aldeia no Maranhão e governo fica em alerta",
+      "resumo": "Por Luiz Cláudio Ferreira – Agência Brasil Um grupo de indígenas Awá foi avistado, na segunda (16), em aproximação a um posto de controle da Fundação Nacional dos Povos Indígenas (Funai) e de uma aldeia dos indígenas...",
+      "url": "https://iclnoticias.com.br/indigenas-isolados-se-aproximam-alerta/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/1_indigenas-37242006.webp",
+      "data": "Wed, 18 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Confira o destaque principal do dia no Brasil de Fato",
-      "resumo": "Jornalismo popular, direitos trabalhistas, movimentos sociais e política nacional em tempo real.",
-      "url": "https://www.brasildefato.com.br/",
-      "imagem": "",
-      "data": "Ao vivo via RSS/OG"
+      "titulo": "Assembleia Legislativa paulista exibe série Terreiros Urbanos, do Brasil de Fato, nesta quinta-feira (19)",
+      "resumo": "A série documental “Terreiros Urbanos em São Paulo”, do Brasil de Fato, será exibida na Assembleia Legislativa de São Paulo (Alesp) nesta quinta-feira (19), a partir das 18h, no auditório Teotônio Vilela. A exibição foi...",
+      "url": "https://www.brasildefato.com.br/2026/11/17/assembleia-legislativa-paulista-exibe-serie-terreiros-urbanos-do-brasil-de-fato-nesta-quinta-feira-19/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/05/luciana-07-5a2a5323.webp",
+      "data": "Wed, 18 Nov 2026"
     }
   ],
   "manchetes": [
     {
-      "veiculo": "ICL Notícias • Política",
-      "titulo": "Últimas notícias de Política no ICL Notícias",
-      "resumo": "Acesse a editoria de política do ICL Notícias.",
-      "url": "https://iclnoticias.com.br/politica/",
+      "veiculo": "ICL Notícias",
+      "titulo": "Indígenas isolados se aproximam de aldeia no Maranhão e governo fica em alerta",
+      "resumo": "Por Luiz Cláudio Ferreira – Agência Brasil Um grupo de indígenas Awá foi avistado, na segunda (16), em aproximação a um posto de controle da Fundação Nacional dos Povos Indígenas (Funai) e de uma aldeia dos indígenas...",
+      "url": "https://iclnoticias.com.br/indigenas-isolados-se-aproximam-alerta/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/1_indigenas-37242006.webp",
+      "data": "Wed, 18 Nov 2026"
+    },
+    {
+      "veiculo": "ICL Notícias",
+      "titulo": "Aposentadoria do INSS terá novas exigências em 2027; veja o que muda para CLT, MEI e autônomos",
+      "resumo": "Os trabalhadores que pretendem se aposentar pelo Instituto Nacional do Seguro Social (INSS) precisarão ficar atentos às mudanças que entram em vigor em janeiro de 2027. As novas exigências atingem diferentes categorias...",
+      "url": "https://iclnoticias.com.br/economia/aposentadoria-do-inss-2027/",
       "imagem": "",
-      "data": "Atualização automática"
+      "data": "Wed, 18 Nov 2026"
+    },
+    {
+      "veiculo": "ICL Notícias",
+      "titulo": "Bebê de 1 ano morre após ataque de rottweiler durante visita à casa da avó em SP",
+      "resumo": "Uma bebê de um ano e dois meses morreu após ser atacada por um cachorro da raça rottweiler no domingo (15), em Echaporã, no interior de São Paulo. A menina, identificada como Helena Alves Diniz, estava na casa da avó...",
+      "url": "https://iclnoticias.com.br/bebe-1-ano-morre-ataque-rottweiler-casa-avo/",
+      "imagem": "",
+      "data": "Wed, 18 Nov 2026"
+    },
+    {
+      "veiculo": "ICL Notícias",
+      "titulo": "STF encerra ação de juíza contra jornalistas por reportagem sobre dívida com empresário",
+      "resumo": "Por Arthur Guimarães de Oliveira (Folhapress) – A Segunda Turma do STF (Supremo Tribunal Federal) manteve a decisão que livrou dois jornalistas de pagar indenização de R$ 30 mil a uma juíza de Mato Grosso por reportagem...",
+      "url": "https://iclnoticias.com.br/stf-encerra-acao-juiza-contra-jornalistas/",
+      "imagem": "",
+      "data": "Wed, 18 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Últimas reportagens do Brasil de Fato",
-      "resumo": "Acesse a página principal do Brasil de Fato.",
-      "url": "https://www.brasildefato.com.br/",
+      "titulo": "Assembleia Legislativa paulista exibe série Terreiros Urbanos, do Brasil de Fato, nesta quinta-feira (19)",
+      "resumo": "A série documental “Terreiros Urbanos em São Paulo”, do Brasil de Fato, será exibida na Assembleia Legislativa de São Paulo (Alesp) nesta quinta-feira (19), a partir das 18h, no auditório Teotônio Vilela. A exibição foi...",
+      "url": "https://www.brasildefato.com.br/2026/11/17/assembleia-legislativa-paulista-exibe-serie-terreiros-urbanos-do-brasil-de-fato-nesta-quinta-feira-19/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/05/luciana-07-5a2a5323.webp",
+      "data": "Wed, 18 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Estudantes fecham a Faria Lima em protesto contra pressão do mercado por ajuste fiscal",
+      "resumo": "Em frente à escultura da Baleia, símbolo dos grandes investidores do mercado financeiro, estudantes e integrantes dos movimentos populares fecharam a avenida Faria Lima, em São Paulo, contra os juros altos e a pressão...",
+      "url": "https://www.brasildefato.com.br/2026/11/17/estudantes-fecham-a-faria-lima-em-protesto-contra-ajuste-fiscal-e-juros-altos/",
       "imagem": "",
-      "data": "Atualização automática"
+      "data": "Wed, 18 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "A Faria Lima quer estelionato eleitoral",
+      "resumo": "O atual debate em torno da suposta necessidade urgente de um ajuste fiscal vem a atender justamente à estratégia colocada em prática pelas elites dirigentes do financismo desde que foi revelado o resultado das eleições...",
+      "url": "https://www.brasildefato.com.br/2026/11/17/a-faria-lima-quer-estelionato-eleitoral/",
+      "imagem": "",
+      "data": "Wed, 18 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Sugestão de Lula de reunião entre EUA, China e Rússia reforça defesa do multilateralismo, avalia professor",
+      "resumo": "Gustavo Menon analisa sugestão elogiada por Mike Carney e fala em atualização do multilateralismo Fonte",
+      "url": "https://www.brasildefato.com.br/2026/11/17/sugestao-de-lula-de-reuniao-entre-eua-china-e-russia-reforca-defesa-do-multilateralismo-avalia-professor/",
+      "imagem": "",
+      "data": "Wed, 18 Nov 2026"
+    },
+    {
+      "veiculo": "Jornal A Verdade",
+      "titulo": "Incêndio na fábrica Aratell põem em risco trabalhadores",
+      "resumo": "No dia 29 de outubro, por volta das 16 horas, um incêndio atingiu o quadro geral de energia de um dos galpões da empresa Aratell, na capital paulista. Ao Jornal A Verdade, os operários denunciam que a falta de...",
+      "url": "https://averdade.org.br/2026/11/botijao-explode-e-causa-incendio-na-fabrica-aratell-em-sao-paulo/",
+      "imagem": "",
+      "data": "Tue, 17 Nov 2026"
+    },
+    {
+      "veiculo": "Jornal A Verdade",
+      "titulo": "Trabalhadores se organizam para denunciar projeto de túnel da prefeitura de SP",
+      "resumo": "O projeto de construção de um túnel que liga a Rua Sena Madureira á Avenida Ricardo Jafet pela prefeitura de São Paulo tem apresentado risco aos trabalhadores que moram na região afetada pelas obras. Além de denúncias...",
+      "url": "https://averdade.org.br/2026/11/trabalhadores-se-organizam-para-denunciar-projeto-de-tunel-da-prefeitura-de-sp/",
+      "imagem": "",
+      "data": "Tue, 17 Nov 2026"
     }
   ]
 }
