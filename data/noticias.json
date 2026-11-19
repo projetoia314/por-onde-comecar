@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/11/2026 00:50 UTC",
+  "atualizado_em": "19/11/2026 06:56 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 344",
     "edicao": "Edição nº 344",
@@ -19,10 +19,10 @@
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "A Revolução Cubana também revolucionou a arte e a cultura",
-      "resumo": "Como parte da Rumbo a Cuba, uma missão de solidariedade à ilha — na qual, pela primeira vez, uma embarcação da sociedade civil cruzou o Oceano Atlântico transportando equipamentos de energia solar para um hospital...",
-      "url": "https://www.brasildefato.com.br/2026/11/18/a-revolucao-cubana-tambem-revolucionou-a-arte-e-a-cultura/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/05/abel-prieto-1-77f2f448.webp",
+      "titulo": "‘O legado do teatro fica no corpo do ator’, diz Marcelo Drummond sobre trajetória de Zé Celso",
+      "resumo": "Após uma luta de muitos anos capitaneada pelo Teatro Oficina Uzyna Uzona, companhia fundada pelo saudoso Zé Celso Martinez Corrêa, a Prefeitura de São Paulo oficializou o Parque Municipal do Rio Bixiga, no centro da...",
+      "url": "https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/11/18/o-legado-do-teatro-fica-no-corpo-do-ator-diz-marcelo-drummond-sobre-trajetoria-de-ze-celso/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/20261118220942jpg-f6c57f74-scaled.webp",
       "data": "Thu, 19 Nov 2026"
     }
   ],
@@ -61,10 +61,26 @@
     },
     {
       "veiculo": "Brasil de Fato",
+      "titulo": "‘O legado do teatro fica no corpo do ator’, diz Marcelo Drummond sobre trajetória de Zé Celso",
+      "resumo": "Após uma luta de muitos anos capitaneada pelo Teatro Oficina Uzyna Uzona, companhia fundada pelo saudoso Zé Celso Martinez Corrêa, a Prefeitura de São Paulo oficializou o Parque Municipal do Rio Bixiga, no centro da...",
+      "url": "https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/11/18/o-legado-do-teatro-fica-no-corpo-do-ator-diz-marcelo-drummond-sobre-trajetoria-de-ze-celso/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/20261118220942jpg-f6c57f74-scaled.webp",
+      "data": "Thu, 19 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "EUA querem retomar ideia de ‘áreas de influência’, mas China tem dado as cartas do jogo global, avalia analista internacional",
+      "resumo": "Todos os olhares do mundo estão voltados para a histórica reunião trilateral entre Donald Trump, Vladimir Putin e Xi Jinping. Previsto para acontecer nesta quinta-feira (19), em Shenzhen, na China, o encontro terá como...",
+      "url": "https://www.brasildefato.com.br/2026/11/18/eua-querem-retomar-ideia-de-areas-de-influencia-mas-china-tem-dado-as-cartas-do-jogo-global-avalia-analista-internacional/",
+      "imagem": "",
+      "data": "Thu, 19 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
       "titulo": "A Revolução Cubana também revolucionou a arte e a cultura",
       "resumo": "Como parte da Rumbo a Cuba, uma missão de solidariedade à ilha — na qual, pela primeira vez, uma embarcação da sociedade civil cruzou o Oceano Atlântico transportando equipamentos de energia solar para um hospital...",
       "url": "https://www.brasildefato.com.br/2026/11/18/a-revolucao-cubana-tambem-revolucionou-a-arte-e-a-cultura/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/05/abel-prieto-1-77f2f448.webp",
+      "imagem": "",
       "data": "Thu, 19 Nov 2026"
     },
     {
@@ -76,20 +92,12 @@
       "data": "Thu, 19 Nov 2026"
     },
     {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Caso Master deve ser ‘alavanca para reforma do Judiciário’, avalia cientista político",
-      "resumo": "Francisco Fonseca aponta sub-representação racial e de gênero, em especial nos tribunais superiores Fonte",
-      "url": "https://www.brasildefato.com.br/2026/11/18/caso-master-deve-ser-alavanca-para-reforma-do-judiciario-avalia-cientista-politico/",
+      "veiculo": "Jornal A Verdade",
+      "titulo": "Cresce índice de violência contra mulheres e crianças de Jundiaí",
+      "resumo": "Em Jundiaí, interior de São Paulo, as mulheres trabalhadoras têm enfrentado um aumento significativo dos índices de violência. Em toda a região, cresceram os casos de feminicídios, violência contra vulneráveis e...",
+      "url": "https://averdade.org.br/2026/11/cresce-indice-de-violencia-contra-mulheres-e-criancas-de-jundiai/",
       "imagem": "",
-      "data": "Wed, 18 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Opositor de Netanyahu assume presidência do Knesset; novo governo continua indefinido",
-      "resumo": "O Parlamento de Israel (Knesset) elegeu, na terça-feira (17), Matan Kahana, membro do Yashar, partido do líder oposicionista Gadi Eisenkot, para a presidência da Casa. Com apoio de quatro partidos da oposição, incluindo...",
-      "url": "https://www.brasildefato.com.br/2026/11/18/opositor-de-netanyahu-assume-presidencia-do-knesset-novo-governo-continua-indefinido/",
-      "imagem": "",
-      "data": "Wed, 18 Nov 2026"
+      "data": "Thu, 19 Nov 2026"
     },
     {
       "veiculo": "Jornal A Verdade",
@@ -98,14 +106,6 @@
       "url": "https://averdade.org.br/2026/11/o-jornal-fisico-ainda-tem-espaco-na-era-das-redes/",
       "imagem": "",
       "data": "Wed, 18 Nov 2026"
-    },
-    {
-      "veiculo": "Jornal A Verdade",
-      "titulo": "Incêndio na fábrica Aratell põem em risco trabalhadores",
-      "resumo": "No dia 29 de outubro, por volta das 16 horas, um incêndio atingiu o quadro geral de energia de um dos galpões da empresa Aratell, na capital paulista. Ao Jornal A Verdade, os operários denunciam que a falta de...",
-      "url": "https://averdade.org.br/2026/11/botijao-explode-e-causa-incendio-na-fabrica-aratell-em-sao-paulo/",
-      "imagem": "",
-      "data": "Tue, 17 Nov 2026"
     }
   ]
 }
