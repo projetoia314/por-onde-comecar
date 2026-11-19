@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/11/2026 06:56 UTC",
+  "atualizado_em": "19/11/2026 12:56 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 344",
     "edicao": "Edição nº 344",
@@ -11,51 +11,75 @@
   "destaques_ao_vivo": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Banco do Brasil identifica vazamento de dados de clientes e alerta para risco de golpes",
-      "resumo": "O Banco do Brasil identificou um acesso não autorizado a dados pessoais de clientes e emitiu um alerta sobre possíveis tentativas de fraude. O incidente foi detectado em 12 de novembro e comunicado aos correntistas...",
-      "url": "https://iclnoticias.com.br/banco-brasil-vazamento-dados-golpes/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/banco-do-brasil-retoma-escolha-da-banca-para-o-proximo-concurso.webp",
+      "titulo": "Professores pedem revisão no gabarito do Enem 2026 após resposta gerar controvérsia",
+      "resumo": "Por Lucas Leite e Gustavo Gonçalves (Folhapress) – A questão 32 do caderno azul do Enem 2026, aplicada no primeiro dia de provas, é alvo de contestação de professores devido à resposta indicada no gabarito oficial. O...",
+      "url": "https://iclnoticias.com.br/professores-revisao-gabarito-enem-2026/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/55641538525_394782eea9_o-1.webp",
       "data": "Thu, 19 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "‘O legado do teatro fica no corpo do ator’, diz Marcelo Drummond sobre trajetória de Zé Celso",
-      "resumo": "Após uma luta de muitos anos capitaneada pelo Teatro Oficina Uzyna Uzona, companhia fundada pelo saudoso Zé Celso Martinez Corrêa, a Prefeitura de São Paulo oficializou o Parque Municipal do Rio Bixiga, no centro da...",
-      "url": "https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/11/18/o-legado-do-teatro-fica-no-corpo-do-ator-diz-marcelo-drummond-sobre-trajetoria-de-ze-celso/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/20261118220942jpg-f6c57f74-scaled.webp",
+      "titulo": "Putin, Xi e Trump defendem reforma da ONU e diálogo para evitar guerra nuclear em declaração conjunta sobre a paz; leia a íntegra",
+      "resumo": "Os presidentes da Rússia, Vladimir Putin, da China, Xi Jinping, e dos Estados Unidos, Donald Trump, adotaram uma declaração conjunta sobre a paz e segurança internacional após a reunião trilateral realizada nesta...",
+      "url": "https://www.brasildefato.com.br/2026/11/19/putin-xi-e-trump-defendem-reforma-da-onu-e-dialogo-para-evitar-guerra-nuclear-em-declaracao-conjunta-sobre-a-paz-leia-a-integra/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/ypu5tn3maognqtame9rx4ek1oal9saps-69da5b42.webp",
       "data": "Thu, 19 Nov 2026"
     }
   ],
   "manchetes": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Banco do Brasil identifica vazamento de dados de clientes e alerta para risco de golpes",
-      "resumo": "O Banco do Brasil identificou um acesso não autorizado a dados pessoais de clientes e emitiu um alerta sobre possíveis tentativas de fraude. O incidente foi detectado em 12 de novembro e comunicado aos correntistas...",
-      "url": "https://iclnoticias.com.br/banco-brasil-vazamento-dados-golpes/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/banco-do-brasil-retoma-escolha-da-banca-para-o-proximo-concurso.webp",
+      "titulo": "Professores pedem revisão no gabarito do Enem 2026 após resposta gerar controvérsia",
+      "resumo": "Por Lucas Leite e Gustavo Gonçalves (Folhapress) – A questão 32 do caderno azul do Enem 2026, aplicada no primeiro dia de provas, é alvo de contestação de professores devido à resposta indicada no gabarito oficial. O...",
+      "url": "https://iclnoticias.com.br/professores-revisao-gabarito-enem-2026/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/55641538525_394782eea9_o-1.webp",
       "data": "Thu, 19 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "PGR denuncia Flávio Bolsonaro sob acusação de calúnia contra presidente Lula",
-      "resumo": "Por Ana Pompeu, Anna Júlia Lopes e Constança Rezende (Folhapress) – A PGR (Procuradoria-Geral da República) denunciou, nesta segunda-feira (16), o senador Flávio Bolsonaro (PL-RJ) pela acusação de crime de calúnia...",
-      "url": "https://iclnoticias.com.br/pgr-denuncia-flavio-bolsonaro-calunia-lula/",
+      "titulo": "Sem avanço, Brasil abre disputa comercial na OMC contra tarifaço de Trump",
+      "resumo": "Sem alarde e sem anunciar publicamente, o governo brasileiro tomou a decisão de abrir uma disputa nos tribunais da OMC contra Donald Trump. Num documento enviado pelo Itamaraty para a entidade em Genebra, no dia 12 de...",
+      "url": "https://iclnoticias.com.br/sem-avanco-brasil-abre-disputa-comercial-na-omc-contra-tarifaco-de-trump/",
       "imagem": "",
       "data": "Thu, 19 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Relatórios da PF sobre ministros do STF e Master causam incerteza sobre reação de Fachin",
-      "resumo": "Por Ana Pompeu e Anna Júlia Lopes (Folhapress) – A previsão da entrega dos relatórios sobre a relação dos ministros do STF (Supremo Tribunal Federal) com Daniel Vorcaro, ex-dono do Banco Master, pela Polícia Federal tem...",
-      "url": "https://iclnoticias.com.br/relatorios-da-pf-sobre-ministros-do-stf/",
+      "titulo": "Tempo continua instável no Brasil, com risco de temporais e ventos acima de 90 km/h",
+      "resumo": "O tempo continua instável em boa parte do Brasil nesta quinta-feira (19), com previsão de chuva forte em diferentes estados e risco de temporais. Segundo o INMET, Minas Gerais e Espírito Santo estão entre as áreas que...",
+      "url": "https://iclnoticias.com.br/tempo-segue-instavel-no-brasil/",
       "imagem": "",
       "data": "Thu, 19 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "‘Se sentiram obrigados’: líder Guajajara relata contato de indígenas isolados no MA",
-      "resumo": "Um grupo de indígenas Awá-Guajá que vivem isolados se aproximou de uma aldeia Guajajara na Terra Indígena Arariboia, no Maranhão, nesta semana. Cerca de 15 indígenas foram vistos nas proximidades da comunidade na...",
-      "url": "https://iclnoticias.com.br/lider-guajajara-contato-indigenas-isolados-ma/",
+      "titulo": "Conheça as frutas que ajudam a controlar o açúcar no sangue após os 50 anos",
+      "resumo": "Manter uma alimentação equilibrada é fundamental para a saúde, especialmente depois dos 50 anos, quando aumenta a preocupação com doenças como o diabetes tipo 2. Entre os alimentos que podem contribuir para o controle...",
+      "url": "https://iclnoticias.com.br/conheca-as-frutas-que-ajudam-a-controlar-acucar/",
+      "imagem": "",
+      "data": "Thu, 19 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Putin, Xi e Trump defendem reforma da ONU e diálogo para evitar guerra nuclear em declaração conjunta sobre a paz; leia a íntegra",
+      "resumo": "Os presidentes da Rússia, Vladimir Putin, da China, Xi Jinping, e dos Estados Unidos, Donald Trump, adotaram uma declaração conjunta sobre a paz e segurança internacional após a reunião trilateral realizada nesta...",
+      "url": "https://www.brasildefato.com.br/2026/11/19/putin-xi-e-trump-defendem-reforma-da-onu-e-dialogo-para-evitar-guerra-nuclear-em-declaracao-conjunta-sobre-a-paz-leia-a-integra/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/ypu5tn3maognqtame9rx4ek1oal9saps-69da5b42.webp",
+      "data": "Thu, 19 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Putin, Trump e Xi discutem segurança global em encontro histórico na China; veja o que disseram os líderes",
+      "resumo": "A reunião trilateral entre o presidente russo, Vladimir Putin, o líder chinês, Xi Jinping, e o presidente dos EUA, Donald Trump, foi realizada nesta quinta-feira (19), em Shenzhen, à margem da cúpula da Cooperação...",
+      "url": "https://www.brasildefato.com.br/2026/11/19/putin-trump-e-xi-discutem-seguranca-global-em-encontro-historico-na-china-veja-o-que-disseram-os-lideres/",
+      "imagem": "",
+      "data": "Thu, 19 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Da luta contra o trabalho escravo à Justiça do Trabalho: processos por jornada exaustiva crescem 452% de 2023 a 2025",
+      "resumo": "O número de registros de novos processos relacionados à jornada exaustiva na Justiça do Trabalho cresceu 452% entre 2023 e 2025, passando de 168 para 927. O levantamento exclusivo obtido pelo Brasil de Fato, elaborado a...",
+      "url": "https://www.brasildefato.com.br/2026/11/19/da-luta-contra-o-trabalho-escravo-a-justica-do-trabalho-processos-por-jornada-exaustiva-crescem-452-de-2023-a-2025/",
       "imagem": "",
       "data": "Thu, 19 Nov 2026"
     },
@@ -64,30 +88,6 @@
       "titulo": "‘O legado do teatro fica no corpo do ator’, diz Marcelo Drummond sobre trajetória de Zé Celso",
       "resumo": "Após uma luta de muitos anos capitaneada pelo Teatro Oficina Uzyna Uzona, companhia fundada pelo saudoso Zé Celso Martinez Corrêa, a Prefeitura de São Paulo oficializou o Parque Municipal do Rio Bixiga, no centro da...",
       "url": "https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/11/18/o-legado-do-teatro-fica-no-corpo-do-ator-diz-marcelo-drummond-sobre-trajetoria-de-ze-celso/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/20261118220942jpg-f6c57f74-scaled.webp",
-      "data": "Thu, 19 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "EUA querem retomar ideia de ‘áreas de influência’, mas China tem dado as cartas do jogo global, avalia analista internacional",
-      "resumo": "Todos os olhares do mundo estão voltados para a histórica reunião trilateral entre Donald Trump, Vladimir Putin e Xi Jinping. Previsto para acontecer nesta quinta-feira (19), em Shenzhen, na China, o encontro terá como...",
-      "url": "https://www.brasildefato.com.br/2026/11/18/eua-querem-retomar-ideia-de-areas-de-influencia-mas-china-tem-dado-as-cartas-do-jogo-global-avalia-analista-internacional/",
-      "imagem": "",
-      "data": "Thu, 19 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "A Revolução Cubana também revolucionou a arte e a cultura",
-      "resumo": "Como parte da Rumbo a Cuba, uma missão de solidariedade à ilha — na qual, pela primeira vez, uma embarcação da sociedade civil cruzou o Oceano Atlântico transportando equipamentos de energia solar para um hospital...",
-      "url": "https://www.brasildefato.com.br/2026/11/18/a-revolucao-cubana-tambem-revolucionou-a-arte-e-a-cultura/",
-      "imagem": "",
-      "data": "Thu, 19 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Recife e Cabo de Santo Agostinho (PE) têm caminhadas em defesa do povo negro, nesta quinta-feira (19)",
-      "resumo": "Atos acontecem ambos no turno da tarde, com concentrações a partir das 13 horas (no Cabo) e 15 horas (Recife) Fonte",
-      "url": "https://www.brasildefato.com.br/2026/11/18/recife-e-cabo-de-santo-agostinho-pe-tem-caminhadas-em-defesa-do-povo-negro-nesta-quinta-feira-19/",
       "imagem": "",
       "data": "Thu, 19 Nov 2026"
     },
