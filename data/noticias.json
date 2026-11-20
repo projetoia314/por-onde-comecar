@@ -1,93 +1,101 @@
 {
-  "atualizado_em": "19/11/2026 18:47 UTC",
+  "atualizado_em": "20/11/2026 00:42 UTC",
   "capa_averdade": {
-    "titulo": "Jornal A Verdade — Edição nº 344",
-    "edicao": "Edição nº 344",
+    "titulo": "Jornal A Verdade — Edição nº 345",
+    "edicao": "Edição nº 345",
     "descricao": "Capa da edição impressa extraída diretamente do arquivo oficial (padrão javNNN) do Jornal A Verdade.",
     "url": "https://averdade.org.br/2026/11/sexta-edicao-da-feira-de-livros-do-ccml-movimenta-o-calendario-cultural-do-recife/",
     "imagem": "img/capa-a-verdade.jpg",
-    "origem_url": "https://averdade.org.br/wp-content/uploads/2026/11/jav344.jpeg"
+    "origem_url": "https://averdade.org.br/wp-content/uploads/2026/11/jav345.jpeg"
   },
   "destaques_ao_vivo": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Fim da 6×1: sindicato conquista dois dias seguidos de folga e domingos livres em SP",
-      "resumo": "Por Gabriel Gomes O Sindicato Químicos Unificados conquistou, por meio de negociação coletiva, a garantia de dois dias consecutivos de descanso semanal, incluindo preferencialmente o domingo, para trabalhadores da...",
-      "url": "https://iclnoticias.com.br/fim-da-escala-6x1-sindicato-conquista-dois-dias/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/WhatsApp-Image-2026-11-19-at-10.07.01.webp",
-      "data": "Thu, 19 Nov 2026"
+      "titulo": "Entidades lançam campanha para que Lula indique primeira mulher negra ao STF",
+      "resumo": "Por Cleber Lourenço Mais de 45 organizações da sociedade civil se uniram em uma campanha para que o presidente Luiz Inácio Lula da Silva (PT) indique a primeira mulher negra da história do Supremo Tribunal Federal...",
+      "url": "https://iclnoticias.com.br/entidades-lancam-campanha-para-que-lula-indique-primeira-mulher-negra-ao-stf/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/Ato-na-Camara-dos-Deputados-pressiona-Lula-por-ministra-negra-no-STF-rw8z635asygeky869t6sotpn27brn7f81hh5z6hk6w-1.webp",
+      "data": "Fri, 20 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Campanha Natal Solidário 2026 vai distribuir 4.500 refeições e brinquedos na periferia de SP",
-      "resumo": "Movimento Brasil Popular se articula com cozinhas solidárias para mobilização que acontece desde 2023 Fonte",
-      "url": "https://www.brasildefato.com.br/2026/11/19/campanha-natal-solidario-2026-vai-distribuir-4500-refeicoes-e-brinquedos-na-periferia-de-sp/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/viniciusbraga-1024x682-1-ac6584b1.webp",
-      "data": "Thu, 19 Nov 2026"
+      "titulo": "Série Terreiros Urbanos extrapola debate sobre criminalização para valorizar a liderança de mulheres negras, diz deputada",
+      "resumo": "A exibição da série documental “Terreiros Urbanos em São Paulo”, do Brasil de Fato, na Assembleia Legislativa de São Paulo (Alesp), nesta quinta-feira (19), foi marcada pela exaltação à valorização da liderança das...",
+      "url": "https://www.brasildefato.com.br/2026/11/19/serie-terreiros-urbanos-extrapola-debate-sobre-criminalizacao-para-valorizar-a-lideranca-de-mulheres-negras-diz-deputada/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/whatsapp-image-2026-11-19-at-194144-196b20bc.webp",
+      "data": "Fri, 20 Nov 2026"
     }
   ],
   "manchetes": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Fim da 6×1: sindicato conquista dois dias seguidos de folga e domingos livres em SP",
-      "resumo": "Por Gabriel Gomes O Sindicato Químicos Unificados conquistou, por meio de negociação coletiva, a garantia de dois dias consecutivos de descanso semanal, incluindo preferencialmente o domingo, para trabalhadores da...",
-      "url": "https://iclnoticias.com.br/fim-da-escala-6x1-sindicato-conquista-dois-dias/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/WhatsApp-Image-2026-11-19-at-10.07.01.webp",
+      "titulo": "Entidades lançam campanha para que Lula indique primeira mulher negra ao STF",
+      "resumo": "Por Cleber Lourenço Mais de 45 organizações da sociedade civil se uniram em uma campanha para que o presidente Luiz Inácio Lula da Silva (PT) indique a primeira mulher negra da história do Supremo Tribunal Federal...",
+      "url": "https://iclnoticias.com.br/entidades-lancam-campanha-para-que-lula-indique-primeira-mulher-negra-ao-stf/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/Ato-na-Camara-dos-Deputados-pressiona-Lula-por-ministra-negra-no-STF-rw8z635asygeky869t6sotpn27brn7f81hh5z6hk6w-1.webp",
+      "data": "Fri, 20 Nov 2026"
+    },
+    {
+      "veiculo": "ICL Notícias",
+      "titulo": "Marinha garante pensão de oficial condenado por corrupção",
+      "resumo": "Por Cleber Lourenço A Marinha assegurou o direito à pensão militar aos beneficiários de um oficial condenado por corrupção passiva e que perdeu a patente por decisão do Superior Tribunal Militar (STM). A medida foi...",
+      "url": "https://iclnoticias.com.br/marinha-garante-pensao-de-oficial-condenado/",
+      "imagem": "",
+      "data": "Fri, 20 Nov 2026"
+    },
+    {
+      "veiculo": "ICL Notícias",
+      "titulo": "Lula acelera demarcação de terra indígena para garantir direito com cacique Raoni vivo",
+      "resumo": "Por Caio Spechoto e João Gabriel (Folhapress) – O presidente Luiz Inácio Lula da Silva (PT) anunciou nesta quinta-feira (19) o avanço do processo de demarcação de terra indígena revindicada pelo Cacique Raoni, e que fez...",
+      "url": "https://iclnoticias.com.br/lula-demarcacao-terra-indigena-de-cacique-raoni/",
+      "imagem": "",
       "data": "Thu, 19 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Lula promete manter direitos e diz que controle fiscal é prioridade",
-      "resumo": "Por Alex Rodrigues – Agência Brasil O presidente da República, Luiz Inácio Lula da Silva, declarou, nesta quinta-feira (19), que não haverá retrocesso nos direitos sociais durante seu governo. Ao participar, no Palácio...",
-      "url": "https://iclnoticias.com.br/lula-manter-direito-controle-fiscal-prioridade/",
-      "imagem": "",
-      "data": "Thu, 19 Nov 2026"
-    },
-    {
-      "veiculo": "ICL Notícias",
-      "titulo": "“Verão da Lata” está de volta em nome da memória brasileira",
-      "resumo": "No cinema, “Verão da Lata” virou uma desopilante comédia policial do diretor Santiago Dellape, com pré-estreias a partir de hoje (19/11). Na história recente do Brasil, é um episódio que vale ser lembrado como uma...",
-      "url": "https://iclnoticias.com.br/verao-da-lata-esta-de-volta-em-nome-da-memoria-brasileira/",
-      "imagem": "",
-      "data": "Thu, 19 Nov 2026"
-    },
-    {
-      "veiculo": "ICL Notícias",
-      "titulo": "Lula critica especulações sobre ministério: ‘quem senta na cadeira antes cai antes de sentar’",
-      "resumo": "Por Luany Galdeano e Caio Spechoto (Folhapress) – O presidente Lula (PT) criticou nesta quinta-feira (19) as especulações em torno de quem serão os ministros indicados para o seu quarto mandato. Ele afirmou que irá...",
-      "url": "https://iclnoticias.com.br/lula-critica-especulacoes-sobre-ministerio/",
+      "titulo": "Em meio ao ajuste fiscal, deputados tentam blindar R$ 6,5 bi para militares",
+      "resumo": "Por Cleber Lourenço Em meio às discussões sobre o ajuste fiscal e a contenção de despesas públicas, deputados da Comissão de Relações Exteriores e de Defesa Nacional da Câmara aprovaram, nesta quarta-feira (18),...",
+      "url": "https://iclnoticias.com.br/ajuste-fiscal-deputados-blindar-militares/",
       "imagem": "",
       "data": "Thu, 19 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Campanha Natal Solidário 2026 vai distribuir 4.500 refeições e brinquedos na periferia de SP",
-      "resumo": "Movimento Brasil Popular se articula com cozinhas solidárias para mobilização que acontece desde 2023 Fonte",
-      "url": "https://www.brasildefato.com.br/2026/11/19/campanha-natal-solidario-2026-vai-distribuir-4500-refeicoes-e-brinquedos-na-periferia-de-sp/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/viniciusbraga-1024x682-1-ac6584b1.webp",
-      "data": "Thu, 19 Nov 2026"
+      "titulo": "Série Terreiros Urbanos extrapola debate sobre criminalização para valorizar a liderança de mulheres negras, diz deputada",
+      "resumo": "A exibição da série documental “Terreiros Urbanos em São Paulo”, do Brasil de Fato, na Assembleia Legislativa de São Paulo (Alesp), nesta quinta-feira (19), foi marcada pela exaltação à valorização da liderança das...",
+      "url": "https://www.brasildefato.com.br/2026/11/19/serie-terreiros-urbanos-extrapola-debate-sobre-criminalizacao-para-valorizar-a-lideranca-de-mulheres-negras-diz-deputada/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/whatsapp-image-2026-11-19-at-194144-196b20bc.webp",
+      "data": "Fri, 20 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "A história se constrói com a força da memória, da imaginação e da coerência",
-      "resumo": "Na semana anterior aconteceram dois fatos que me marcaram bastante, e que agora me parecem tão relacionados a este debate que avança na base do governo e nas mídias de todas as cores, contra o ajuste fiscal, que vou me...",
-      "url": "https://www.brasildefato.com.br/colunista/leonardo-melgarejo/2026/11/19/a-historia-se-constroi-com-a-forca-da-memoria-da-imaginacao-e-da-coerencia/",
+      "titulo": "‘País que emite dívida na própria moeda não quebra’, diz economista sobre mito do colapso fiscal",
+      "resumo": "A aprovação do Projeto de Lei Complementar (PLP) 299/2026, o texto do ajuste fiscal, no Senado e a votação prevista para acontecer na Câmara dos Deputados na próxima segunda-feira (23) colocaram no centro do debate...",
+      "url": "https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/11/19/pais-que-emite-divida-na-propria-moeda-nao-quebra-diz-economista-sobre-mito-do-colapso-fiscal/",
+      "imagem": "",
+      "data": "Fri, 20 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "16ª Mostra de Cinema de Direitos Humanos homenageia pessoa idosa com filmes em 15 cidades",
+      "resumo": "Com o tema “O tempo que nos habita: narrativas do envelhecer, da ancestralidade e a construção do futuro”, a 16ª Mostra de Cinema de Direitos Humanos presta homenagem à pessoa idosa no Brasil com uma programação que...",
+      "url": "https://www.brasildefato.com.br/2026/11/19/16a-mostra-de-cinema-de-direitos-humanos-homenageia-pessoa-idosa-com-filmes-em-15-cidades/",
+      "imagem": "",
+      "data": "Fri, 20 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "‘As desigualdades sociais no Brasil são também raciais’, diz codeputada Simone Nascimento",
+      "resumo": "A Marcha da Consciência Negra nesta sexta-feira (20), feriado nacional, marca a data em que se celebra a existência e a resistência do povo preto. A caminhada acontece em várias cidades do país. Em São Paulo, as...",
+      "url": "https://www.brasildefato.com.br/2026/11/19/as-desigualdades-sociais-no-brasil-sao-tambem-raciais-diz-codeputada-simone-nascimento/",
       "imagem": "",
       "data": "Thu, 19 Nov 2026"
     },
     {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Panela do Jazz reúne Amaro Freitas, Spok e Lucas dos Prazeres em shows gratuitos no Recife",
-      "resumo": "Tradicional evento tem a aproximação da música instrumental com as manifestações afro-brasileiras como mote deste ano Fonte",
-      "url": "https://www.brasildefato.com.br/2026/11/19/panela-do-jazz-reune-amaro-freitas-spok-e-lucas-dos-prazeres-em-shows-gratuitos-no-recife/",
-      "imagem": "",
-      "data": "Thu, 19 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Meninas livres, vivas e sem violência",
-      "resumo": "Hoje começam os 21 Dias de Ativismo pelo Fim da Violência contra as Mulheres e Meninas. São dias de mobilização, memória, denúncia e luta, que nos convocam a refletir sobre as diferentes formas de violência, reafirmar...",
-      "url": "https://www.brasildefato.com.br/colunista/coluna-das-inclusivass/2026/11/19/meninas-livres-vivas-e-sem-violencia/",
+      "veiculo": "Jornal A Verdade",
+      "titulo": "Quarteirização na saúde ameaça vida de trabalhadores e pacientes no Hospital São Paulo",
+      "resumo": "Enfermeiros e médicos do Hospital São Paulo (HSP) tem enfrentado por parte da administração do hospital uma série de assédios para serem transferidos dos seus postos de trabalho. Essa medida tem prejudicando a segurança...",
+      "url": "https://averdade.org.br/2026/11/quarteirizacao-na-saude-ameaca-vida-de-trabalhadores-e-pacientes-no-hospital-sao-paulo/",
       "imagem": "",
       "data": "Thu, 19 Nov 2026"
     },
@@ -98,14 +106,6 @@
       "url": "https://averdade.org.br/2026/11/cresce-indice-de-violencia-contra-mulheres-e-criancas-de-jundiai/",
       "imagem": "",
       "data": "Thu, 19 Nov 2026"
-    },
-    {
-      "veiculo": "Jornal A Verdade",
-      "titulo": "O jornal físico ainda tem espaço na era das redes",
-      "resumo": "Mesmo com o crescimento das plataformas digitais, a circulação de jornais impressos continua sendo uma ferramenta de comunicação e organização política e contribui na difusão das ideias. Luiz Henrique| Recife OPINIÃO-...",
-      "url": "https://averdade.org.br/2026/11/o-jornal-fisico-ainda-tem-espaco-na-era-das-redes/",
-      "imagem": "",
-      "data": "Wed, 18 Nov 2026"
     }
   ]
 }
