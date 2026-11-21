@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/11/2026 12:40 UTC",
+  "atualizado_em": "21/11/2026 18:31 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 345",
     "edicao": "Edição nº 345",
@@ -11,35 +11,43 @@
   "destaques_ao_vivo": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Uber volta a cobrar taxa de motoristas após STJ derrubar liminar da Justiça do Trabalho; entenda",
-      "resumo": "Por Cristiane Gercina O STJ (Superior Tribunal de Justiça) suspendeu liminar — decisão provisória — da Justiça do Trabalho da Bahia que havia proibido a cobrança do Passe para Motoristas da Uber em todo o país. Com a...",
-      "url": "https://iclnoticias.com.br/uber-volta-a-cobrar-taxa-de-motoristas/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/04/Precarizacao-trabalho-uberizacao.webp",
+      "titulo": "Lula confirma visita à UFF para agradecer estudantes que deram início à virada no 2º turno",
+      "resumo": "Por João Pedro Lima – Tempo Real RJ O presidente Luiz Inácio Lula da Silva (PT) confirmou que pretende visitar a Universidade Federal Fluminense (UFF), em Niterói, na próxima sexta-feira (27), para agradecer aos...",
+      "url": "https://iclnoticias.com.br/lula-confirma-visita-uff-agradecer-estudantes/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/Lula.webp",
       "data": "Sat, 21 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Cúpula entre Xi, Putin e Trump reflete emergência de uma ordem mundial multipolar",
-      "resumo": "A edição desta semana traz a primeira cúpula trilateral presencial entre Xi, Putin e Trump e a adoção do Shenzhen Outlook pelos líderes da Apec. Internamente, destaca as novas regras para fundações, a meta de 300 GW em...",
-      "url": "https://www.brasildefato.com.br/colunista/noticias-da-china/2026/11/21/cupula-entre-xi-putin-e-trump-reflete-emergencia-de-uma-ordem-mundial-multipolar/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/7h1aal2aj2kjp0faanlcd2b8cotaaxui-018235bd.webp",
+      "titulo": "‘Não haverá nenhuma hipótese de eu tirar um centavo dos pobres para controlar o orçamento’, diz Lula",
+      "resumo": "Em uma live realizada ao lado do deputado André Janones neste sábado (21), o presidente Lula rebateu as críticas sobre o Projeto de Lei Complementar (PLP) 299/2026, a proposta de ajuste fiscal de seu governo para...",
+      "url": "https://www.brasildefato.com.br/2026/11/21/nao-havera-nenhuma-hipotese-de-eu-tirar-um-centavo-dos-pobres-para-controlar-o-orcamento-diz-lula/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/lula-1cc9e5ad.webp",
       "data": "Sat, 21 Nov 2026"
     }
   ],
   "manchetes": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Uber volta a cobrar taxa de motoristas após STJ derrubar liminar da Justiça do Trabalho; entenda",
-      "resumo": "Por Cristiane Gercina O STJ (Superior Tribunal de Justiça) suspendeu liminar — decisão provisória — da Justiça do Trabalho da Bahia que havia proibido a cobrança do Passe para Motoristas da Uber em todo o país. Com a...",
-      "url": "https://iclnoticias.com.br/uber-volta-a-cobrar-taxa-de-motoristas/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/04/Precarizacao-trabalho-uberizacao.webp",
+      "titulo": "Lula confirma visita à UFF para agradecer estudantes que deram início à virada no 2º turno",
+      "resumo": "Por João Pedro Lima – Tempo Real RJ O presidente Luiz Inácio Lula da Silva (PT) confirmou que pretende visitar a Universidade Federal Fluminense (UFF), em Niterói, na próxima sexta-feira (27), para agradecer aos...",
+      "url": "https://iclnoticias.com.br/lula-confirma-visita-uff-agradecer-estudantes/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/Lula.webp",
       "data": "Sat, 21 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Ameaçados de pejotização, médicos cobram respostas da gestão Nunes e decretam estado de greve",
-      "resumo": "Por Brasil de Fato Médicos que atuam em 47 serviços de saúde administrados pelo Instituto Nacional de Tecnologia e Saúde (INTS), em São Paulo, aprovaram estado de greve em assembleia na quinta-feira (12) e fizeram um...",
-      "url": "https://iclnoticias.com.br/ameacados-pejotizacao-medicos-cobram-respostas/",
+      "titulo": "O Brasil de 214 milhões de habitantes refém de 200 criminosos",
+      "resumo": "Por Cleber Lourenço O Supremo Tribunal Federal começará a julgar, em 4 de dezembro, a constitucionalidade da Lei da Dosimetria, que pode reduzir as penas dos condenados pela tentativa de golpe de Estado. A decisão veio...",
+      "url": "https://iclnoticias.com.br/brasil-refem-de-200-criminosos/",
+      "imagem": "",
+      "data": "Sat, 21 Nov 2026"
+    },
+    {
+      "veiculo": "ICL Notícias",
+      "titulo": "Ajuste fiscal com justiça social e combate aos privilégios",
+      "resumo": "Por José Guimarães* O Brasil precisa de equilíbrio fiscal para sustentar o crescimento econômico, ampliar os investimentos públicos e reduzir as desigualdades sociais. Mas é preciso definir quem deve pagar a conta. A...",
+      "url": "https://iclnoticias.com.br/ajuste-fiscal-justica-combate-privilegios/",
       "imagem": "",
       "data": "Sat, 21 Nov 2026"
     },
@@ -52,42 +60,34 @@
       "data": "Sat, 21 Nov 2026"
     },
     {
-      "veiculo": "ICL Notícias",
-      "titulo": "Os aplicativos calaram a conversa",
-      "resumo": "Quem paga as contas usando o aplicativo do banco deixa de dar bom dia na porta da agência. Sozinha, essa alteração de um hábito corriqueiro não significa muita coisa, porém somada a várias atitudes similares, essa...",
-      "url": "https://iclnoticias.com.br/os-aplicativos-calaram-a-conversa/",
+      "veiculo": "Brasil de Fato",
+      "titulo": "‘Não haverá nenhuma hipótese de eu tirar um centavo dos pobres para controlar o orçamento’, diz Lula",
+      "resumo": "Em uma live realizada ao lado do deputado André Janones neste sábado (21), o presidente Lula rebateu as críticas sobre o Projeto de Lei Complementar (PLP) 299/2026, a proposta de ajuste fiscal de seu governo para...",
+      "url": "https://www.brasildefato.com.br/2026/11/21/nao-havera-nenhuma-hipotese-de-eu-tirar-um-centavo-dos-pobres-para-controlar-o-orcamento-diz-lula/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/lula-1cc9e5ad.webp",
+      "data": "Sat, 21 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Gilmar Mendes defende envio do caso Master ao plenário do STF e fim de sigilo da PF",
+      "resumo": "O ministro Gilmar Mendes, do Supremo Tribunal Federal (STF), disse, na sexta-feira (20), não ver “nenhum problema” em uma eventual retirada do sigilo dos relatórios da Polícia Federal (PF) que reúnem menções a ministros...",
+      "url": "https://www.brasildefato.com.br/2026/11/21/gilmar-mendes-defende-envio-do-caso-master-ao-plenario-do-stf-e-fim-de-sigilo-da-pf/",
       "imagem": "",
       "data": "Sat, 21 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Cúpula entre Xi, Putin e Trump reflete emergência de uma ordem mundial multipolar",
-      "resumo": "A edição desta semana traz a primeira cúpula trilateral presencial entre Xi, Putin e Trump e a adoção do Shenzhen Outlook pelos líderes da Apec. Internamente, destaca as novas regras para fundações, a meta de 300 GW em...",
-      "url": "https://www.brasildefato.com.br/colunista/noticias-da-china/2026/11/21/cupula-entre-xi-putin-e-trump-reflete-emergencia-de-uma-ordem-mundial-multipolar/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/7h1aal2aj2kjp0faanlcd2b8cotaaxui-018235bd.webp",
-      "data": "Sat, 21 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Entre distritos e emendas: quem fica com o cofre público?",
-      "resumo": "Três dias após o 2º turno, o presidente da Câmara, Hugo Motta (Republicanos-PB), anunciou a intenção de votar ainda em 2026 a implementação do voto distrital misto. Duas semanas mais tarde o assunto já havia saído de...",
-      "url": "https://www.brasildefato.com.br/colunista/larissa-melo/2026/11/21/entre-distritos-e-emendas-quem-fica-com-o-cofre-publico/",
+      "titulo": "Conselho Europeu propõe imposto de 3% sobre receita de big techs",
+      "resumo": "O presidente do Conselho Europeu, António Costa, apresentou neste sábado (21) uma proposta de orçamento plurianual para a União Europeia (UE) que prevê a criação de um imposto anual de 3% sobre o faturamento de grandes...",
+      "url": "https://www.brasildefato.com.br/2026/11/21/conselho-europeu-propoe-imposto-de-3-sobre-receita-de-big-techs/",
       "imagem": "",
       "data": "Sat, 21 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Raí lança biografia e dedica à família: ‘ser irmão do Sócrates me obrigou a saber de política’",
-      "resumo": "Nesta quinta-feira (19), o ex-jogador de futebol Raí lançou sua biografia intitulada “Os Gols da Minha Vida“. Publicada originalmente em francês, a obra chega ao Brasil pela Boitempo e traz relatos das vitórias e...",
-      "url": "https://www.brasildefato.com.br/2026/11/21/rai-lanca-biografia-e-dedica-a-familia-ser-irmao-do-socrates-me-obrigou-a-saber-de-politica/",
-      "imagem": "",
-      "data": "Sat, 21 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Sobe para 3 o número de mortos após temporal que devastou Tupanciretã (RS); acampamento do MST também foi atingido",
-      "resumo": "Subiu para três o número de mortes registradas em Tupanciretã (RS), após o temporal que devastou o município na madrugada desta sexta-feira (20). Segundo balanço divulgado pela Defesa Civil estadual às 18h08, a cidade...",
-      "url": "https://www.brasildefato.com.br/2026/11/20/sobe-para-3-o-numero-de-mortos-apos-temporal-que-devastou-tupancireta-rs-acampamento-do-mst-tambem-foi-atingido/",
+      "titulo": "Feira Orgulho Nerd, em SP, tem cinema, oficinas e games",
+      "resumo": "Programação gratuita reúne amantes da cultura nerd Fonte",
+      "url": "https://www.brasildefato.com.br/2026/11/21/feira-orgulho-nerd-em-sp-tem-cinema-oficinas-e-games/",
       "imagem": "",
       "data": "Sat, 21 Nov 2026"
     },
