@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "21/11/2026 18:31 UTC",
+  "atualizado_em": "22/11/2026 00:37 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 345",
     "edicao": "Edição nº 345",
@@ -11,83 +11,43 @@
   "destaques_ao_vivo": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Lula confirma visita à UFF para agradecer estudantes que deram início à virada no 2º turno",
-      "resumo": "Por João Pedro Lima – Tempo Real RJ O presidente Luiz Inácio Lula da Silva (PT) confirmou que pretende visitar a Universidade Federal Fluminense (UFF), em Niterói, na próxima sexta-feira (27), para agradecer aos...",
-      "url": "https://iclnoticias.com.br/lula-confirma-visita-uff-agradecer-estudantes/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/Lula.webp",
-      "data": "Sat, 21 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "‘Não haverá nenhuma hipótese de eu tirar um centavo dos pobres para controlar o orçamento’, diz Lula",
-      "resumo": "Em uma live realizada ao lado do deputado André Janones neste sábado (21), o presidente Lula rebateu as críticas sobre o Projeto de Lei Complementar (PLP) 299/2026, a proposta de ajuste fiscal de seu governo para...",
-      "url": "https://www.brasildefato.com.br/2026/11/21/nao-havera-nenhuma-hipotese-de-eu-tirar-um-centavo-dos-pobres-para-controlar-o-orcamento-diz-lula/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/lula-1cc9e5ad.webp",
+      "titulo": "Moraes autoriza visita de filhos de Bolsonaro no hospital; ex-presidente está na UTI",
+      "resumo": "Por Mateus Vargas e Ana Pompeu (Folhapress) – O ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal), atendeu à defesa do ex-presidente Jair Bolsonaro (PL) e autorizou neste sábado (21) visitas diárias de...",
+      "url": "https://iclnoticias.com.br/moraes-autoriza-filhos-bolsonaro-hospital/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/images-6-e1795299734107.webp",
       "data": "Sat, 21 Nov 2026"
     }
   ],
   "manchetes": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Lula confirma visita à UFF para agradecer estudantes que deram início à virada no 2º turno",
-      "resumo": "Por João Pedro Lima – Tempo Real RJ O presidente Luiz Inácio Lula da Silva (PT) confirmou que pretende visitar a Universidade Federal Fluminense (UFF), em Niterói, na próxima sexta-feira (27), para agradecer aos...",
-      "url": "https://iclnoticias.com.br/lula-confirma-visita-uff-agradecer-estudantes/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/Lula.webp",
+      "titulo": "Moraes autoriza visita de filhos de Bolsonaro no hospital; ex-presidente está na UTI",
+      "resumo": "Por Mateus Vargas e Ana Pompeu (Folhapress) – O ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal), atendeu à defesa do ex-presidente Jair Bolsonaro (PL) e autorizou neste sábado (21) visitas diárias de...",
+      "url": "https://iclnoticias.com.br/moraes-autoriza-filhos-bolsonaro-hospital/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/images-6-e1795299734107.webp",
       "data": "Sat, 21 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "O Brasil de 214 milhões de habitantes refém de 200 criminosos",
-      "resumo": "Por Cleber Lourenço O Supremo Tribunal Federal começará a julgar, em 4 de dezembro, a constitucionalidade da Lei da Dosimetria, que pode reduzir as penas dos condenados pela tentativa de golpe de Estado. A decisão veio...",
-      "url": "https://iclnoticias.com.br/brasil-refem-de-200-criminosos/",
-      "imagem": "",
-      "data": "Sat, 21 Nov 2026"
-    },
-    {
-      "veiculo": "ICL Notícias",
-      "titulo": "Ajuste fiscal com justiça social e combate aos privilégios",
-      "resumo": "Por José Guimarães* O Brasil precisa de equilíbrio fiscal para sustentar o crescimento econômico, ampliar os investimentos públicos e reduzir as desigualdades sociais. Mas é preciso definir quem deve pagar a conta. A...",
-      "url": "https://iclnoticias.com.br/ajuste-fiscal-justica-combate-privilegios/",
+      "titulo": "‘O sistema financeiro não vai me ensinar a dirigir o Brasil’, diz presidente Lula",
+      "resumo": "Por Pedro Rafael Vilela – Agência Brasil O presidente Luiz Inácio Lula da Silva defendeu neste sábado (21), durante live nas redes sociais, o projeto de ajuste fiscal do governo e criticou o chamado mercado financeiro...",
+      "url": "https://iclnoticias.com.br/o-sistema-financeiro-nao-vai-me-ensinar-a-dirigir-o-brasil-diz-presidente-lula/",
       "imagem": "",
       "data": "Sat, 21 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Revista Liberta 62: Lula na mira da imprensa hegemônica",
-      "resumo": "Neste sábado (21), o tema da edição 62 da Revista Liberta é a cobertura midiática sobre o presidente Luiz Inácio Lula da Silva. Findado o segundo turno da eleição que o consagrou como o primeiro brasileiro a chegar à...",
-      "url": "https://iclnoticias.com.br/revista-liberta-edicao-62/",
+      "titulo": "Flamengo empata com Palmeiras em SP e é campeão brasileiro pela décima vez",
+      "resumo": "O Flamengo confirmou neste sábado (21) mais uma conquista do Campeonato Brasileiro. O time rubro-negro levantou a taça pela décima vez depois de empatar em 1 a 1 com o Palmeiras, no Nubank Parque, em São Paulo. O...",
+      "url": "https://iclnoticias.com.br/flamengo-empata-campeao-brasileiro/",
       "imagem": "",
       "data": "Sat, 21 Nov 2026"
     },
     {
-      "veiculo": "Brasil de Fato",
-      "titulo": "‘Não haverá nenhuma hipótese de eu tirar um centavo dos pobres para controlar o orçamento’, diz Lula",
-      "resumo": "Em uma live realizada ao lado do deputado André Janones neste sábado (21), o presidente Lula rebateu as críticas sobre o Projeto de Lei Complementar (PLP) 299/2026, a proposta de ajuste fiscal de seu governo para...",
-      "url": "https://www.brasildefato.com.br/2026/11/21/nao-havera-nenhuma-hipotese-de-eu-tirar-um-centavo-dos-pobres-para-controlar-o-orcamento-diz-lula/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/lula-1cc9e5ad.webp",
-      "data": "Sat, 21 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Gilmar Mendes defende envio do caso Master ao plenário do STF e fim de sigilo da PF",
-      "resumo": "O ministro Gilmar Mendes, do Supremo Tribunal Federal (STF), disse, na sexta-feira (20), não ver “nenhum problema” em uma eventual retirada do sigilo dos relatórios da Polícia Federal (PF) que reúnem menções a ministros...",
-      "url": "https://www.brasildefato.com.br/2026/11/21/gilmar-mendes-defende-envio-do-caso-master-ao-plenario-do-stf-e-fim-de-sigilo-da-pf/",
-      "imagem": "",
-      "data": "Sat, 21 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Conselho Europeu propõe imposto de 3% sobre receita de big techs",
-      "resumo": "O presidente do Conselho Europeu, António Costa, apresentou neste sábado (21) uma proposta de orçamento plurianual para a União Europeia (UE) que prevê a criação de um imposto anual de 3% sobre o faturamento de grandes...",
-      "url": "https://www.brasildefato.com.br/2026/11/21/conselho-europeu-propoe-imposto-de-3-sobre-receita-de-big-techs/",
-      "imagem": "",
-      "data": "Sat, 21 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Feira Orgulho Nerd, em SP, tem cinema, oficinas e games",
-      "resumo": "Programação gratuita reúne amantes da cultura nerd Fonte",
-      "url": "https://www.brasildefato.com.br/2026/11/21/feira-orgulho-nerd-em-sp-tem-cinema-oficinas-e-games/",
+      "veiculo": "ICL Notícias",
+      "titulo": "Justiça dá 30 dias para Renato Aragão negociar dívida de R$ 548 mil em IPTU de mansão",
+      "resumo": "O humorista Renato Aragão, conhecido nacionalmente pelo personagem Didi, conseguiu suspender temporariamente o processo judicial que poderia levar à penhora de sua mansão no Rio de Janeiro. A decisão foi tomada após o...",
+      "url": "https://iclnoticias.com.br/justica-30-dias-renato-aragao-iptu-mansao/",
       "imagem": "",
       "data": "Sat, 21 Nov 2026"
     },
