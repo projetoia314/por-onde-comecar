@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/11/2026 12:39 UTC",
+  "atualizado_em": "22/11/2026 18:32 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 345",
     "edicao": "Edição nº 345",
@@ -11,43 +11,83 @@
   "destaques_ao_vivo": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Deputada Talíria Petrone é ameaçada de morte e violência sexual",
-      "resumo": "Por Camila Boehm – Agência Brasil A deputada federal Talíria Petrone (Psol- RJ) recebeu ameaça de morte às vésperas do Dia da Consciência Negra, lembrado nessa sexta sexta-feira (20). Segundo a parlamentar, trata-se de...",
-      "url": "https://iclnoticias.com.br/deputada-taliria-petrone-ameacada-morte/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/img20261014194830229.webp",
+      "titulo": "COP31 avança para prorrogação sem consenso sobre combustíveis fósseis",
+      "resumo": "Por Brasil de Fato A 31ª Conferência das Nações Unidas sobre Mudança do Clima (COP31), realizada em Antália, na Turquia, entrou em prorrogação neste sábado (21) sem alcançar consenso entre as delegações de quase 200...",
+      "url": "https://iclnoticias.com.br/cop31-avanca-para-prorrogacao-sem-consenso-sobre-combustiveis-fosseis/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/afp20261120d87h2zrv1highrescop31unclimatechangeconference-de391052-2048x1365-1-scaled.webp",
+      "data": "Sun, 22 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "‘Terrorismo judaico’: Eisenkot cobra punição por ataques de colonos contra palestinos",
+      "resumo": "Autoridades israelenses anunciaram, neste domingo (22), a abertura de uma investigação após veículos e edifícios palestinos serem incendiados e vandalizados em quatro vilarejos da Cisjordânia ocupada. Segundo o Exército...",
+      "url": "https://www.brasildefato.com.br/2026/11/22/terrorismo-judaico-eisenkot-cobra-punicao-por-ataques-de-colonos-contra-palestinos/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/afp20261122aa221120263057748v1midresisraelisettlerssetfiretopalestinianv-b8f2cea8.webp",
       "data": "Sun, 22 Nov 2026"
     }
   ],
   "manchetes": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Deputada Talíria Petrone é ameaçada de morte e violência sexual",
-      "resumo": "Por Camila Boehm – Agência Brasil A deputada federal Talíria Petrone (Psol- RJ) recebeu ameaça de morte às vésperas do Dia da Consciência Negra, lembrado nessa sexta sexta-feira (20). Segundo a parlamentar, trata-se de...",
-      "url": "https://iclnoticias.com.br/deputada-taliria-petrone-ameacada-morte/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/img20261014194830229.webp",
+      "titulo": "COP31 avança para prorrogação sem consenso sobre combustíveis fósseis",
+      "resumo": "Por Brasil de Fato A 31ª Conferência das Nações Unidas sobre Mudança do Clima (COP31), realizada em Antália, na Turquia, entrou em prorrogação neste sábado (21) sem alcançar consenso entre as delegações de quase 200...",
+      "url": "https://iclnoticias.com.br/cop31-avanca-para-prorrogacao-sem-consenso-sobre-combustiveis-fosseis/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/afp20261120d87h2zrv1highrescop31unclimatechangeconference-de391052-2048x1365-1-scaled.webp",
       "data": "Sun, 22 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Sobe para 5 o número de mortos em temporal no RS; estado tem 20 mil desalojados",
-      "resumo": "Por Aléxia Sousa e João Pedro Pitombo (Folhapress) – Subiu para cinco o número de mortos pelo temporal que atingiu a cidade de Tupanciretã (RS) na madrugada de sexta-feira (20). A Defesa Civil do Rio Grande do Sul...",
-      "url": "https://iclnoticias.com.br/sobe-para-5-mortos-temporal-rs/",
+      "titulo": "De que perigosos outubros nos mantemos",
+      "resumo": "Meus iguais, minhas iguais, leitoras, leitores: há um tipo de cansaço que não aparece no corpo. Aparece no celular. A gente abre a tela de manhã…e não arde. Não há o grupo da família incendiado, nem o áudio do sobrinho...",
+      "url": "https://iclnoticias.com.br/de-que-perigosos-outubros-nos-mantemos/",
       "imagem": "",
       "data": "Sun, 22 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "A Europa e o regresso dos velhos demônios",
-      "resumo": "Quando perguntaram a Lord Ismay, primeiro secretário-geral da NATO, para que servia a Aliança Atlântica, a resposta tornou-se célebre: “To keep the Americans in, the Russians out and the Germans down.” Manter os...",
-      "url": "https://iclnoticias.com.br/a-europa-e-o-regresso-dos-velhos-demonios/",
+      "titulo": "Moraes autoriza retirada de tornozeleira de Bolsonaro durante internação em hospital",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou a retirada temporária da tornozeleira eletrônica do ex-presidente Jair Bolsonaro (PL) enquanto ele estiver internado no Hospital DF Star, em...",
+      "url": "https://iclnoticias.com.br/moraes-retirada-tornozeleira-internacao/",
       "imagem": "",
       "data": "Sun, 22 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Internado, Jair Bolsonaro segue na UTI com obstrução intestinal",
-      "resumo": "Jair Bolsonaro (PL) permanece hospitalizado em Brasília neste domingo (22), após ser levado à unidade de saúde na última sexta-feira (20) por causa de fortes dores abdominais. O ex-presidente recebeu o diagnóstico de...",
-      "url": "https://iclnoticias.com.br/internado-jair-bolsonaro-obstrucao-intestinal/",
+      "titulo": "Ministério das Mulheres vai criar política de proteção contra violência política de gênero e raça",
+      "resumo": "Por Giovana Kebian (Folhapress) – O Ministério das Mulheres está elaborando uma política nacional de enfrentamento à violência política de gênero e raça. A proposta deve ser incorporada ao Plano Nacional de Políticas...",
+      "url": "https://iclnoticias.com.br/ministerio-mulheres-politica-protecao/",
+      "imagem": "",
+      "data": "Sun, 22 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "‘Terrorismo judaico’: Eisenkot cobra punição por ataques de colonos contra palestinos",
+      "resumo": "Autoridades israelenses anunciaram, neste domingo (22), a abertura de uma investigação após veículos e edifícios palestinos serem incendiados e vandalizados em quatro vilarejos da Cisjordânia ocupada. Segundo o Exército...",
+      "url": "https://www.brasildefato.com.br/2026/11/22/terrorismo-judaico-eisenkot-cobra-punicao-por-ataques-de-colonos-contra-palestinos/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/afp20261122aa221120263057748v1midresisraelisettlerssetfiretopalestinianv-b8f2cea8.webp",
+      "data": "Sun, 22 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "A economia política do Lula 4: o que está em jogo?",
+      "resumo": "1. A popularização do debate econômico e a disputa pelos rumos do governo A crescente presença do ajuste fiscal no debate público constitui uma grande conquista para a sociedade brasileira. Como observou Schumpeter, no...",
+      "url": "https://www.brasildefato.com.br/2026/11/22/a-economia-politica-do-lula-4-o-que-esta-em-jogo/",
+      "imagem": "",
+      "data": "Sun, 22 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Tupanciretã (RS) decreta estado de calamidade pública após vendaval e tempestade",
+      "resumo": "O município de Tupanciretã, na região central do Rio Grande do Sul, decretou estado de calamidade pública após ser atingido por um forte vendaval e uma tempestade que provocaram destruição em toda a cidade. Cinco mortes...",
+      "url": "https://www.brasildefato.com.br/2026/11/22/tupancireta-rs-decreta-estado-de-calamidade-publica-apos-vendaval-e-tempestade/",
+      "imagem": "",
+      "data": "Sun, 22 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "UE rejeita acordo final da COP31 por falta de menção a impactos de combustíveis fósseis",
+      "resumo": "A União Europeia (UE) anunciou neste domingo (22) que não aceitará o texto final da COP31, realizada em Antália, na Turquia. O motivo é a retirada de qualquer menção explícita aos combustíveis fósseis do documento, após...",
+      "url": "https://www.brasildefato.com.br/2026/11/22/ue-rejeita-acordo-final-da-cop31-por-falta-de-mencao-a-impactos-de-combustiveis-fosseis/",
       "imagem": "",
       "data": "Sun, 22 Nov 2026"
     },
