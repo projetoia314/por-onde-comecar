@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/11/2026 18:32 UTC",
+  "atualizado_em": "23/11/2026 00:43 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 345",
     "edicao": "Edição nº 345",
@@ -11,51 +11,75 @@
   "destaques_ao_vivo": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "COP31 avança para prorrogação sem consenso sobre combustíveis fósseis",
-      "resumo": "Por Brasil de Fato A 31ª Conferência das Nações Unidas sobre Mudança do Clima (COP31), realizada em Antália, na Turquia, entrou em prorrogação neste sábado (21) sem alcançar consenso entre as delegações de quase 200...",
-      "url": "https://iclnoticias.com.br/cop31-avanca-para-prorrogacao-sem-consenso-sobre-combustiveis-fosseis/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/afp20261120d87h2zrv1highrescop31unclimatechangeconference-de391052-2048x1365-1-scaled.webp",
+      "titulo": "UE rejeita acordo final da COP31 por falta de menção a impactos de combustíveis fósseis",
+      "resumo": "Por Brasil de Fato A União Europeia (UE) anunciou neste domingo (22) que não aceitará o texto final da COP31, realizada em Antália, na Turquia. O motivo é a retirada de qualquer menção explícita aos combustíveis fósseis...",
+      "url": "https://iclnoticias.com.br/ue-rejeita-acordo-final-da-cop31/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/afp20261121d88u3nqv1midresturkeyaustraliaunclimatecop31-73adf8b1.webp",
       "data": "Sun, 22 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "‘Terrorismo judaico’: Eisenkot cobra punição por ataques de colonos contra palestinos",
-      "resumo": "Autoridades israelenses anunciaram, neste domingo (22), a abertura de uma investigação após veículos e edifícios palestinos serem incendiados e vandalizados em quatro vilarejos da Cisjordânia ocupada. Segundo o Exército...",
-      "url": "https://www.brasildefato.com.br/2026/11/22/terrorismo-judaico-eisenkot-cobra-punicao-por-ataques-de-colonos-contra-palestinos/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/afp20261122aa221120263057748v1midresisraelisettlerssetfiretopalestinianv-b8f2cea8.webp",
+      "titulo": "Secretário-geral da ONU critica fracasso da COP31 após encerramento sem acordo",
+      "resumo": "O secretário-geral da Organização das Nações Unidas (ONU), António Guterres, manifestou profunda decepção com o encerramento da 31ª Conferência das Nações Unidas sobre Mudanças Climáticas (COP31), neste domingo (22),...",
+      "url": "https://www.brasildefato.com.br/2026/11/22/secretario-geral-da-onu-critica-fracasso-da-cop31-apos-encerramento-sem-acordo/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/afp20261116d7l98g3v1midresphilippinesaseandiplomacysummit-3e03a859.webp",
       "data": "Sun, 22 Nov 2026"
     }
   ],
   "manchetes": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "COP31 avança para prorrogação sem consenso sobre combustíveis fósseis",
-      "resumo": "Por Brasil de Fato A 31ª Conferência das Nações Unidas sobre Mudança do Clima (COP31), realizada em Antália, na Turquia, entrou em prorrogação neste sábado (21) sem alcançar consenso entre as delegações de quase 200...",
-      "url": "https://iclnoticias.com.br/cop31-avanca-para-prorrogacao-sem-consenso-sobre-combustiveis-fosseis/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/afp20261120d87h2zrv1highrescop31unclimatechangeconference-de391052-2048x1365-1-scaled.webp",
+      "titulo": "UE rejeita acordo final da COP31 por falta de menção a impactos de combustíveis fósseis",
+      "resumo": "Por Brasil de Fato A União Europeia (UE) anunciou neste domingo (22) que não aceitará o texto final da COP31, realizada em Antália, na Turquia. O motivo é a retirada de qualquer menção explícita aos combustíveis fósseis...",
+      "url": "https://iclnoticias.com.br/ue-rejeita-acordo-final-da-cop31/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/afp20261121d88u3nqv1midresturkeyaustraliaunclimatecop31-73adf8b1.webp",
       "data": "Sun, 22 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "De que perigosos outubros nos mantemos",
-      "resumo": "Meus iguais, minhas iguais, leitoras, leitores: há um tipo de cansaço que não aparece no corpo. Aparece no celular. A gente abre a tela de manhã…e não arde. Não há o grupo da família incendiado, nem o áudio do sobrinho...",
-      "url": "https://iclnoticias.com.br/de-que-perigosos-outubros-nos-mantemos/",
+      "titulo": "PF deixa fora de relatório sobre Mendonça áudios que citam problemas do Master no BC",
+      "resumo": "Por Cleber Lourenço A Polícia Federal deixou de reproduzir, no relatório sobre o ministro André Mendonça enviado ao Supremo Tribunal Federal (STF), um áudio em que o advogado Ciro Rocha Soares afirma ter conversado com...",
+      "url": "https://iclnoticias.com.br/pf-fora-relatorio-mendonca-audios/",
       "imagem": "",
       "data": "Sun, 22 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Moraes autoriza retirada de tornozeleira de Bolsonaro durante internação em hospital",
-      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou a retirada temporária da tornozeleira eletrônica do ex-presidente Jair Bolsonaro (PL) enquanto ele estiver internado no Hospital DF Star, em...",
-      "url": "https://iclnoticias.com.br/moraes-retirada-tornozeleira-internacao/",
+      "titulo": "Pesquisadores vão investigar as raízes dos crânios devolvidos por Harvard ao Brasil",
+      "resumo": "Por Ramana Rech (Folhapress) – Dois crânios do século 19 que seriam de um homem e de uma mulher escravizados chegaram neste mês da Universidade Harvard, nos EUA, para onde haviam sido levados. Agora, de volta ao Brasil,...",
+      "url": "https://iclnoticias.com.br/pesquisadores-raizes-cranios-harvard-brasil/",
       "imagem": "",
       "data": "Sun, 22 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Ministério das Mulheres vai criar política de proteção contra violência política de gênero e raça",
-      "resumo": "Por Giovana Kebian (Folhapress) – O Ministério das Mulheres está elaborando uma política nacional de enfrentamento à violência política de gênero e raça. A proposta deve ser incorporada ao Plano Nacional de Políticas...",
-      "url": "https://iclnoticias.com.br/ministerio-mulheres-politica-protecao/",
+      "titulo": "Equipe econômica vai levar a Lula nomes para substituir presidente do Banco do Brasil",
+      "resumo": "Por Adriana Fernandes e Idiana Tomazelli (Folhapress) – Integrantes da equipe econômica começaram a discutir nomes para levar ao presidente Luiz Inácio Lula da Silva (PT) como sugestão para trocar o comando do Banco do...",
+      "url": "https://iclnoticias.com.br/economia/equipe-economica-vai-levar-a-lula-nomes-para-substituir-presidente-do-banco-do-brasil/",
+      "imagem": "",
+      "data": "Sun, 22 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Secretário-geral da ONU critica fracasso da COP31 após encerramento sem acordo",
+      "resumo": "O secretário-geral da Organização das Nações Unidas (ONU), António Guterres, manifestou profunda decepção com o encerramento da 31ª Conferência das Nações Unidas sobre Mudanças Climáticas (COP31), neste domingo (22),...",
+      "url": "https://www.brasildefato.com.br/2026/11/22/secretario-geral-da-onu-critica-fracasso-da-cop31-apos-encerramento-sem-acordo/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/afp20261116d7l98g3v1midresphilippinesaseandiplomacysummit-3e03a859.webp",
+      "data": "Sun, 22 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Jair Bolsonaro permanece internado na UTI; quadro é considerado estável",
+      "resumo": "O ex-presidente Jair Bolsonaro permanece internado pelo terceiro dia na Unidade de Terapia Intensiva (UTI) do Hospital DF Star, da Rede D’or, em Brasília, após apresentar dores e distensão abdominal. Segundo boletim...",
+      "url": "https://www.brasildefato.com.br/2026/11/22/jair-bolsonaro-permanece-internado-na-uti-quadro-e-considerado-estavel/",
+      "imagem": "",
+      "data": "Sun, 22 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Nordeste: entre a Globo e os governos petistas",
+      "resumo": "Na imensa diversidade climática, econômica, social e cultural da macrorregião geográfica, hoje demarcada como Nordeste, dois fatores parecem a unificar: o desconhecimento e o preconceito, a xenofobia. O primeiro: a...",
+      "url": "https://www.brasildefato.com.br/colunista/jonas-duarte/2026/11/22/nordeste-entre-a-globo-e-os-governos-petistas/",
       "imagem": "",
       "data": "Sun, 22 Nov 2026"
     },
@@ -64,30 +88,6 @@
       "titulo": "‘Terrorismo judaico’: Eisenkot cobra punição por ataques de colonos contra palestinos",
       "resumo": "Autoridades israelenses anunciaram, neste domingo (22), a abertura de uma investigação após veículos e edifícios palestinos serem incendiados e vandalizados em quatro vilarejos da Cisjordânia ocupada. Segundo o Exército...",
       "url": "https://www.brasildefato.com.br/2026/11/22/terrorismo-judaico-eisenkot-cobra-punicao-por-ataques-de-colonos-contra-palestinos/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/afp20261122aa221120263057748v1midresisraelisettlerssetfiretopalestinianv-b8f2cea8.webp",
-      "data": "Sun, 22 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "A economia política do Lula 4: o que está em jogo?",
-      "resumo": "1. A popularização do debate econômico e a disputa pelos rumos do governo A crescente presença do ajuste fiscal no debate público constitui uma grande conquista para a sociedade brasileira. Como observou Schumpeter, no...",
-      "url": "https://www.brasildefato.com.br/2026/11/22/a-economia-politica-do-lula-4-o-que-esta-em-jogo/",
-      "imagem": "",
-      "data": "Sun, 22 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Tupanciretã (RS) decreta estado de calamidade pública após vendaval e tempestade",
-      "resumo": "O município de Tupanciretã, na região central do Rio Grande do Sul, decretou estado de calamidade pública após ser atingido por um forte vendaval e uma tempestade que provocaram destruição em toda a cidade. Cinco mortes...",
-      "url": "https://www.brasildefato.com.br/2026/11/22/tupancireta-rs-decreta-estado-de-calamidade-publica-apos-vendaval-e-tempestade/",
-      "imagem": "",
-      "data": "Sun, 22 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "UE rejeita acordo final da COP31 por falta de menção a impactos de combustíveis fósseis",
-      "resumo": "A União Europeia (UE) anunciou neste domingo (22) que não aceitará o texto final da COP31, realizada em Antália, na Turquia. O motivo é a retirada de qualquer menção explícita aos combustíveis fósseis do documento, após...",
-      "url": "https://www.brasildefato.com.br/2026/11/22/ue-rejeita-acordo-final-da-cop31-por-falta-de-mencao-a-impactos-de-combustiveis-fosseis/",
       "imagem": "",
       "data": "Sun, 22 Nov 2026"
     },
