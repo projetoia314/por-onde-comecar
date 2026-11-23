@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/11/2026 07:10 UTC",
+  "atualizado_em": "23/11/2026 12:56 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 345",
     "edicao": "Edição nº 345",
@@ -11,45 +11,85 @@
   "destaques_ao_vivo": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "UE rejeita acordo final da COP31 por falta de menção a impactos de combustíveis fósseis",
-      "resumo": "Por Brasil de Fato A União Europeia (UE) anunciou neste domingo (22) que não aceitará o texto final da COP31, realizada em Antália, na Turquia. O motivo é a retirada de qualquer menção explícita aos combustíveis fósseis...",
-      "url": "https://iclnoticias.com.br/ue-rejeita-acordo-final-da-cop31/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/afp20261121d88u3nqv1midresturkeyaustraliaunclimatecop31-73adf8b1.webp",
-      "data": "Sun, 22 Nov 2026"
+      "titulo": "Exército dos EUA pretende detonar 5 toneladas de explosivos mesmo após suspensão da Justiça",
+      "resumo": "O Exército dos Estados Unidos planeja destruir cerca de cinco toneladas de explosivos armazenados em uma fábrica de munições no estado de Iowa, apesar de uma decisão judicial que suspendeu a operação. A detonação está...",
+      "url": "https://iclnoticias.com.br/exercito-dos-eua-pretende-detonar-5-toneladas/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/article_1.webp",
+      "data": "Mon, 23 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Orçamento Público é espaço de disputa: e não só à direita",
+      "resumo": "A proposta de ajuste fiscal apresentada pelo governo federal gerou intensa discussão em torno de seu conteúdo, mérito e pertinência. Apelidada de Plano Moretti em referência ao atual ministro do Planejamento e...",
+      "url": "https://www.brasildefato.com.br/2026/11/23/orcamento-publico-e-espaco-de-disputa-e-nao-so-a-direita/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/img20261118170314839-768x474-1-fbe42340.webp",
+      "data": "Mon, 23 Nov 2026"
     }
   ],
   "manchetes": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "UE rejeita acordo final da COP31 por falta de menção a impactos de combustíveis fósseis",
-      "resumo": "Por Brasil de Fato A União Europeia (UE) anunciou neste domingo (22) que não aceitará o texto final da COP31, realizada em Antália, na Turquia. O motivo é a retirada de qualquer menção explícita aos combustíveis fósseis...",
-      "url": "https://iclnoticias.com.br/ue-rejeita-acordo-final-da-cop31/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/afp20261121d88u3nqv1midresturkeyaustraliaunclimatecop31-73adf8b1.webp",
-      "data": "Sun, 22 Nov 2026"
+      "titulo": "Exército dos EUA pretende detonar 5 toneladas de explosivos mesmo após suspensão da Justiça",
+      "resumo": "O Exército dos Estados Unidos planeja destruir cerca de cinco toneladas de explosivos armazenados em uma fábrica de munições no estado de Iowa, apesar de uma decisão judicial que suspendeu a operação. A detonação está...",
+      "url": "https://iclnoticias.com.br/exercito-dos-eua-pretende-detonar-5-toneladas/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/article_1.webp",
+      "data": "Mon, 23 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "PF deixa fora de relatório sobre Mendonça áudios que citam problemas do Master no BC",
-      "resumo": "Por Cleber Lourenço A Polícia Federal deixou de reproduzir, no relatório sobre o ministro André Mendonça enviado ao Supremo Tribunal Federal (STF), um áudio em que o advogado Ciro Rocha Soares afirma ter conversado com...",
-      "url": "https://iclnoticias.com.br/pf-fora-relatorio-mendonca-audios/",
+      "titulo": "Chuvas volumosas e calor de até 40°C; veja como fica o clima pelo Brasil",
+      "resumo": "A semana entre esta segunda-feira (23) e sexta-feira (27) será marcada por chuvas volumosas em áreas do Sul e do Sudeste e calor intenso em regiões do Centro-Oeste, Nordeste e Norte. Segundo a previsão do INMET, os...",
+      "url": "https://iclnoticias.com.br/chuva-e-calor-de-40c-veja-a-previsao-do-tempo/",
       "imagem": "",
-      "data": "Sun, 22 Nov 2026"
+      "data": "Mon, 23 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Pesquisadores vão investigar as raízes dos crânios devolvidos por Harvard ao Brasil",
-      "resumo": "Por Ramana Rech (Folhapress) – Dois crânios do século 19 que seriam de um homem e de uma mulher escravizados chegaram neste mês da Universidade Harvard, nos EUA, para onde haviam sido levados. Agora, de volta ao Brasil,...",
-      "url": "https://iclnoticias.com.br/pesquisadores-raizes-cranios-harvard-brasil/",
+      "titulo": "Câmara vota nesta segunda ajuste fiscal com impacto previsto de R$ 50 bilhões",
+      "resumo": "A Câmara dos Deputados deve analisar nesta segunda-feira (23) o pacote de ajuste fiscal apresentado pelo governo do presidente Luiz Inácio Lula da Silva (PT). A proposta, aprovada pelo Senado na semana passada, reúne...",
+      "url": "https://iclnoticias.com.br/camara-vota-nesta-segunda-ajuste-fiscal/",
       "imagem": "",
-      "data": "Sun, 22 Nov 2026"
+      "data": "Mon, 23 Nov 2026"
     },
     {
       "veiculo": "ICL Notícias",
-      "titulo": "Equipe econômica vai levar a Lula nomes para substituir presidente do Banco do Brasil",
-      "resumo": "Por Adriana Fernandes e Idiana Tomazelli (Folhapress) – Integrantes da equipe econômica começaram a discutir nomes para levar ao presidente Luiz Inácio Lula da Silva (PT) como sugestão para trocar o comando do Banco do...",
-      "url": "https://iclnoticias.com.br/economia/equipe-economica-vai-levar-a-lula-nomes-para-substituir-presidente-do-banco-do-brasil/",
+      "titulo": "TRT-MG pagará por sede do jornal Estado de Minas, ligada à Reag",
+      "resumo": "Por Alice Maciel Declarado de utilidade pública pela União para abrigar o Tribunal Regional do Trabalho da 3ª Região (TRT-MG), o prédio que hoje sedia o jornal Estado de Minas é alvo de denúncia de blindagem...",
+      "url": "https://iclnoticias.com.br/trt-mg-pagara-sede-estado-de-minas-reag/",
       "imagem": "",
-      "data": "Sun, 22 Nov 2026"
+      "data": "Mon, 23 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Orçamento Público é espaço de disputa: e não só à direita",
+      "resumo": "A proposta de ajuste fiscal apresentada pelo governo federal gerou intensa discussão em torno de seu conteúdo, mérito e pertinência. Apelidada de Plano Moretti em referência ao atual ministro do Planejamento e...",
+      "url": "https://www.brasildefato.com.br/2026/11/23/orcamento-publico-e-espaco-de-disputa-e-nao-so-a-direita/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/img20261118170314839-768x474-1-fbe42340.webp",
+      "data": "Mon, 23 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Seminário sobre IA no Rio encerra com defesa de soberania digital e alternativas do Sul Global",
+      "resumo": "O Seminário “Inteligência Artificial: Impactos, Dependências e Alternativas para o Sul Global” foi realizado nos dias 17 e 18 de novembro de 2026, no Clube de Engenharia do Rio de Janeiro. Promovido pelo MST e pela...",
+      "url": "https://www.brasildefato.com.br/2026/11/23/seminario-sobre-ia-no-rio-encerra-com-defesa-de-soberania-digital-e-alternativas-do-sul-global/",
+      "imagem": "",
+      "data": "Mon, 23 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Câmara vota ajuste fiscal nesta segunda (23) sem alterar texto do Senado para acelerar tramitação",
+      "resumo": "A Câmara dos Deputados deve votar nesta segunda-feira (23) o Projeto de Lei Complementar (PLP) 299/2026, a proposta de ajuste fiscal do governo do presidente Luiz Inácio Lula da Silva (PT), que limita o crescimento dos...",
+      "url": "https://www.brasildefato.com.br/2026/11/23/camara-vota-ajuste-fiscal-nesta-segunda-23-sem-alterar-texto-do-senado-para-acelerar-tramitacao/",
+      "imagem": "",
+      "data": "Mon, 23 Nov 2026"
+    },
+    {
+      "veiculo": "Brasil de Fato",
+      "titulo": "Trivia retoma controle das Linhas 11-Coral e 12-Safira com apoio de 475 funcionários da CPTM",
+      "resumo": "Quatro meses após ter a operação suspensa por falhas elétricas graves e pelo incêndio de um trem que forçou passageiros a caminharem sobre os trilhos na zona leste da capital paulista, a concessionária privada Trivia...",
+      "url": "https://www.brasildefato.com.br/2026/11/23/trivia-retoma-controle-das-linhas-11-coral-e-12-safira-com-apoio-de-475-funcionarios-da-cptm/",
+      "imagem": "",
+      "data": "Mon, 23 Nov 2026"
     },
     {
       "veiculo": "Jornal A Verdade",
