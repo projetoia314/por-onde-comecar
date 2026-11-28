@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/11/2026 00:50 UTC",
+  "atualizado_em": "28/11/2026 06:54 UTC",
   "capa_averdade": {
     "titulo": "Jornal A Verdade — Edição nº 345",
     "edicao": "Edição nº 345",
@@ -11,28 +11,36 @@
   "destaques_ao_vivo": [
     {
       "veiculo": "ICL Notícias",
-      "titulo": "MPF pede fim de processo contra secretário de Mobilidade de Salvador por operação nas eleições",
-      "resumo": "O Ministério Público Federal (MPF) pediu à Justiça o encerramento da ação contra o secretário municipal de Mobilidade de Salvador, Pablo Souza, investigado por supostas irregularidades na operação dos ônibus durante o...",
-      "url": "https://iclnoticias.com.br/mpf-pede-fim-processo-secretario-salvador/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/pablo-souza-900x600-1.webp",
+      "titulo": "Há mais de 700 dias, Câmara mantém engavetada reforma da aposentadoria militar",
+      "resumo": "Por Cleber Lourenço A Câmara dos Deputados mantém engavetado há 710 dias um projeto do governo Lula que estabelece idade mínima para a aposentadoria dos militares e restringe benefícios da categoria. A proposta, que...",
+      "url": "https://iclnoticias.com.br/ha-700-dias-camara-aposentadoria-militar/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/IMG_0512.webp",
       "data": "Sat, 28 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "A locação social é o ônibus e o metrô da política de habitação",
-      "resumo": "Imagine uma cidade no Brasil, uma capital, sem nenhum tipo de transporte coletivo. Para se locomover, seria preciso andar de carro. Comprar um carro. Ou melhor, financiar um carro, já que carro é uma coisa cara para...",
-      "url": "https://www.brasildefato.com.br/colunista/movimento-de-trabalhadoras-e-trabalhadores-por-direitos/2026/11/27/a-locacao-social-e-o-onibus-e-o-metro-da-politica-de-habitacao/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/jose-fernando-ogura-secom-b838109c.webp",
-      "data": "Fri, 27 Nov 2026"
+      "titulo": "Marcha Zumbi e Dandara leva luta contra o fascismo e a redução da maioridade penal às ruas de Porto Alegre",
+      "resumo": "“Povo negro unido, povo negro forte, que não teme a luta, que não teme a morte”. A palavra de ordem ecoou pelas ruas do centro de Porto Alegre durante a Marcha Zumbi e Dandara, realizada na sexta-feira (27). Com pautas...",
+      "url": "https://www.brasildefato.com.br/2026/11/28/marcha-zumbi-e-dandara-leva-luta-contra-o-fascismo-e-a-reducao-da-maioridade-penal-as-ruas-de-porto-alegre/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/whatsapp-image-2026-11-27-at-213355-1-abb0a3a2.webp",
+      "data": "Sat, 28 Nov 2026"
     }
   ],
   "manchetes": [
     {
       "veiculo": "ICL Notícias",
+      "titulo": "Há mais de 700 dias, Câmara mantém engavetada reforma da aposentadoria militar",
+      "resumo": "Por Cleber Lourenço A Câmara dos Deputados mantém engavetado há 710 dias um projeto do governo Lula que estabelece idade mínima para a aposentadoria dos militares e restringe benefícios da categoria. A proposta, que...",
+      "url": "https://iclnoticias.com.br/ha-700-dias-camara-aposentadoria-militar/",
+      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/IMG_0512.webp",
+      "data": "Sat, 28 Nov 2026"
+    },
+    {
+      "veiculo": "ICL Notícias",
       "titulo": "MPF pede fim de processo contra secretário de Mobilidade de Salvador por operação nas eleições",
       "resumo": "O Ministério Público Federal (MPF) pediu à Justiça o encerramento da ação contra o secretário municipal de Mobilidade de Salvador, Pablo Souza, investigado por supostas irregularidades na operação dos ônibus durante o...",
       "url": "https://iclnoticias.com.br/mpf-pede-fim-processo-secretario-salvador/",
-      "imagem": "https://iclnoticias.com.br/app/uploads/2026/11/pablo-souza-900x600-1.webp",
+      "imagem": "",
       "data": "Sat, 28 Nov 2026"
     },
     {
@@ -52,44 +60,36 @@
       "data": "Sat, 28 Nov 2026"
     },
     {
-      "veiculo": "ICL Notícias",
-      "titulo": "Corpo de jovem de 19 anos desaparecido há oito dias é encontrado em Guarulhos",
-      "resumo": "O corpo de Higor Miranda Frontelli, de 19 anos, foi encontrado nesta sexta-feira (27) em uma área de mata próxima ao Parque Estadual da Cantareira, em Guarulhos, na Grande São Paulo. O jovem estava desaparecido desde 19...",
-      "url": "https://iclnoticias.com.br/corpo-jovem-desaparecido-encontrado-guarulhos/",
-      "imagem": "",
-      "data": "Fri, 27 Nov 2026"
+      "veiculo": "Brasil de Fato",
+      "titulo": "Marcha Zumbi e Dandara leva luta contra o fascismo e a redução da maioridade penal às ruas de Porto Alegre",
+      "resumo": "“Povo negro unido, povo negro forte, que não teme a luta, que não teme a morte”. A palavra de ordem ecoou pelas ruas do centro de Porto Alegre durante a Marcha Zumbi e Dandara, realizada na sexta-feira (27). Com pautas...",
+      "url": "https://www.brasildefato.com.br/2026/11/28/marcha-zumbi-e-dandara-leva-luta-contra-o-fascismo-e-a-reducao-da-maioridade-penal-as-ruas-de-porto-alegre/",
+      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/whatsapp-image-2026-11-27-at-213355-1-abb0a3a2.webp",
+      "data": "Sat, 28 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "A locação social é o ônibus e o metrô da política de habitação",
-      "resumo": "Imagine uma cidade no Brasil, uma capital, sem nenhum tipo de transporte coletivo. Para se locomover, seria preciso andar de carro. Comprar um carro. Ou melhor, financiar um carro, já que carro é uma coisa cara para...",
-      "url": "https://www.brasildefato.com.br/colunista/movimento-de-trabalhadoras-e-trabalhadores-por-direitos/2026/11/27/a-locacao-social-e-o-onibus-e-o-metro-da-politica-de-habitacao/",
-      "imagem": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/jose-fernando-ogura-secom-b838109c.webp",
-      "data": "Fri, 27 Nov 2026"
+      "titulo": "Lula deve indicar Camilo Santana para Casa Civil e Alckmin para Segurança Pública",
+      "resumo": "O presidente Luiz Inácio Lula da Silva (PT) deve oficializar na próxima semana os nomes de mais dois ministros de seu quarto mandato. O senador Camilo Santana (PT-CE), ex-governador do Ceará e ex-ministro da Educação,...",
+      "url": "https://www.brasildefato.com.br/2026/11/27/lula-deve-indicar-camilo-santana-para-casa-civil-e-alckmin-para-seguranca-publica/",
+      "imagem": "",
+      "data": "Sat, 28 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Escolha de Trabuco mostra ‘Lula sendo Lula’ e críticas são ‘prévia de 2030’, analisa pesquisadora",
-      "resumo": "A indicação do banqueiro Luiz Carlos Trabuco para o Ministério da Fazenda não surpreende a cientista política Larissa Peixoto, pesquisadora da Universidade de Edimburgo, na Escócia. Em entrevista ao Conexão BdF, da...",
-      "url": "https://www.brasildefato.com.br/2026/11/27/escolha-de-trabuco-mostra-lula-sendo-lula-e-criticas-sao-previa-de-2030-analisa-pesquisadora/",
+      "titulo": "Trump, Putin e Zelensky: o que mudou nas negociações para encerrar a guerra na Ucrânia?",
+      "resumo": "A cúpula entre Vladimir Putin, Donald Trump e Xi Jinping, em Shenzhen, abriu espaço para novos desdobramentos diplomáticos em torno da guerra na Ucrânia. A expectativa de retomada das conversas trilaterais entre Rússia,...",
+      "url": "https://www.brasildefato.com.br/2026/11/27/trump-putin-e-zelensky-o-que-mudou-nas-negociacoes-para-encerrar-a-guerra-na-ucrania/",
       "imagem": "",
-      "data": "Fri, 27 Nov 2026"
+      "data": "Sat, 28 Nov 2026"
     },
     {
       "veiculo": "Brasil de Fato",
-      "titulo": "Dino cobra explicações do Senado sobre situação de Flávio Bolsonaro, foragido nos EUA",
-      "resumo": "O ministro do Superior Tribunal Federal (STF) Flávio Dino determinou que o Senado Federal esclareça as condições em que é exercido o mandato do senador Flávio Bolsonaro (PL-RJ), que está foragido nos Estados Unidos...",
-      "url": "https://www.brasildefato.com.br/2026/11/27/dino-cobra-explicacoes-do-senado-sobre-situacao-de-flavio-bolsonaro-foragido-nos-eua/",
+      "titulo": "Despejo de idosos, aluguel e imigração: o que move eleição deste domingo na Espanha",
+      "resumo": "Maricarmen tinha 87 anos e morava há décadas no mesmo apartamento em Madri quando foi despejada, em setembro. “Ofereceram pagar o aluguel por ela e a empresa não aceitou. Então nunca foi sobre dinheiro, realmente”,...",
+      "url": "https://www.brasildefato.com.br/2026/11/27/despejo-de-idosos-aluguel-e-imigracao-o-que-move-eleicao-deste-domingo-na-espanha/",
       "imagem": "",
-      "data": "Fri, 27 Nov 2026"
-    },
-    {
-      "veiculo": "Brasil de Fato",
-      "titulo": "Com estética inspirada no terror, Katy da Voz e as Abusadas transformam pista em espaço de liberdade",
-      "resumo": "Trio paulista se apresenta no palco Kamikaze do festival, em uma apresentação formatada especialmente para o evento Fonte",
-      "url": "https://www.brasildefato.com.br/2026/11/27/com-estetica-inspirada-no-terror-katy-da-voz-e-as-abusadas-transformam-pista-em-espaco-de-liberdade/",
-      "imagem": "",
-      "data": "Fri, 27 Nov 2026"
+      "data": "Sat, 28 Nov 2026"
     },
     {
       "veiculo": "Jornal A Verdade",
